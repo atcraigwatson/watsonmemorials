@@ -8,6 +8,7 @@ $(function() {
 
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
+
 		// Stop the browser from submitting the form.
 		e.preventDefault();
 
@@ -21,6 +22,7 @@ $(function() {
 			data: formData
 		})
 		.done(function(response) {
+
 			// Make sure that the formMessages div has the 'success' class.
 			$(formMessages).removeClass('alert alert-danger alert-dismissible fade show');
 			$(formMessages).addClass('alert alert-success alert-dismissible fade show');
@@ -29,9 +31,10 @@ $(function() {
 			$(formMessages).text(response);
 
 			// Clear the form.
-			$('#name').val('');
-			$('#email').val('');
-			$('#message').val('');
+			$('#contactFormFullName').val('');
+			$('#contactFormEmail').val('');
+			$('#contactFormTel').val('');
+			$('#contactFormMessage').val('');
 		})
 		.fail(function(data) {
 			// Make sure that the formMessages div has the 'error' class.
