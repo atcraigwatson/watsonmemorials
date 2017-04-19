@@ -1,0 +1,12 @@
+footer {
+    .nav-item .nav-link {
+        color: $slate-dark;
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            color: $slate-darker;
+            transform: scale(1.125);
+        }
+    }
+}
