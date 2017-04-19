@@ -1,0 +1,53 @@
+// Jumbotron
+//
+// All modifications to the jumbotron element are made here.
+// -------------------------------------------------------------- //
+.home-jumbotron {
+    background: url($home-jumbotron-bg) no-repeat center;
+    background-size: cover;
+    box-shadow: inset 0 0 10rem #222;
+}
+
+.page-jumbotron {
+
+    padding: 2rem 0;
+
+    @include breakpoint(md){
+        padding: 7.5rem 0;
+    }
+
+    @include breakpoint(lg){
+        padding: 10rem 0;
+    }
+
+    h1 {
+
+        font-size: 3rem;
+
+        @include breakpoint(md){
+            font-size: 4rem;
+        }
+
+        @include breakpoint(lg){
+            font-size: 5rem;
+        }
+
+    }
+
+    p.lead {
+
+        font-size: 1rem;
+        max-width: 730px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include breakpoint(md){
+            font-size: 1.2rem;
+        }
+
+        @include breakpoint(lg){
+            font-size: 1.4rem;
+        }
+
+    }
+}
