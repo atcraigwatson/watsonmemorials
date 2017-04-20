@@ -1,7 +1,7 @@
 <?php
 
     // Only process POST reqeusts.
-    if ($_SERVER["REQUEST_METHOD"] == "POST") && $_POST["contactFormAntiSpam"] == 9 {
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["contactFormAntiSpam"] == 9) {
 
         // Get the form fields and remove whitespace.
         $name    = strip_tags(trim($_POST["contactFormFullName"]));
