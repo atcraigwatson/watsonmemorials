@@ -1,7 +1,7 @@
 <?php
 
     // Only process POST reqeusts.
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if ($_SERVER["REQUEST_METHOD"] == "POST") && $_POST["contactFormAntiSpam"] == 9 {
 
         // Get the form fields and remove whitespace.
         $name    = strip_tags(trim($_POST["contactFormFullName"]));
@@ -20,14 +20,14 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "contact@watsonmemorials.co.uk";
+        $recipient = "craig@watsonmemorials.co.uk";
 
         // Set the email subject.
-        $subject = "New contact from $name";
+        $subject = "Contact form submission from $name";
 
         // Build the email content.
         $email_content  = "Name: $name\n";
-        $email_content .= "Email: $email\n\n";
+        $email_content .= "Email: $email\n";
         $email_content .= "Tel: $tel\n\n";
         $email_content .= "Message:\n$message\n";
 
