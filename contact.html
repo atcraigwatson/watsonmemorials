@@ -25,9 +25,6 @@
         <!-- Facebook og -->
 
         <!-- Twitter meta -->
-
-        <!-- Google invisible recaptcha -->
-        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <!-- //Close head -->
 
@@ -108,37 +105,35 @@
 
                         <div id="form-messages" role="alert"></div>
 
-                        <form id="ajax-contact" method="post" action="mailer.php">
+                        <form id="ajax-contact" method="post" action="mailer.php" role="form">
 
                             <div class="form-group">
                                 <label for="contactFormFullName">Full Name</label>
-                                <input type="text" class="form-control" id="contactFormFullName" placeholder="Please enter your full name" required>
+                                <input type="text" class="form-control" id="contactFormFullName" name="contactFormFullName" placeholder="Please enter your full name" required>
                             </div>
 
                             <div class="form-group">
                                 <label for="contactFormEmail">Email address</label>
-                                <input type="email" class="form-control" id="contactFormEmail" aria-describedby="emailHelp" placeholder="Please enter your email" required>
+                                <input type="email" class="form-control" id="contactFormEmail" name="contactFormEmail" aria-describedby="emailHelp" placeholder="Please enter your email" required>
                                 <small id="emailHelp" class="form-text text-muted">Watson Memorials will never share your email with anyone else.</small>
                             </div>
 
                             <div class="form-group">
                                 <label for="contactFormTel">Telephone number (mobile or home)</label>
-                                <input type="tel" class="form-control" id="contactFormTel" placeholder="Please enter the best number to call you on" required>
+                                <input type="tel" class="form-control" id="contactFormTel" name="contactFormTel" placeholder="Please enter the best number to call you on" required>
                             </div>
 
                             <div class="form-group">
                                 <label for="contactFormMessage">Your Message</label>
-                                <textarea class="form-control" id="contactFormMessage" rows="3" required></textarea>
+                                <textarea class="form-control" id="contactFormMessage" name="contactFormMessage" rows="3" required></textarea>
                             </div>
 
                             <div class="form-group">
-                                <label for="contactRecaptcha">Spam Protection</label>
-                                <div class="g-recaptcha" id="contactRecaptcha" data-sitekey="6LcySB0UAAAAAP7NE1_j6CKNp6dYPLs0UKZij4vO"></div>
+                                <label for="contactFormAntiSpam">What is 2 + 7 (Anti Spam)</label>
+                                <input class="form-control" id="contactFormAntiSpam" name="contactFormAntiSpam" placeholder="Please answer using numbers" required>
                             </div>
 
-                            <button type="submit" class="btn btn-primary">
-                                Submit
-                            </button>
+                            <input type="submit" class="btn btn-primary" name="contactFormSubmit" value="Submit">
 
                         </form>
 
@@ -224,9 +219,6 @@
 
         <!-- Watson Memorial Scripts -->
         <script src="/dist/scripts.min.js"></script>
-
-        <!-- Watson Memorial Contact Form Specific Script -->
-        <script src="/dist/mailer.js"></script>
 
     </body>
     <!-- //Close body -->
