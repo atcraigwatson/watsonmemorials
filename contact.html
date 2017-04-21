@@ -108,9 +108,7 @@
 
                         <h2 class="display-5 font-weight-bold">Email Watson Memorials</h2>
 
-                        <div id="form-messages" role="alert"></div>
-
-                        <form id="ajax-contact" method="post" action="mailer.php" role="form">
+                        <form id="contactForm" method="post" action="mailer.php" role="form">
 
                             <div class="form-group">
                                 <label for="contactFormFullName">Full Name</label>
@@ -138,7 +136,19 @@
                                 <input class="form-control" id="contactFormAntiSpam" name="contactFormAntiSpam" placeholder="Please answer using numbers" required>
                             </div>
 
-                            <input type="submit" class="btn btn-primary" name="contactFormSubmit" value="Submit">
+                            <button type="submit" class="btn btn-primary mb-3" id="contactFormSubmit" name="contactFormSubmit">Submit</button>
+
+                            <div id="form-messages" role="alert">
+
+                                <div class="alert alert-success hidden-xs-up" id="contactFormMsgSuccess">
+                                    Great! Thank you for contacting Watson Memorials, your message has been submitted successfully.
+                                </div>
+
+                                <div class="alert alert-danger hidden-xs-up" id="contactFormMsgFail">
+                                    Ohh! Something has gone wrong, please check over the details you have provided and try again.
+                                </div>
+
+                            </div>
 
                         </form>
 
