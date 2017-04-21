@@ -13,7 +13,7 @@
  */
 
 // Form options
-$options['captcha_secret']      = 'YOUR_SITE_SECRET';                     // Google reCAPTCHA secret key
+$options['captcha_secret']      = '6LcySB0UAAAAAFQYYmYQ9jATx3Z9GgIgfLu-8vxz';                     // Google reCAPTCHA secret key
 $options['redirect_url']        = '';                                     // URL of custom success page
 $options['attachment_types']    = array( 'image/jpeg',                    // Array of mime-types to allow in uploads
                                       'image/gif',
@@ -30,9 +30,9 @@ $options['attachment_limit']    = 10;                                     // 10m
 $options['attachment_store']    = false;                                  // IMPORTANT: Setting this to "true" will leave all attachments on the server, and can eat up hosting space.
 
 // Generic email options
-$options['from_address']        = 'jigobot@yourdomain.com';               // Address the email is sent from
-$options['from_name']           = 'Jigobot';                              // Name to attach to the address
-$options['to_addresses']        = array( 'you@email.com' );               // To: addresse(s), add new array item for more
+$options['from_address']        = 'contact@watsonmemorials.co.uk';               // Address the email is sent from
+$options['from_name']           = 'Watson Memorials';                              // Name to attach to the address
+$options['to_addresses']        = array( 'contact@watsonmemorials.co.uk' );               // To: addresse(s), add new array item for more
 $options['bcc_addresses']       = array( 'you@email.com' );               // BCC: addresse(s), add new array item for more
 
 // Send confirmation message of successful email to end user

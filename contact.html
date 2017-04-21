@@ -30,6 +30,21 @@
         <!-- Facebook og -->
 
         <!-- Twitter meta -->
+        
+        <script src="contact-form/assets/js/contact.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+
+        <style>
+    		/* Make recapture responsive (fit on small screens) */
+    		@media screen and (max-height: 575px) and (max-width: 335px){
+    			#rc-imageselect, .g-recaptcha {
+    				transform:scale(0.77);
+    				-webkit-transform:scale(0.77);
+    				transform-origin:0 0;
+    				-webkit-transform-origin:0 0;
+    			}
+    		}
+    	</style>
     </head>
     <!-- //Close head -->
 
@@ -177,13 +192,13 @@
                 				<!-- https://developers.google.com/recaptcha/docs/start -->
                 				<div class="form-group">
                 			    <div class="col-sm-offset-2 col-sm-10">
-                						<div id="g-recaptcha" class="g-recaptcha" data-sitekey="YOUR_SITE_KEY" data-expired-callback="recaptchaCallback"></div>
+                						<div id="g-recaptcha" class="g-recaptcha" data-sitekey="6LcySB0UAAAAAP7NE1_j6CKNp6dYPLs0UKZij4vO" data-expired-callback="recaptchaCallback"></div>
                 						<noscript>
                 							<div style="width: 302px; height: 352px;margin-bottom:20px;margin-left:100px;">
                 								<div style="width: 302px; height: 352px; position: relative;">
                 									<div style="width: 302px; height: 352px; position: absolute;">
                 										<!-- change YOUR_SITE_KEY with your google recaptcha key -->
-                										<iframe src="https://www.google.com/recaptcha/api/fallback?k=YOUR_SITE_KEY" style="width: 302px; height:352px; border-style: none;">
+                										<iframe src="https://www.google.com/recaptcha/api/fallback?k=6LcySB0UAAAAAP7NE1_j6CKNp6dYPLs0UKZij4vO" style="width: 302px; height:352px; border-style: none;">
                 										</iframe>
                 									</div>
                 									<div style="width: 250px; height: 80px; position: absolute; border-style: none; bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
@@ -297,7 +312,6 @@
 
         <!-- Watson Memorial Scripts -->
         <script src="/dist/scripts.min.js"></script>
-        <script src="/dist/mailer.js"></script>
 
     </body>
     <!-- //Close body -->
