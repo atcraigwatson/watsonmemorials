@@ -9,7 +9,6 @@ $okMessage = 'Contact form successfully submitted. Thank you, I will get back to
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
 // let's do the sending
-
 try
 {
     $emailText = "You have new message from contact form\n=============================\n";
