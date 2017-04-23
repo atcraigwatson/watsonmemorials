@@ -1,0 +1,20 @@
+
+.card.brochure-item {
+    color: $slate-darkest !important;
+    background-color: $white;
+    border-color: $slate-lightest !important;
+}
+
+.card.brochure-item strong {
+    color: $slate-dark;
+}
+
+.brochure-item .img-fluid {
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.brochure-item .card-block {
+    background-color: $slate-lightest;
+}

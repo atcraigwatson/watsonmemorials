@@ -293,8 +293,23 @@ footer .nav-item .nav-link:hover, footer .nav-item .nav-link:focus {
   max-height: 400px;
 }
 
-.hide-bullets {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.card.brochure-item {
+  color: #374355 !important;
+  background-color: #fff;
+  border-color: #EBEFF3 !important;
+}
+
+.card.brochure-item strong {
+  color: #53657D;
+}
+
+.brochure-item .img-fluid {
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brochure-item .card-block {
+  background-color: #EBEFF3;
 }
