@@ -30,6 +30,7 @@
         <!-- Facebook og -->
 
         <!-- Twitter meta -->
+
     </head>
     <!-- //Close head -->
 
@@ -108,40 +109,65 @@
 
                         <h2 class="display-5 font-weight-bold">Email Watson Memorials</h2>
 
-                        <div id="form-messages" role="alert"></div>
+                        <!-- Contact Form -->
+                        <form id="contact-form" method="post" action="mailer.php" role="form">
 
-                        <form id="ajax-contact" method="post" action="mailer.php" role="form">
+                            <div class="messages"></div>
 
-                            <div class="form-group">
-                                <label for="contactFormFullName">Full Name</label>
-                                <input type="text" class="form-control" id="contactFormFullName" name="contactFormFullName" placeholder="Please enter your full name" required>
+                            <div class="controls">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_name">Firstname *</label>
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_lastname">Lastname *</label>
+                                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_email">Email *</label>
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_phone">Phone</label>
+                                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Message *</label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                    </div>
+                                </div>
                             </div>
-
-                            <div class="form-group">
-                                <label for="contactFormEmail">Email address</label>
-                                <input type="email" class="form-control" id="contactFormEmail" name="contactFormEmail" aria-describedby="emailHelp" placeholder="Please enter your email" required>
-                                <small id="emailHelp" class="form-text text-muted">Watson Memorials will never share your email with anyone else.</small>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="contactFormTel">Telephone number (mobile or home)</label>
-                                <input type="tel" class="form-control" id="contactFormTel" name="contactFormTel" placeholder="Please enter the best number to call you on" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="contactFormMessage">Your Message</label>
-                                <textarea class="form-control" id="contactFormMessage" name="contactFormMessage" rows="3" required></textarea>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="contactFormAntiSpam">What is 2 + 7 (Anti Spam)</label>
-                                <input class="form-control" id="contactFormAntiSpam" name="contactFormAntiSpam" placeholder="Please answer using numbers" required>
-                            </div>
-
-                            <input type="submit" class="btn btn-primary" name="contactFormSubmit" value="Submit">
 
                         </form>
-
                     </section>
 
                 </div>
@@ -218,12 +244,14 @@
         </footer>
 
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
         <!-- Watson Memorial Scripts -->
         <script src="/dist/scripts.min.js"></script>
+        <script src="/dist/validator.js"></script>
+        <script src="/dist/mailer.js"></script>
 
     </body>
     <!-- //Close body -->
