@@ -30,6 +30,7 @@
         <!-- Facebook og -->
 
         <!-- Twitter meta -->
+
     </head>
     <!-- //Close head -->
 
@@ -59,6 +60,13 @@
                     <div class="navbar-nav ml-auto">
                         <a class="nav-item nav-link" href="index.html">Home <span class="fa fa-lg fa-angle-right hidden-lg-up"></span></a>
                         <a class="nav-item nav-link" href="about.html">About <span class="fa fa-lg fa-angle-right hidden-lg-up"></span></a>
+                        <li class="nav-item dropdown" id="mainNavDropdownNewMemorials">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">New Memorials <span class="fa fa-lg fa-angle-down"></span></a>
+                            <div class="dropdown-menu dropdown-menu-right border-0 rounded-0">
+                                <a class="dropdown-item" href="churchyard-memorials.html">Churchyard Memorials</a>
+                                <a class="dropdown-item" href="vase-memorials.html">Vase Memorials</a>
+                            </div>
+                        </li>
                         <li class="nav-item dropdown" id="mainNavDropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="fa fa-lg fa-angle-down"></span></a>
                             <div class="dropdown-menu dropdown-menu-right border-0 rounded-0">
@@ -108,37 +116,93 @@
 
                         <h2 class="display-5 font-weight-bold">Email Watson Memorials</h2>
 
-                        <div id="form-messages" role="alert"></div>
+                        <!-- Contact Form -->
+                        <form action="contact-form/process.php" enctype="multipart/form-data" method="POST" name="contact" id="contact" class="ucf" novalidate>
 
-                        <form id="ajax-contact" method="post" action="mailer.php" role="form">
+                            <div class="message"></div>
 
-                            <div class="form-group">
-                                <label for="contactFormFullName">Full Name</label>
-                                <input type="text" class="form-control" id="contactFormFullName" name="contactFormFullName" placeholder="Please enter your full name" required>
-                            </div>
+                            <fieldset>
 
-                            <div class="form-group">
-                                <label for="contactFormEmail">Email address</label>
-                                <input type="email" class="form-control" id="contactFormEmail" name="contactFormEmail" aria-describedby="emailHelp" placeholder="Please enter your email" required>
-                                <small id="emailHelp" class="form-text text-muted">Watson Memorials will never share your email with anyone else.</small>
-                            </div>
+                                <legend>Please provide your details below</legend>
 
-                            <div class="form-group">
-                                <label for="contactFormTel">Telephone number (mobile or home)</label>
-                                <input type="tel" class="form-control" id="contactFormTel" name="contactFormTel" placeholder="Please enter the best number to call you on" required>
-                            </div>
+                                <div class="form-group">
+                                    <label for="name" accesskey="U" class="control-label">
+                                        <span class="required">Your Name</span>
+                                    </label>
+                                    <input class="form-control" type="text" name="name" id="name" size="30" required>
+                                </div>
 
-                            <div class="form-group">
-                                <label for="contactFormMessage">Your Message</label>
-                                <textarea class="form-control" id="contactFormMessage" name="contactFormMessage" rows="3" required></textarea>
-                            </div>
+                                <div class="form-group">
+                                    <label for="email" accesskey="E" class="control-label">
+                                        <span class="required">Email</span>
+                                    </label>
+                                    <input class="form-control" type="email" name="email" id="email" size="30" placeholder="you@youremail.com" required>
+                                </div>
 
-                            <div class="form-group">
-                                <label for="contactFormAntiSpam">What is 2 + 7 (Anti Spam)</label>
-                                <input class="form-control" id="contactFormAntiSpam" name="contactFormAntiSpam" placeholder="Please answer using numbers" required>
-                            </div>
+                                <div class="form-group">
+                                    <label for="phone" accesskey="P" class="control-label">
+                                        <span class="required">Phone</span>
+                                    </label>
+                                    <input class="form-control" type="tel" name="phone" id="phone" size="30" required>
+                                </div>
 
-                            <input type="submit" class="btn btn-primary" name="contactFormSubmit" value="Submit">
+                                <div class="form-group">
+                                    <label for="subject" accesskey="S" class="control-label">
+                                        <span class="required">Subject</span>
+                                    </label>
+                                    <select class="form-control" name="subject" id="subject" required>
+                                        <option value="">Select one</option>
+                                        <option value="new-memorial">New Memorial</option>
+                                        <option value="cleaning-restoration">Cleaning and Restoration</option>
+                                        <option value="re-paint-re-gild">Re-paint and Re-gild</option>
+                                        <option value="re-fix-straighten">Re-fix and Straighten</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message" accesskey="M" class="control-label">
+                                        <span class="required">Message</span>
+                                    </label>
+                                    <textarea class="form-control" name="message" id="message" cols="40" rows="3" required></textarea>
+                                </div>
+
+                                <!-- Google reCAPTCHA -->
+                                <!-- change YOUR_SITE_KEY with your google recaptcha key -->
+                                <!-- https://developers.google.com/recaptcha/docs/start -->
+                                <div class="form-group">
+                                    <div id="g-recaptcha" class="g-recaptcha" data-sitekey="6LcySB0UAAAAAP7NE1_j6CKNp6dYPLs0UKZij4vO" data-expired-callback="recaptchaCallback"></div>
+                                    <noscript>
+                                        <div style="width: 302px; height: 352px;margin-bottom:20px;margin-left:100px;">
+                                            <div style="width: 302px; height: 352px; position: relative;">
+                                                <div style="width: 302px; height: 352px; position: absolute;">
+                                                    <!-- change YOUR_SITE_KEY with your google recaptcha key -->
+                                                    <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LcySB0UAAAAAP7NE1_j6CKNp6dYPLs0UKZij4vO" style="width: 302px; height:352px; border-style: none;">
+                                                    </iframe>
+                                                </div>
+                                                <div style="width: 250px; height: 80px; position: absolute; border-style: none; bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
+                                                    <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 80px; border: 1px solid #c1c1c1; margin: 0px; padding: 0px; resize: none;"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </noscript>
+                                </div>
+
+                                <!-- honeypot -->
+                                <div class="form-group" style="left: -9999px; position: absolute;">
+                                    <label for="honey" class="col-sm-2 control-label">
+                                        Please leave this field empty - we're using it to stop robots submitting the form<br>
+                                    </label>
+                                    <div class="col-sm-10">
+                                        <input class="form-control" type="text" name="honey" id="honey">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="progress-container"></div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+
+                            </fieldset>
 
                         </form>
 
@@ -218,12 +282,25 @@
         </footer>
 
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
         <!-- Watson Memorial Scripts -->
         <script src="/dist/scripts.min.js"></script>
+        <script src="contact-form/assets/js/contact.js"></script>
+    	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    	<style>
+    		/* Make recapture responsive (fit on small screens) */
+    		@media screen and (max-height: 575px) and (max-width: 335px){
+    			#rc-imageselect, .g-recaptcha {
+    				transform:scale(0.77);
+    				-webkit-transform:scale(0.77);
+    				transform-origin:0 0;
+    				-webkit-transform-origin:0 0;
+    			}
+    		}
+    	</style>
 
     </body>
     <!-- //Close body -->

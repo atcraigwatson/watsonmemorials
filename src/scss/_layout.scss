@@ -4,25 +4,25 @@
     margin-right: auto;
 
     @include breakpoint(sm) {
-        width: 540px;
-        max-width: 100%;
+        max-width: 540px;
+        width: 100%;
         padding-left: 15px;
         padding-right: 15px;
     }
 
     @include breakpoint(md) {
-        width: 720px;
-        max-width: 100%;
+        max-width: 720px;
+        width: 100%;
     }
 
     @include breakpoint(lg) {
-        width: 960px;
-        max-width: 100%;
+        max-width: 960px;
+        width: 100%;
     }
 
     @include breakpoint(xl) {
-        width: 1140px;
-        max-width: 100%;
+        max-width: 1140px;
+        width: 100%;
     }
 
 }
