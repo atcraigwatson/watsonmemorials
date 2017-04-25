@@ -709,8 +709,8 @@ function processForm()
 	global $is_demo, $translations, $lang, $fdata, $options;
 
 	// create an attachments directory if it doesn't exist
-	$dir = $options['attachment_dir'];
-	if (!file_exists($dir) && !is_dir($dir)) {mkdir($dir, 0777, true);}
+	//$dir = $options['attachment_dir'];
+	//if (!file_exists($dir) && !is_dir($dir)) {mkdir($dir, 0777, true);}
 
 	// Validate the form data, grab any errors
 	// If errors exist, stop processing and tell the user
