@@ -8,6 +8,14 @@ h1, h2, h3, h4, h5, h6 {
     color: $slate-darkest;
 }
 
+.bg-slate-lightest .card-block a {
+
+    color: $slate-base;
+    text-decoration: none;
+    border-bottom: 1px solid $slate-base;
+
+}
+
 .font-times {
     font-family: 'Times New Roman', Times, sans-serif !important;
 }
