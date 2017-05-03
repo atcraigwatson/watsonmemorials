@@ -1,3 +1,6 @@
 .about-logo-image {
-    max-height: 400px;
+    max-height: 200px;
+    @include breakpoint(lg) {
+        max-height: 400px;
+    }
 }
