@@ -6,6 +6,11 @@ button:hover {
     cursor: pointer;
 }
 
+.btn {
+    font-family: 'Times New Roman', Times, sans-serif !important;
+    letter-spacing: 0.5px;
+}
+
 .btn-primary {
     color: $slate-lightest;
     background-color: $slate-darkest;
