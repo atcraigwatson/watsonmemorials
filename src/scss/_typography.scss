@@ -29,34 +29,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .nice-list {
 
-    padding: 0 0 0 1.5rem;
+    padding: 0;
     margin: 0;
+    margin-bottom: 1rem;
     list-style: none;
+    border: 1px solid $slate-light;
+    border-radius: 3px;
 
     li {
         position: relative;
-        margin: 0.5rem 0 0.5rem 2rem;
-        padding: 0.5rem 1rem;
-        background-color: $slate-lighter;
-        border-radius: .3rem;
-        font-family: 'Times New Roman', Times, sans-serif !important;
+        margin-bottom: 0;
+        padding: 0.5rem 0.5rem 0.5rem 1rem;
         letter-spacing: 0.5px;
+        background-color: $slate-lighter;
     }
 
-    li::before {
-        content: "";
-        display: block;
-    	position: absolute;
-        height: 2rem;
-    	width: 2rem;
-        top: 0.25rem;
-        left: -2.5rem;
-    	background: $slate-light;
-    	line-height: 2rem;
-    	text-align: center;
-    	font-weight: bold;
-    	border-radius: 0.3rem;
-    	transition: all .2s ease-out;
+    li:not(:last-child) {
+        border-bottom: 1px solid $slate-light;
     }
 
 }
