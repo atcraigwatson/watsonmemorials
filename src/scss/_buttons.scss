@@ -9,6 +9,8 @@ button:hover {
 .btn {
     font-family: 'Times New Roman', Times, sans-serif !important;
     letter-spacing: 0.5px;
+    text-align: left;
+    border-radius: 3px;
 }
 
 .btn-primary {
@@ -34,4 +36,8 @@ button:hover {
         background-color: $slate-light;
         border-color: $slate-light;
     }
+}
+
+.btn-lg > .fa-lg {
+    margin-left: 1.5rem;
 }
