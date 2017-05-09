@@ -3,16 +3,36 @@
 // All modifications to the jumbotron element are made here.
 // -------------------------------------------------------------- //
 .home-jumbotron {
-    background: url($home-jumbotron-bg) no-repeat center;
+    background: url($home-jumbotron-bg) no-repeat center left;
     background-size: cover;
-    box-shadow: inset 0 0 10rem #222;
 
     .lead {
-        font-size: 2rem;
+        font-size: 1.4rem;
+        font-weight: 400 !important;
+        font-style: italic;
         line-height: 1.4;
         letter-spacing: 1px;
         text-shadow: 0px 0px 6px transparentize($slate-darkest, 0.4);
+
+        @include breakpoint(md){
+            font-size: 2rem;
+        }
+
     }
+
+    #jumbotron-call-now,
+    .btn-primary {
+        color: $white;
+        font-weight: bold;
+        background-color: $red-base;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        &:hover,
+        &:focus {
+            background-color: $red-dark;
+        }
+    }
+
 }
 
 .page-jumbotron {
