@@ -17,19 +17,19 @@ $slate-lighter  : #C9D3DF;
 $slate-lightest : #EBEFF3;
 
 // Green
-$green-dark  : darken(#47B279, 0.2);
+$green-dark  : darken(#47B279, 2%);
 $green-base  : #47B279;
-$green-light : lighten(#47B279, 0.2);
+$green-light : lighten(#47B279, 2%);
 
 // Orange
-$orange-dark  : darken(#E5995B, 0.2);
+$orange-dark  : darken(#E5995B, 2%);
 $orange-base  : #E5995B;
-$orange-light : lighten(#E5995B, 0.2);
+$orange-light : lighten(#E5995B, 2%);
 
 // Red
-$red-dark  : darken(#CC3D60, 0.2);
-$red-base  : #CC3D60;
-$red-light : lighten(#CC3D60, 0.2);
+$red-dark  : darken(#CC3D60, 2%);
+$red-base  : #c23356;
+$red-light : lighten(#CC3D60, 2%);
 
 // Fonts
 // -------------------------------------------------------------- //
@@ -55,4 +55,4 @@ $breakpoints: (
 // Images
 // -------------------------------------------------------------- //
 $logo-icon         : '../images/watson-memorials-logo-icon.svg';
-$home-jumbotron-bg : '../images/watson-memorials-home-page-jumbotron-bg.jpg';
+$home-jumbotron-bg : '../images/jumbotron-bg-right.jpg';
