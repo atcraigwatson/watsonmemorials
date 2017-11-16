@@ -1,0 +1,28 @@
+
+{% include document-header.html %}
+
+  <!-- header -->
+  <header>
+
+    {% include site-nav.html %}
+
+    {% if page.url == "/" %}
+      {% include home-jumbotron.html %}
+    {% else %}
+      {% include page-jumbotron.html %}
+    {% endif %}
+
+  </header>
+  <!-- ./ header -->
+
+  <!-- main -->
+  <main>
+
+    {{ content }}
+
+  </main>
+  <!-- ./ main -->
+
+  {% include site-footer.html %}
+
+{% include document-footer.html %}

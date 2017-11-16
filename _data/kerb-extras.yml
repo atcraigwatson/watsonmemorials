@@ -1,0 +1,34 @@
+- name: Open Book
+  material: South African Dark Grey Granite
+  description: with a personalised message.
+  image_alt: South African dark grey book memorial that is perfect for a personalised message.
+  image_path: kerb-extra/Book.jpg
+  id_prefix: KE
+
+- name: Heart
+  material: Lavender Blue Granite
+  description: with cushioned effect and pedestal.
+  image_alt: Lavender blue granite heart with cushioned effect and pedestal.
+  image_path: kerb-extra/Heart.jpg
+  id_prefix: KE
+
+- name: Plaque
+  material: Black Granite
+  description: this card style memorial is perfect for short messages.
+  image_alt: Black granite plaque as a card style memorial that is perfect for a short message.
+  image_path: kerb-extra/Plaque.jpg
+  id_prefix: KE
+
+- name: Upright Book
+  material: Cathay Light Grey Granite
+  description: with cushioned effect and pedestal.
+  image_alt: Cathay light grey book memorial that is perfect for a personalised message.
+  image_path: kerb-extra/UprightBook.jpg
+  id_prefix: KE
+
+- name: Wedge
+  material: Black Granite
+  description: giving further room for inscriptions.
+  image_alt: Black granite wedge memorial giving further room for inscriptions.
+  image_path: kerb-extra/Wedge.jpg
+  id_prefix: KE

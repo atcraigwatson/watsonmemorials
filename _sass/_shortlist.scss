@@ -1,0 +1,73 @@
+/* Styles for creating shortlist */
+#nav-my-shortlist {
+  padding: calc(0.5rem - 1px);
+  margin: calc(0.5rem - 1px);
+  color: #c23356;
+  border: 1px solid #c23356 !important;
+  border-radius: calc(.25rem - 1px) !important;
+  &:hover,
+	&:focus {
+    color: #fff;
+    background-color: #c23356;
+    border: 1px solid #c23356 !important;
+	}
+}
+
+#dropdownMyShortlist {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #c23356;
+}
+
+#btn-my-shortlist {
+  position: fixed;
+  z-index: 1000;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.brochure-item .add-to-shortlist,
+.brochure-item .delete-from-shortlist,
+.brochure-item .example-add-to-shortlist {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0.5rem;
+  border-top: none;
+  border-right: none;
+  border-radius: 0;
+	border-bottom-left-radius: calc(.25rem - 1px);
+	border-color: rgba(0,0,0,.125) !important;
+	&:hover,
+	&:focus,
+  &:active {
+    position: absolute;
+  	top: 0;
+  	right: 0;
+  	padding: 0.5rem;
+    border-top: none;
+    border-right: none;
+    border-radius: 0;
+  	border-bottom-left-radius: calc(.25rem - 1px);
+		cursor: pointer;
+    outline: none !important;
+    box-shadow: none !important;
+	}
+}
+.brochure-item .add-to-shortlist,
+.brochure-item .example-add-to-shortlist {
+	color: #374355;
+	background-color: #EBEFF3;
+	&:hover,
+	&:focus {
+		background-color: darken(#EBEFF3, 4%);
+	}
+}
+.brochure-item .delete-from-shortlist {
+	color: $slate-lightest;
+	background-color: $slate-darkest;
+	&:hover,
+	&:focus {
+		background-color: lighten($slate-darkest, 4%);
+	}
+}
