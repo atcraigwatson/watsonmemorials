@@ -15,7 +15,7 @@ $( document ).ready( function() {
     if ( localStorage.length === 0 ) {
 
       // Create a message to be displayed if there are no items stored in the shortlist
-      var emptyShortlistMsg = "<div class=\"col-12 px-3\"><h3>Your Shortlist is Empty</h3><p>To add items to your shortlist, please visit the New Memorials pages and use the \"+\" icon as seen in the example below.</p></div><div class=\"col-12 col-sm-6 col-md-6 col-lg-4\"><div class=\"card brochure-item\"><button class=\"btn btn-secondary example-add-to-shortlist\"><i class=\"fa fa-plus\" aria-hidden=\"true\"></i></button><img class=\"card-img-top\" src=\"/images/new-memorials/lawn-memorials/Ainthorpe.jpg\" alt=\"Black granite headstone of camber top shape with decorative carved roses.\" itemprop=\"image\"><div class=\"card-body bg-slate-lightest\"><h4 class=\"card-title\" itemprop=\"name\">Example</h4><p class=\"card-text\" itemprop=\"description\">Shown in <strong class=\"text-slate-dark\">Your Shortlist</strong> as an example brochure item.</p></div></div></div>";
+      var emptyShortlistMsg = "<div class=\"col-12 px-3\"><h3>Your Shortlist is Empty</h3><p>To add items to your shortlist, please visit the New Memorials pages and use the \"Add To Shortlist\" button as seen in the example below.</p></div><div class=\"col-12 col-sm-6 col-md-6 col-lg-4\"><div class=\"card brochure-item-example\"><img class=\"card-img-top\" src=\"/images/new-memorials/lawn-memorials/Ainthorpe.jpg\" alt=\"Black granite headstone of camber top shape with decorative carved roses.\" itemprop=\"image\"><div class=\"card-body bg-slate-lightest\"><h4 class=\"card-title\" itemprop=\"name\">Example</h4><p class=\"card-text\" itemprop=\"description\">Shown in <strong class=\"text-slate-dark\">Your Shortlist</strong> as an example brochure item.</p></div><button class=\"btn btn-block btn-secondary example-add-to-shortlist\">Add To Shortlist</button></div></div>";
 
       // Prepend the empty shortlist message
       shortlist.prepend( emptyShortlistMsg );
@@ -25,7 +25,7 @@ $( document ).ready( function() {
 
       // Create navbar link and button to clear the shortlist
       var navbarNavShortlistLink = "<a class=\"nav-item nav-link\" id=\"nav-my-shortlist\" href=\"../my-shortlist.html\">My Shortlist</a>";
-      var shortlistClearButton = "<button class=\"btn btn-secondary mb-5\" id=\"clearShortlist\">Clear Shortlist</button>";
+      var shortlistClearButton = "<div class=\"col-12\"><button class=\"btn btn-secondary mb-5\" id=\"clearShortlist\">Clear Shortlist</button></div>";
 
       // Create the seperate arrays that will store the organised brochure items
       var shortlistItems = [];
@@ -65,13 +65,14 @@ $( document ).ready( function() {
       // Loop localStorage items and push to relevent array
       Object.keys( localStorage ).forEach( function( key ) {
 
-        // Check items prefix and push to the appropriate array
+        // Function to check the item prefix and push to the appropriate array
         var checkStorage = function ( prefix, shortlistArray ) {
           if ( key.match( prefix ) ) {
             shortlistArray.push( localStorage.getItem( key ) );
           }
         };
 
+        // Loops the localStorage data and run it through the checkStorage function
         var shortlistDataLength = shortlistData.length;
         for ( var i = 0; i < shortlistDataLength; i++ ) {
           checkStorage( shortlistData[i][0], shortlistData[i][1] );
@@ -104,36 +105,28 @@ $( document ).ready( function() {
 
     } // Close if for localStorage
 
-    // add button with appropriate class depending on if the item is in localStorage
-    $( ".brochure-item" ).each(function() {
-
-      // Get item id to compare with localStorage
-      var itemId = $(this).attr( "id" );
-
-      // Does it exist in localStorage?
-      if ( !localStorage.getItem(itemId) ) {
-        if ( !$.contains( $(this), $( ".add-to-shortlist" ) ) ) {
-          $(this).children( ".add-to-shortlist" ).remove();
-          $(this).children( ".delete-from-shortlist" ).remove();
-          $(this).prepend( "<button class=\"btn btn-secondary add-to-shortlist\"><i class=\"fa fa-plus\" aria-hidden=\"true\"></i></button>" );
+      // add button with appropriate class depending on if the item is in localStorage
+      $( ".brochure-item" ).each(function() {
+        
+        // Get item id to compare with localStorage
+        var itemId = $(this).attr( "id" );
+      
+        // Does it exist in localStorage?
+        if ( !localStorage.getItem(itemId) ) {
+          if ( !$.contains( $(this), $( ".add-to-shortlist" ) ) ) {
+            $(this).children( ".add-to-shortlist" ).remove();
+            $(this).children( ".delete-from-shortlist" ).remove();
+            $(this).append( "<button class=\"btn btn-block btn-secondary add-to-shortlist\">Add To Shortlist</button>" );
+          }
+        } else {
+          if ( !$.contains( $(this), $( ".delete-from-shortlist" ) ) ) {
+            $(this).children( ".add-to-shortlist" ).remove();
+            $(this).children( ".delete-from-shortlist" ).remove();
+            $(this).append( "<button class=\"btn btn-block btn-secondary delete-from-shortlist\">Remove From Shortlist</button>" );
+          }
         }
-      } else {
-        if ( !$.contains( $(this), $( ".delete-from-shortlist" ) ) ) {
-          $(this).children( ".add-to-shortlist" ).remove();
-          $(this).children( ".delete-from-shortlist" ).remove();
-          $(this).prepend( "<button class=\"btn btn-secondary delete-from-shortlist\"><i class=\"fa fa-minus\" aria-hidden=\"true\"></i></button>" );
-        }
-      }
-
-    });
-
-    // Function to toggle button classes on the brochure items
-    var toggleButton = function ( currentButtonClass, newButtonClass, currentIconClass, newIconClass ) {
-      $(this).find( ".fa" ).removeClass( currentIconClass );
-      $(this).removeClass( currentButtonClass );
-      $(this).find( ".fa" ).addClass( newIconClass );
-      $(this).addClass( newButtonClass );
-    };
+    
+      });
 
     // Function to show modal with appropriate content when brochure item button is clicked
     var doShortlistModal = function( modalTextOption, modalBrochureItem ) {
@@ -156,9 +149,6 @@ $( document ).ready( function() {
     // Capture "add to shortlist" click event
     $( ".add-to-shortlist" ).click( function() {
 
-      // Toggle class, icon and tooltip after click
-      toggleButton( "fa-plus", "fa-minus", "add-to-shortlist", "delete-from-shortlist" );
-
       // Get data from brochure item
       var brochureItemName = $(this).parent().attr( "id" );
       var brochureItemHTML = $(this).parent().parent().html();
@@ -173,9 +163,6 @@ $( document ).ready( function() {
 
     // Capture delete from shortlist click event
     $( ".delete-from-shortlist" ).click( function() {
-
-      // Toggle class, icon and tooltip after click
-      toggleButton( "fa-minus", "fa-plus", "delete-from-shortlist", "add-to-shortlist" );
 
       // Get data from brochure item
       var brochureItemName = $(this).parent().attr( "id" );
