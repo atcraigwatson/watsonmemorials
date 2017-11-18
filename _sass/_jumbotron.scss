@@ -21,13 +21,9 @@
 
     }
 
-    #jumbotron-call-now,
-    .btn-primary {
+    #jumbotron-call-now {
         color: $white;
-        font-weight: bold;
         background-color: $red-base;
-        text-transform: uppercase;
-        letter-spacing: 1px;
         &:hover,
         &:focus {
             background-color: $red-dark;
@@ -56,6 +52,7 @@
     h1 {
 
         font-size: 3rem;
+        margin-bottom: 1rem;
 
         @include breakpoint(md){
             font-size: 4rem;
@@ -69,30 +66,19 @@
 
     p.lead {
 
+        font-family: 'Times New Roman', Times, sans-serif;
         font-size: 1rem;
-        max-width: 730px;
-        margin-left: auto;
-        margin-right: auto;
+        font-style: italic;
+        padding-top: 1rem;
+        border-top: 2px solid $slate-darker;
 
         @include breakpoint(md){
-            font-size: 1.2rem;
-        }
-
-        @include breakpoint(lg){
             font-size: 1.4rem;
         }
 
-    }
-}
+        @include breakpoint(lg){
+            font-size: 1.8rem;
+        }
 
-.new-memorials-jumbotron .btn-primary {
-  color: $white;
-  font-weight: bold;
-  background-color: $red-base;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  &:hover,
-  &:focus {
-    background-color: $red-dark;
-  }
+    }
 }

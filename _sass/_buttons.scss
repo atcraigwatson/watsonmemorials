@@ -8,21 +8,19 @@ button:hover {
 
 .btn {
     font-family: 'Times New Roman', Times, sans-serif !important;
-    letter-spacing: 0.5px;
-    text-align: left;
-    border-radius: 3px;
+    text-transform: uppercase;
 }
 
 .btn-primary {
     color: $slate-lightest;
     background-color: $slate-darkest;
-    border: none !important;
+    border-color: $slate-darkest;
 
     &:hover,
     &:focus {
         color: $slate-lightest;
         background-color: $slate-dark;
-        border: none !important;
+        border-color: $slate-darkest;
     }
 }
 
@@ -38,6 +36,14 @@ button:hover {
     }
 }
 
-.btn-lg > .fa-lg {
-    margin-left: 1.5rem;
+.btn-outline-secondary {
+    color: $white;
+    border-color: $white;
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+        border-color: $white;
+        background-color: rgba(0,0,0,0.2);
+    }
 }
