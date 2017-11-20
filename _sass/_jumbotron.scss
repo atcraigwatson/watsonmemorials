@@ -5,6 +5,7 @@
 .home-jumbotron {
     background: url($home-jumbotron-bg) no-repeat center left;
     background-size: cover;
+    background-position-x: center;
     margin-bottom: 0;
 
     .lead {
