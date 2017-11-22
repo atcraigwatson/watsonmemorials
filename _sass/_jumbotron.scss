@@ -1,0 +1,85 @@
+// Jumbotron
+//
+// All modifications to the jumbotron element are made here.
+// -------------------------------------------------------------- //
+.home-jumbotron {
+    background: url($home-jumbotron-bg) no-repeat center left;
+    background-size: cover;
+    background-position-x: center;
+    margin-bottom: 0;
+
+    .lead {
+        font-size: 1.4rem;
+        font-weight: 400 !important;
+        font-style: italic;
+        line-height: 1.4;
+        letter-spacing: 1px;
+        text-shadow: 0px 0px 6px transparentize($slate-darkest, 0.4);
+
+        @include breakpoint(md){
+            font-size: 2rem;
+        }
+
+    }
+
+    #jumbotron-call-now {
+        color: $white;
+        background-color: $red-base;
+        &:hover,
+        &:focus {
+            background-color: $red-dark;
+        }
+    }
+
+    #jumbotron-call-now {
+      border-radius: 0 !important;
+    }
+
+}
+
+.page-jumbotron,
+.new-memorials-jumbotron {
+
+    padding: 2rem 0;
+
+    @include breakpoint(md){
+        padding: 7.5rem 0;
+    }
+
+    @include breakpoint(lg){
+        padding: 10rem 0;
+    }
+
+    h1 {
+
+        font-size: 3rem;
+        margin-bottom: 1rem;
+
+        @include breakpoint(md){
+            font-size: 4rem;
+        }
+
+        @include breakpoint(lg){
+            font-size: 5rem;
+        }
+
+    }
+
+    p.lead {
+
+        font-family: 'Times New Roman', Times, sans-serif;
+        font-size: 1rem;
+        font-style: italic;
+        padding-top: 1rem;
+        border-top: 2px solid $slate-darker;
+
+        @include breakpoint(md){
+            font-size: 1.4rem;
+        }
+
+        @include breakpoint(lg){
+            font-size: 1.8rem;
+        }
+
+    }
+}

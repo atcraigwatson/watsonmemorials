@@ -1,0 +1,49 @@
+// Buttons
+//
+// All modifications to the .btn class are made here.
+// -------------------------------------------------------------- //
+button:hover {
+    cursor: pointer;
+}
+
+.btn {
+    font-family: 'Times New Roman', Times, sans-serif !important;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    color: $slate-lightest;
+    background-color: $slate-darkest;
+    border-color: $slate-darkest;
+
+    &:hover,
+    &:focus {
+        color: $slate-lightest;
+        background-color: $slate-dark;
+        border-color: $slate-darkest;
+    }
+}
+
+.btn-outline-primary {
+    color: $slate-darkest;
+    border-color: $slate-darkest;
+
+    &:hover,
+    &:focus {
+        color: $slate-darkest;
+        background-color: $slate-light;
+        border-color: $slate-light;
+    }
+}
+
+.btn-outline-secondary {
+    color: $white;
+    border-color: $white;
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+        border-color: $white;
+        background-color: rgba(0,0,0,0.2);
+    }
+}

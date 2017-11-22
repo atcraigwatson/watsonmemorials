@@ -1,0 +1,125 @@
+- name: Allerston
+  material: York Stone
+  description: with a simple cross and pin line design.
+  image_alt: York stone memorial with carved cross.
+  image_path: churchyard/Allerston.jpg
+  id_prefix: CY
+
+- name: Amplethorpe
+  material: Honed Dark Grey Granite
+  description: with a deep carved design.
+  image_alt: Honed dark grey granite memorial with a deep carved design.
+  image_path: churchyard/Amplethorpe.jpg
+  id_prefix: CY
+
+- name: Besingby
+  material: Portland Stone
+  description: with delicate snowdrops intricately carved.
+  image_alt: Portland stone memorial with carved snowdrops top center.
+  image_path: churchyard/Besingby.jpg
+  id_prefix: CY
+
+- name: Bransdale
+  material: Honed Cornish Granite
+  description: in a simple Ogee shape.
+  image_alt: Honed Cornish Granite memorial of simple Ogee shape and center flower container
+  image_path: churchyard/Bransdale.jpg
+  id_prefix: CY
+
+- name: Clifton
+  material: Blue/Black Slate
+  description: with Celtic Knot design.
+  image_alt: Slate headstone with celtic knot carving.
+  image_path: churchyard/Clifton.jpg
+  id_prefix: CY
+
+- name: Copley
+  material: Honed Rustenburg Granite
+  description: with poppies carved into the sides.
+  image_alt: Honed Rustenburg memorial of scroll design with carved poppies on either side.
+  image_path: churchyard/Copley.jpg
+  id_prefix: CY
+
+- name: Easington
+  material: Crown Stone
+  description: with a dove of peace carved from the original slab.
+  image_alt: Crown stone memorial with a raised carving of a dove of peace.
+  image_path: churchyard/Easington.jpg
+  id_prefix: CY
+
+- name: Grindale
+  material: Honed South African Dark Grey Granite
+  description: with decorative mouldings.
+  image_alt: Honed Sounth African Dark Grey Grnaite memorial with decorative moulding to the head and base.
+  image_path: churchyard/Grindale.jpg
+  id_prefix: CY
+
+- name: Humbleton
+  material: Honed South African Dark Grey Granite
+  description: with decorative lettering.
+  image_alt: Honed south african dark grey granite headstone with decorative carved letters.
+  image_path: churchyard/Humbleton.jpg
+  id_prefix: CY
+
+- name: Knaresborough
+  material: Serena Stone
+  description: with an elegant alternative to a Latin cross.
+  image_alt: Serena stone headstone with elegant cross carving.
+  image_path: churchyard/Knaresborough.jpg
+  id_prefix: CY
+
+- name: Langtoft
+  material: Honed South African Dark Grey Granite
+  description: with decorative floral carvings.
+  image_alt: Honed south african dark grey granite gravestone with carved floral design.
+  image_path: churchyard/Langtoft.jpg
+  id_prefix: CY
+
+- name: Molescroft
+  material: Honed Cathay Light Grey Granite
+  description: with twin rose carvings.
+  image_alt: Honed cathay light grey granite gravestone with twin rose carving.
+  image_path: churchyard/Molescroft.jpg
+  id_prefix: CY
+
+- name: Normanby
+  material: Honed South African Dark Grey Granite
+  description: with decorative floral carvings.
+  image_alt: Honed south african dark grey granite memorial with carved flowers.
+  image_path: churchyard/Normanby.jpg
+  id_prefix: CY
+
+- name: Oakington
+  material: Honed Indian Grey Granite
+  description: with a block base and vase.
+  image_alt: Honed indian grey granite headstone with a block base and small granite vase.
+  image_path: churchyard/Oakington.jpg
+  id_prefix: CY
+
+- name: Ottringham
+  material: Nebresina Stone
+  description: with a majestic carved posy design.
+  image_alt: Nebresina headstone with a majestic posy design carved top center.
+  image_path: churchyard/Ottringham.jpg
+  id_prefix: CY
+
+- name: Sproatley
+  material: Nebresina Stone
+  description: with finely moulded edges and decorative carving.
+  image_alt: Nebresina gravestone with moulded edges and decorative floral cross carving.
+  image_path: churchyard/Sproatley.jpg
+  id_prefix: CY
+
+- name: Thirtleby
+  material: York Stone
+  description: with a chamfered edges and decorative rose carving.
+  image_alt: York stone headstone with chamfered edges and rose carving.
+  image_path: churchyard/Thirtleby.jpg
+  id_prefix: CY
+
+- name: Westfield
+  material: Serena Stone
+  description: with a deep carved floral design and unique shape.
+  image_alt: Serena stone headstone with deep floral carving on a unique shape.
+  image_path: churchyard/Westfield.jpg
+  id_prefix: CY

@@ -1,0 +1,104 @@
+- name: Appleton
+  material: Black Granite
+  description: with heart shaped memorial and rose bowl vase.
+  image_alt: Black granite children’s headstone with heart shaped memorial and rose bowl vase.
+  image_path: childrens/Appleton.jpg
+  id_prefix: CM
+
+- name: Bentley
+  material: Blue Pearl Granite
+  description: with hand carved Bentley Bear.
+  image_alt: Blue pearl granite children’s headstone with hand carved Bentley Bear.
+  image_path: childrens/Bentley.jpg
+  id_prefix: CM
+
+- name: Big Ted
+  material: Black Granite
+  description: with carved bear shape and etched bear features.
+  image_alt: Black granite children’s headstone with carved bear shape and etched bear features.
+  image_path: childrens/BigTed.jpg
+  id_prefix: CM
+
+- name: Bubble and Squeak
+  material: Impala Grey Granite
+  description: with gentle curves and children’s toy designs.
+  image_alt: Impala grey granite children’s headstone with gentle curves and children’s toy designs.
+  image_path: childrens/BubbleSqueak.jpg
+  id_prefix: CM
+
+- name: Elvington
+  material: Black Granite
+  description: with magical fairy-tale design.
+  image_alt: Black granite children’s headstone with magical fairy-tale design.
+  image_path: childrens/Elvington.jpg
+  id_prefix: CM
+
+- name: Fairy Inscription
+  material: Blue Pearl Granite
+  description: with fairy-tale images combined with unique lettering.
+  image_alt: Blue pearl granite children’s headstone with fairy-tale images combined with unique lettering.
+  image_path: childrens/FairyInscription.jpg
+  id_prefix: CM
+
+- name: Fairy Letter
+  material: Ruby Red Granite
+  description: with unique fairy-tale lettering.
+  image_alt: Ruby red granite children-s headstone with unique fairy-tale lettering.
+  image_path: childrens/FairyLetter.jpg
+  id_prefix: CM
+
+- name: Fairy-tale Castle
+  material: Black Granite
+  description: with detailed princess castle.
+  image_alt: Black granite children’s headstone with detailed princess castle.
+  image_path: childrens/FairytaleCastle.jpg
+  id_prefix: CM
+
+- name: Furry Friends
+  material: South African Dark Grey Granite
+  description: with lullaby inspired design.
+  image_alt: South African dark grey granite children’s headstone with lullaby inspired design.
+  image_path: childrens/FurryFriends.jpg
+  id_prefix: CM
+
+- name: Little Prince Castle
+  material: Sera Grey Granite
+  description: with boy’s style prince castle design.
+  image_alt: Sera grey granite children’s headstone with boy’s style prince castle design.
+  image_path: childrens/LittlePrinceCastle.jpg
+  id_prefix: CM
+
+- name: Make A Wish
+  material: Black Granite
+  description: with etched design of a child sleeping.
+  image_alt: Black granite children’s headstone with etched design of a child sleeping.
+  image_path: childrens/MakeAWish.jpg
+  id_prefix: CM
+
+- name: Ollie Bear
+  material: Aurora Granite
+  description: with small teddy bear carving.
+  image_alt: Aurora granite children’s headstone with small teddy bear carving.
+  image_path: childrens/OllieBear.jpg
+  id_prefix: CM
+
+- name: Shooting Star
+  material: Black Granite
+  description: with shooting star design.
+  image_alt: Black granite children’s headstone with shooting star design.
+  image_path: childrens/ShootingStar.jpg
+  id_prefix: CM
+
+- name: Sweet Dreams
+  material: Rustenburg Granite
+  description: with lullaby influenced design.
+  image_alt: Rustenburg granite children’s headstone with lullaby influenced design.
+  image_path: childrens/SweetDreams.jpg
+  id_prefix: CM
+
+- name: Tumbling Ted
+  material: Black Granite
+  description: with small carved teddy bear with heart and book.
+  image_alt: Black granite children’s headstone with small carved teddy bear with heart and book.
+  image_path: childrens/TumblingTed.jpg
+  id_prefix: CM

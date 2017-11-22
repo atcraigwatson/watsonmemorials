@@ -1,0 +1,14 @@
+<!-- Brochure Item -->
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-5">
+    <div class="card brochure-item" itemscope itemtype="http://schema.org/Product" id="{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' }}">
+        <img class="card-img-top"
+             src="/images/new-memorials/{{ brochure_item.image_path }}"
+             alt="{{ brochure_item.image_alt }}"
+             itemprop="image">
+        <div class="card-body bg-slate-lightest">
+            <h4 class="card-title" itemprop="name">{{ brochure_item.name }}</h4>
+            <p class="card-text" itemprop="description">Shown in <strong itemprop="material" class="text-slate-dark">{{ brochure_item.material }}</strong> {{ brochure_item.description }}</p>
+        </div>
+    </div>
+</div>
+<!-- //Close Brochure Item -->

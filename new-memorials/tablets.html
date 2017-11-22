@@ -1,0 +1,39 @@
+---
+layout:            new-memorials
+title:             "Tablets and Desks by Watson Memorials"
+description:       "Tablets and Desks available for use individually and in conjunction with a headstone or kerb memorial."
+keywords:          "Tablets, Plaque, Desk, Wedge, Headstone, Memorial, Gravesonte, Watson Memorials"
+heading:           "Tablets and Desks"
+lead:              "Watson Memorials provides numerous styles of tablets and desks to suit all your requirments."
+twitter_image:     "social-meta-plaque-memorials.png"
+twitter_image_alt: "Three graphical illustrations of tablet and desk memorials."
+twitter_excerpt:   "Watson Memorials provides numerous styles of tablets and desk memorials as well as the chance to custom design your own."
+facebook_image:    "social-meta-plaque-memorials.png"
+facebook_excerpt:  "Watson Memorials provides numerous styles of tablets and desk memorials as well as the chance to custom design your own."
+---
+
+<div class="text-center mb-5">
+  <div class="container">
+      <div class="row">
+          <div class="memorials-intro col-12 py-5">
+            <h2 class="mb-3">Creating Tablet Memorials</h2>
+            <p>Watson Memorials provides numerous styles of tablet and desk memorials as well as the chance to custom design your own.</p>
+            <p class="font-italic">All memorials can be crafted in any material, the decorative designs on the memorials are shown to illustrate possibilities and do not have to be on your chosen memorial.</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container pb-5">
+  <div class="row">
+
+    {% for brochure_item in site.data.plaques %}
+
+      {% include brochure-item.html %}
+
+    {% endfor %}
+
+  </div>
+</div>
+
+{% include contact-callout.html %}

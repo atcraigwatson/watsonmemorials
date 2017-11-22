@@ -1,0 +1,62 @@
+---
+layout:            new-memorials
+title:             "Kerb Memorials, Headstones, Gravestones and Grave Surrounds"
+description:       "Kerb Memorials, Headstones, Gravestones and Grave Surrounds that are available from Watson Memorials"
+keywords:          "Kerbs, Kerb, Surrounds, Surround, Headstones, Memorials, Gravestones"
+heading:           "Kerb Memorials"
+lead:              "Watson Memorials provides numerous options when choosing kerbs and grave surrounds as well as a bespoke design service."
+twitter_image:     "social-meta-kerbs.png"
+twitter_image_alt: "A graphical illustration of a headstone with kerbs or grave surrounds."
+twitter_excerpt:   "Watson Memorials provides numerous options when choosing kerbs and grave surrounds as well as a bespoke design service."
+facebook_image:    "social-meta-kerbs.png"
+facebook_excerpt:  "Watson Memorials provides numerous options when choosing kerbs and grave surrounds as well as a bespoke design service."
+---
+
+<div class="text-center">
+  <div class="container">
+      <div class="row">
+          <div class="memorials-intro col-12 py-5">
+            <h2 class="mb-3">Designing Kerb Memorials</h2>
+            <p>Kerb memorials and grave surrounds create a truly personalised grave spaces. They come in a variety of styles and Watson Memorials will take the time to understand all your requirements and design the perfect personalised grave space for your family, friend or love one.</p>
+            <p class="font-italic">All memorials can be crafted in any material, the decorative designs on the memorials are shown to illustrate possibilities and do not have to be on your chosen memorial.</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container pb-5">
+
+  <div class="row">
+    <div class="col-12">
+      <h2 class="my-5" id="kerbs">Kerbs</h2>
+    </div>
+    {% for brochure_item in site.data.kerbs %}
+      {% include brochure-item-wide.html %}
+    {% endfor %}
+  </div>
+
+  <hr class="my-5">
+
+  <div class="row">
+    <div class="col-12">
+      <h2 class="mb-5" id="additional-options">Additional Options</h2>
+    </div>
+      {% for brochure_item in site.data.kerb-extras %}
+        {% include brochure-item.html %}
+      {% endfor %}
+  </div>
+
+  <hr class="my-5">
+
+  <div class="row">
+    <div class="col-12">
+      <h2 class="mb-5" id="chippings">Chippings</h2>
+    </div>
+      {% for brochure_item in site.data.chippings %}
+        {% include brochure-item.html %}
+      {% endfor %}
+  </div>
+
+</div>
+
+{% include contact-callout.html %}

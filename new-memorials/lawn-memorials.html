@@ -1,0 +1,39 @@
+---
+layout:            new-memorials
+title:             "Lawn Style Headstones Memorials and Gravestones by Watson Memorials"
+description:       "Headstones, Memorials and Gravestones suitable for lawn sections of Cemeteries and Churchyards"
+keywords:          "New Headstones, Headstones, Memorials, Gravestones, Watson Memorials"
+heading:           "Lawn Memorials and Headstones"
+lead:              "Lawn memorials are headstones comprising of both a headpiece and base. They are the most common style found in Cemeteries and Churchyards as they give the most versatile array of personalisation’s."
+twitter_image:     "social-meta-lawn-memorials.png"
+twitter_image_alt: "Graphic of three headstones with illustrated inscription and rose carving "
+twitter_excerpt:   "Lawn Memorials Collection Available from Watson Memorials."
+facebook_image:    "social-meta-lawn-memorials.png"
+facebook_excerpt:  "Lawn Memorials Collection Available from Watson Memorials."
+---
+
+<div class="text-center mb-5">
+  <div class="container">
+      <div class="row">
+          <div class="memorials-intro col-12 py-5">
+            <h2 class="mb-3">Designing Lawn Memorials and Headstones</h2>
+            <p>Lawn Memorials are available in a wide variety of shapes and sizes as well as being available in a multitude of finishes and colours. All consultations with Watson Memorials are complimentary giving you as much time as you need to create the perfect lasting memorial for your family member, friend or loved one.</p>
+            <p class="font-italic">All memorials can be crafted in any material, the decorative designs on the memorials are shown to illustrate possibilities and do not have to be on your chosen memorial.</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container pb-5">
+  <div class="row">
+
+    {% for brochure_item in site.data.lawn-memorials %}
+
+      {% include brochure-item.html %}
+
+    {% endfor %}
+
+  </div>
+</div>
+
+{% include contact-callout.html %}
