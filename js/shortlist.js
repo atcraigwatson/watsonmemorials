@@ -128,7 +128,7 @@ $( document ).ready( function() {
     
       });
 
-    // Function to show modal with appropriate content when brochure item button is clicked
+    //Function to show modal with appropriate content when brochure item button is clicked
     var doShortlistModal = function( modalTextOption, modalBrochureItem ) {
       var shortlistModal = $( "#shortlistModal" );
       shortlistModal.on( "show.bs.modal", function (e) {
@@ -144,7 +144,7 @@ $( document ).ready( function() {
       shortlistModal.on( "hidden.bs.modal", function (e) {
         window.location.reload();
       });
-    };
+    }; 
 
     // Capture "add to shortlist" click event
     $( ".add-to-shortlist" ).click( function() {

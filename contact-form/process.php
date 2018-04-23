@@ -13,25 +13,25 @@
  */
 
 // Form options
-$options['captcha_secret']      = '6LcySB0UAAAAAFQYYmYQ9jATx3Z9GgIgfLu-8vxz';                     // Google reCAPTCHA secret key
-$options['redirect_url']        = '';                                     // URL of custom success page
+$options['captcha_secret']      = '6LcySB0UAAAAAFQYYmYQ9jATx3Z9GgIgfLu-8vxz';  // Google reCAPTCHA secret key
+$options['redirect_url']        = '';                                          // URL of custom success page
 
 // Generic email options
-$options['from_address']        = 'contact@watsonmemorials.co.uk';               // Address the email is sent from
-$options['from_name']           = 'Watson Memorials';                              // Name to attach to the address
-$options['to_addresses']        = array( 'craig@watsonmemorials.co.uk' );               // To: addresse(s), add new array item for more
+$options['from_address']        = 'contact@watsonmemorials.co.uk';             // Address the email is sent from
+$options['from_name']           = 'Watson Memorials';                          // Name to attach to the address
+$options['to_addresses']        = array( 'craig@watsonmemorials.co.uk' );      // To: addresse(s), add new array item for more
 
 // Send confirmation message of successful email to end user
-$options['email_confirmation']  = true;                                  // Should the end user get a confirmation email?
+$options['email_confirmation']  = true;                                        // Should the end user get a confirmation email?
 
 // SMTP options
-$options['use_smtp']            = false;                                  // Should the email be sent via SMTP, or default PHP mail server?
-$options['smtp_host']           = 'smtp1.example.com;smtp2.example.com';  // Specify main and backup SMTP servers
-$options['smtp_auth']           = true;                                   // Enable SMTP authentication
-$options['smtp_username']       = 'username';                             // SMTP username
-$options['smtp_password']       = 'password';                             // SMTP password
-$options['smtp_secure']         = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
-$options['smtp_port']           = 587;                                    // TCP port to connect to
+$options['use_smtp']            = false;                                       // Should the email be sent via SMTP, or default PHP mail server?
+$options['smtp_host']           = '#';                                         // Specify main and backup SMTP servers
+$options['smtp_auth']           = false;                                       // Enable SMTP authentication
+$options['smtp_username']       = '#';                                         // SMTP username
+$options['smtp_password']       = '#';                                         // SMTP password
+$options['smtp_secure']         = 'tls';                                       // Enable TLS encryption, `ssl` also accepted
+$options['smtp_port']           = 587;                                         // TCP port to connect to
 
 // We use CURL to get the translations file.
 // Some servers have CURL enabled, but disallow it for security.
