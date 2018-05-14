@@ -1,0 +1,121 @@
+[
+   {
+        "name": "Desk",
+        "material": "Black Granite",
+        "description": "with 6\" flat for flower container or vase.",
+        "size_desk": "4\" X 1'6\" X 1'6\"",
+        "size_desk_slope": "4\" down to 2\"",
+        "size_desk_flat": "6\"",
+        "price": "276.00",
+        "image_alt": "Black granite desk with flat for flower container or vase.",
+        "image_path": "plaques/Desk.jpg",
+        "id_prefix": "P"
+   },
+   {
+        "name": "Desk Carved Book",
+        "material": "Black granite",
+        "description": "with carved book design and twin flower containers.",
+        "size_desk": "6\" X 2' X 1'5\"",
+        "size_desk_slope": "6\" down to 3\"",
+        "size_desk_flat": "6\"",
+        "price": "684.00",
+        "price_excluding_design": "492.00",
+        "image_alt": "Black granite desk with flat for flower container or vase and carved book design.",
+        "image_path": "plaques/DeskCarvedBook.jpg",
+        "id_prefix": "P"
+   },
+   {
+        "name": "Desk Large",
+        "material": "Balmoral Red.",
+        "description": "with 6\" flat for flower container or vase.",
+        "size_desk": "4\" X 1' X 1'6\"",
+        "size_desk_slope": "4\" down to 2\"",
+        "size_desk_flat": "6\"",
+        "price": "252.00",
+        "image_alt": "Balmoral red granite desk with flat for flower container or vase.",
+        "image_path": "plaques/DeskLarge.jpg",
+        "id_prefix": "P"
+   },
+   {
+        "name": "Desk Moulded",
+        "material": "Black Granite",
+        "description": "with decorative moulded edges.",
+        "size_desk": "4\" X 1'6\" X 1'6\"",
+        "size_desk_slope": "4\" down to 2\"",
+        "size_desk_flat": "6.5\"",
+        "price": "372.00",
+        "image_alt": "Black granite desk with flat for flower container or vase and moulded edges.",
+        "image_path": "plaques/DeskMoulded.jpg",
+        "id_prefix": "P"
+   },
+   {
+        "name": "Desk Raised Book",
+        "material": "Black Granite",
+        "description": "with raised book carving.",
+        "size_desk": "5\" X 1'6\" X 1'6\"",
+        "size_desk_slope": "5\" down to 2\"",
+        "size_desk_flat": "6\"",
+        "price": "468.00",
+        "image_alt": "Black granite desk with flat for flower container or vase and raised book carving.",
+        "image_path": "plaques/DeskRaisedBook.jpg",
+        "id_prefix": "P"
+   },
+   {
+        "name": "Desk Rolling",
+        "material": "Black Granite",
+        "description": "with elegant rolling curved face.",
+        "size_desk": "4\" X 1'6\" X 1'6\"",
+        "size_desk_slope": "4\" down to 2\"",
+        "size_desk_flat": "6\"",
+        "price": "348.00 - Black Granite",
+        "image_alt": "Black granite and Aurora desks with curved sloping face.",
+        "image_path": "plaques/DeskRolling.jpg",
+        "id_prefix": "P"
+   },
+   {
+        "name": "Desk Rustic",
+        "material": "Blue Pearl",
+        "description": "with rustic edges and flower container.",
+        "size_desk": "4\" X 2' X 1'6\"",
+        "size_desk_slope": "4\" down to 2\"",
+        "size_desk_flat": "6\"",
+        "price": "540.00",
+        "image_alt": "Blue Pearl granite desk with flat for flower container and rustic edges.",
+        "image_path": "plaques/DeskRustic.jpg",
+        "id_prefix": "P"
+   },
+   {
+        "name": "Desk Scroll",
+        "material": "Black Granite and Impala Grey",
+        "description": "with raised scroll carving.",
+        "size_desk": "5\" X 1'2\" X 1'6\"",
+        "size_desk_slope": "5\" down to 2\"",
+        "size_desk_flat": "6\"",
+        "price": "372.00 - Black Granite",
+        "image_alt": "Black granite and impala grey desks with flat for flower container or vase and raised scroll.",
+        "image_path": "plaques/DeskScroll.jpg",
+        "id_prefix": "P"
+   },
+   {
+        "name": "Wedge",
+        "material": "South African Dark Grey",
+        "description": "sloping from 4\" down to 2\".",
+        "size_desk": "4\" X 1'6\" X 1'",
+        "size_desk_slope": "4\" down to 2\"",
+        "price": "228.00",
+        "image_alt": "South african dark grey granite wedge.",
+        "image_path": "plaques/Wedge.jpg",
+        "id_prefix": "P"
+   },
+   {
+        "name": "Wedge Rustic",
+        "material": "Blue Pearl",
+        "description": "sloping from 4\" down to 2\" with rustic edges.",
+        "size_desk": "4\" X 2' X 1'6\"",
+        "size_desk_slope": "4\" down to 2\"",
+        "price": "528.00",
+        "image_alt": "Blue Pearl granite rustic wedge.",
+        "image_path": "plaques/WedgeRustic.jpg",
+        "id_prefix": "P"
+   }
+]
