@@ -25,11 +25,11 @@ $options['to_addresses']        = array( 'craig@watsonmemorials.co.uk' );      /
 $options['email_confirmation']  = true;                                        // Should the end user get a confirmation email?
 
 // SMTP options
-$options['use_smtp']            = false;                                       // Should the email be sent via SMTP, or default PHP mail server?
-$options['smtp_host']           = '#';                                         // Specify main and backup SMTP servers
-$options['smtp_auth']           = false;                                       // Enable SMTP authentication
-$options['smtp_username']       = '#';                                         // SMTP username
-$options['smtp_password']       = '#';                                         // SMTP password
+$options['use_smtp']            = true;                                        // Should the email be sent via SMTP, or default PHP mail server?
+$options['smtp_host']           = 'outlook.office365.com';                     // Specify main and backup SMTP servers
+$options['smtp_auth']           = true;                                        // Enable SMTP authentication
+$options['smtp_username']       = 'craig@watsonmemorials.co.uk';               // SMTP username
+$options['smtp_password']       = 'W4T5()NM3M0R!@L5';                          // SMTP password
 $options['smtp_secure']         = 'tls';                                       // Enable TLS encryption, `ssl` also accepted
 $options['smtp_port']           = 587;                                         // TCP port to connect to
 
