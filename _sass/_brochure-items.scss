@@ -1,6 +1,26 @@
+
+.brochure-item {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
 .brochure-item .card-img-top {
   width: 100%;
   max-width: 400px;
   height: auto;
   align-self: center;
+  border-radius: 0;
+}
+
+.brochure-item .card-text a {
+  color: $red-base;
+  &:hover,
+  &:focus {
+    color: $red-base;
+  }
+}
+
+.brochure-item .btn-secondary {
+  background-color: #ffffff !important;
 }

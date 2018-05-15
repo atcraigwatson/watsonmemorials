@@ -1,71 +1,29 @@
-.has-hp-divider,
-.has-hp-divider-on-mobiles {
-    position: relative;
-    &::before {
-        content: "";
-        display: block;
-        width: 5rem;
-        height: 5rem;
-        position: absolute;
-        top: calc(-5.5rem + 1px);
-        background-color: #ffffff;
-        background-image: url(/images/watson-memorials-logo-icon.svg);
-        background-repeat: no-repeat;
-        background-size: 3rem;
-        background-position: center center;
-        left: calc(50% - 2.5rem);
-        z-index: 1;
-    }
-    &::after {
-        content: "";
-        display: block;
-        position: absolute;
-        height: 2px;
-        width: calc(100% - 30px);
-        top: -3rem;
-        background: $slate-darkest;
-        left: 15px;
-    }
-}
-
-.has-hp-divider-on-mobiles {
-    margin-top: 3rem;
-}
-
-.has-hp-divider-on-mobiles::before {
-    @include breakpoint(md) {
-        display: none !important;
-    }
-}
-
-.has-hp-divider-on-mobiles::after {
-    @include breakpoint(md) {
-        display: none !important;
-    }
-}
-
-
-
-#tabletMemorials img {
-    @include breakpoint(sm) {
-        max-width: 300px;
-    }
-    @include breakpoint(md) {
-        max-width: 350px;
-    }
+.home-section .row {
+    padding: 32px 17px;
+    box-shadow: 0 0 20px rgba($slate-darkest, 0.1);
     @include breakpoint(lg) {
-        max-width: 400px;
+        padding: 64px 49px;
     }
 }
 
-#vaseMemorials img {
-    @include breakpoint(sm) {
-        max-width: 200px;
-    }
-    @include breakpoint(md) {
-        max-width: 250px;
-    }
+.home-section-content {
+
     @include breakpoint(lg) {
-        max-width: 300px;
+        margin-right: 34px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        border-top: 2px solid $slate-lightest;
+        border-bottom: 2px solid $slate-lightest;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+}
+
+.home-section-img {
+    margin-bottom: 32px;
+    @include breakpoint(lg) {
+        margin-bottom: 0;
     }
 }
