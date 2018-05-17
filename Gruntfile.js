@@ -66,24 +66,11 @@ module.exports = function (grunt) {
             }
         },
 
-        // Minify images
-        imagemin: {
-            dynamic: {
-                files: [{
-                    expand: true,
-                    cwd: 'images/',
-                    src: ['**/*.{png,jpg,gif}'],
-                    dest: 'images/'
-                }]
-            }
-        },
-
         // run tasks in parallel
         concurrent: {
             serve: [
                 'uglify',
                 'sass',
-                'imagemin',
                 'watch',
                 'exec:jekyllServe'
             ],
