@@ -1,8 +1,8 @@
 <!-- Brochure Item -->
-<div class="col-12 col-md-10 col-lg-6 col-xl-4 mb-5">
+<div class="col-12 col-md-10 col-lg-6 col-xl-4 mb-5 brochure-item-wrapper d-none">
     <div class="card brochure-item" 
         itemscope 
-        itemtype="http://schema.org/Product" 
+        itemtype="http://schema.org/Product"
         id="{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">
         <img class="card-img-top"
              src="/images/new-memorials/{{ brochure_item.image_path }}"

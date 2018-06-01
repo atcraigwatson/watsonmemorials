@@ -23,6 +23,10 @@ module.exports = function (grunt) {
             sass: {
                 files: ['_sass/**/*.scss'],
                 tasks: ['sass']
+            },
+            js: {
+                files: ['_js/*.js'],
+                tasks: ['uglify']
             }
         },
 
@@ -61,7 +65,7 @@ module.exports = function (grunt) {
             },
             my_target: {
                 files: {
-                    'js/scripts.min.js': ['_js/bootstrap.min.js', '_js/arrow-toggle.js', '_js/shortlist.js']
+                    'js/scripts.min.js': ['_js/bootstrap.min.js', '_js/arrow-toggle.js', '_js/shortlist.js', '_js/limit-item-load.js']
                 }
             }
         },
