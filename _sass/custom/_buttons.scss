@@ -37,13 +37,17 @@ button:hover {
 }
 
 .btn-outline-secondary {
-    color: $white;
-    border-color: $white;
+    color: $slate-darkest;
+    border-color: $slate-lighter;
     background-color: transparent;
 
     &:hover,
-    &:focus {
-        border-color: $white;
-        background-color: rgba(0,0,0,0.2);
+    &:focus,
+    &:active {
+        color: $slate-darkest !important;
+        border-color: $slate-lighter !important;
+        background-color: $slate-lighter !important;
+        outline: none !important;
+        box-shadow: none !important;
     }
 }

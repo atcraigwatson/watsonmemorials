@@ -8,42 +8,41 @@
         <div class="card-body">
             <h4 class="card-title" itemprop="name">{{ brochure_item.name }}</h4>
             <p class="card-text" itemprop="description">Shown in <strong itemprop="material" class="text-slate-dark">{{ brochure_item.material }}</strong> {{ brochure_item.description }}</p>
-            
-            {% if brochure_item.price %}
-            <button class="btn btn-primary btn-block border-0 rounded-0 text-left"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}"
-                    aria-expanded="false"
-                    aria-controls="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">View Price and Size
-                    <span class="icon-angle-down float-right"></span>
-            </button>
-            <div class="card-collapse collapse" 
-                 id="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">
-
-                {% if brochure_item.size_memorial_kerb %}
-                <p class="card-text pt-3">
-                    <span class="d-block"><strong class="text-slate-dark">Custom Size:&nbsp;</strong>{{ brochure_item.size_memorial_kerb }}</span>
-                </p>
-                {% endif %}
-
-                {% if brochure_item.price %}
-                <p class="card-text">
-                    <p class="card-text mb-0"><strong class="text-slate-dark">Price:&nbsp;</strong>{{ brochure_item.price }}</p>
-                </p>
-                {% endif %}
-
-                <p class="card-text font-italic">
-                    <small class="d-block mb-1">Price includes <strong>full fitting</strong> of the memorial and <strong>flower vases</strong> as appropriate.</small>
-                    <small class="d-block mb-1">Lettering costs:
-                        <span class="d-block pl-3"><strong>Silver:&nbsp;</strong>£1.71 per letter.</span>
-                        <span class="d-block pl-3"><strong>Gold:&nbsp;</strong>£2.05 per letter.</span>
-                    </small>
-                    <small class="d-block">For other colors or sizes please <a href="../contact.html">contact us.</a></small>
-                </p>
-            </div>
-            {% endif %}
         </div>
+        {% if brochure_item.price %}
+        <button class="btn btn-outline-secondary btn-block border-bottom-0 border-right-0 border-left-0 rounded-0 text-left py-3"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}"
+                aria-expanded="false"
+                aria-controls="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">View Price and Size
+                <span class="icon-angle-down float-right"></span>
+        </button>
+        <div class="collapse p-3" 
+             id="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">
+
+            {% if brochure_item.size_memorial_kerb %}
+            <p class="card-text">
+                <span class="d-block"><strong class="text-slate-dark">Custom Size:&nbsp;</strong>{{ brochure_item.size_memorial_kerb }}</span>
+            </p>
+            {% endif %}
+
+            {% if brochure_item.price %}
+            <p class="card-text">
+                <p class="card-text mb-0"><strong class="text-slate-dark">Price:&nbsp;</strong>{{ brochure_item.price }}</p>
+            </p>
+            {% endif %}
+
+            <p class="card-text font-italic">
+                <small class="d-block mb-1">Price includes <strong>full fitting</strong> of the memorial and <strong>flower vases</strong> as appropriate.</small>
+                <small class="d-block mb-1">Lettering costs:
+                    <span class="d-block pl-3"><strong>Silver:&nbsp;</strong>£1.71 per letter.</span>
+                    <span class="d-block pl-3"><strong>Gold:&nbsp;</strong>£2.05 per letter.</span>
+                </small>
+                <small class="d-block">For other colors or sizes please <a href="../contact.html">contact us.</a></small>
+            </p>
+        </div>
+        {% endif %}
     </div>
 </div>
 <!-- //Close Brochure Item Wide -->
