@@ -38,15 +38,15 @@ button:hover {
 
 .btn-outline-secondary {
     color: $slate-darkest;
-    border-color: $slate-lighter;
+    border-color: $slate-lightest;
     background-color: transparent;
 
     &:hover,
     &:focus,
     &:active {
         color: $slate-darkest !important;
-        border-color: $slate-lighter !important;
-        background-color: $slate-lighter !important;
+        border-color: $slate-lightest !important;
+        background-color: $slate-lightest !important;
         outline: none !important;
         box-shadow: none !important;
     }

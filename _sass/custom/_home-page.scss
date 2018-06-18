@@ -27,3 +27,19 @@
         margin-bottom: 0;
     }
 }
+
+.home-jumbotron .btn-outline-secondary {
+    color: $slate-lightest;
+    border-color: $slate-lightest;
+    background-color: transparent;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $slate-darkest !important;
+        border-color: $slate-lightest !important;
+        background-color: $slate-lightest !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
