@@ -6,11 +6,21 @@
     <!-- Watson Memorial Scripts -->
     <script src="/js/scripts.min.js"></script>
 
-    <!-- Contact Form Scripts -->
-    {% if page.url == '/contact.html' %}
-    <script src="/contact-form/assets/js/contact.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    {% endif %}
+    {% if page.url == '/thank-you.html' %}
+    <script>
+      var windowHeight = $( window ).height() - $('.navbar').outerHeight();
+  
+      $( '.page-jumbotron' ).css({'height': windowHeight +'px'});
+  
+      $( window ).resize(function(){
+  
+          var windowHeight = $( window ).height();
+  
+          $( '.page-jumbotron' ).css({'height': windowHeight +'px'});
+  
+      });
+      </script>
+      {% endif %}
 
   </body>
   <!-- //Close body -->

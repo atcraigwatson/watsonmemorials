@@ -19,7 +19,7 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
         <section class="col-12 col-xl-6  d-flex flex-column justify-content-center bg-slate-lightest py-5 p-lg-5">
 
             <h2 class="text-center display-5 font-weight-bold">Call Watson Memorials</h2>
-            <p class="text-center font-times display-5 text-slate-darkest">Tel: <a class="text-slate-darkest" href="tel:07742961770">07742961770</a></p>
+            <p class="text-center font-times display-5 text-slate-darkest">Tel: <a class="text-slate-darkest" href="tel:01325605035">01325 605035</a></p>
 
         </section>
 
@@ -28,9 +28,7 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
             <h2 class="display-5 font-weight-bold">Email Watson Memorials</h2>
 
             <!-- Contact Form -->
-            <form action="contact-form/process.php" enctype="multipart/form-data" method="POST" name="contact" id="contact" class="ucf" novalidate>
-
-                <div class="message"></div>
+            <form action="https://formspree.io/contact@watsonmemorials.co.uk" method="POST">
 
                 <fieldset>
 
@@ -77,36 +75,8 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
                         <textarea class="form-control" name="message" id="message" cols="40" rows="3" required></textarea>
                     </div>
 
-                    <!-- Google reCAPTCHA -->
-                    <!-- change YOUR_SITE_KEY with your google recaptcha key -->
-                    <!-- https://developers.google.com/recaptcha/docs/start -->
-                    <div class="form-group">
-                        <div id="g-recaptcha" class="g-recaptcha" data-sitekey="6LcySB0UAAAAAP7NE1_j6CKNp6dYPLs0UKZij4vO" data-expired-callback="recaptchaCallback"></div>
-                        <noscript>
-                            <div style="width: 302px; height: 352px;margin-bottom:20px;margin-left:100px;">
-                                <div style="width: 302px; height: 352px; position: relative;">
-                                    <div style="width: 302px; height: 352px; position: absolute;">
-                                        <!-- change YOUR_SITE_KEY with your google recaptcha key -->
-                                        <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LcySB0UAAAAAP7NE1_j6CKNp6dYPLs0UKZij4vO" style="width: 302px; height:352px; border-style: none;">
-                                        </iframe>
-                                    </div>
-                                    <div style="width: 250px; height: 80px; position: absolute; border-style: none; bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
-                                        <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 80px; border: 1px solid #c1c1c1; margin: 0px; padding: 0px; resize: none;"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </noscript>
-                    </div>
-
-                    <!-- honeypot -->
-                    <div class="form-group" style="left: -9999px; position: absolute;">
-                        <label for="honey" class="col-sm-2 control-label">
-                            Please leave this field empty - we're using it to stop robots submitting the form<br>
-                        </label>
-                        <div class="col-sm-10">
-                            <input class="form-control" type="text" name="honey" id="honey">
-                        </div>
-                    </div>
+                    <!-- Thank you page -->
+                    <input type="hidden" name="_next" value="/thank-you.html" />
 
                     <div class="form-group">
                         <div class="progress-container"></div>

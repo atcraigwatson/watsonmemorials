@@ -4,8 +4,9 @@
         itemscope 
         itemtype="http://schema.org/Product"
         id="{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">
-        <img class="card-img-top"
-             src="/images/new-memorials/{{ brochure_item.image_path }}"
+        <img class="card-img-top lazy"
+             src="/images/new-memorials/new-memorial-placeholder.png"
+             data-src="/images/new-memorials/{{ brochure_item.image_path }}"
              alt="{{ brochure_item.image_alt }}"
              itemprop="image">
         <div class="card-body">

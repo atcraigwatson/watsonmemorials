@@ -26,9 +26,12 @@ linkedin_companypage: watsonmemorials
 sass:
     sass_dir: _sass
     style: compressed
+
 markdown: kramdown
+
 gems:
   - jekyll-feed
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -39,5 +42,11 @@ exclude:
   - README.md
   - _sass
   - _scss
+  - .sass-cache
+  - docs
+  - .gitignore
+  - node_modules
 
 keep_files: ['_site/css']
+
+destination: docs

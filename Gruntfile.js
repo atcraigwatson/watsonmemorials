@@ -54,7 +54,7 @@ module.exports = function (grunt) {
                 ]
             },
             dist: {
-                src: '_site/css/*.css'
+                src: 'docs/css/*.css'
             }
         },
 
@@ -65,7 +65,7 @@ module.exports = function (grunt) {
             },
             my_target: {
                 files: {
-                    'js/scripts.min.js': ['_js/bootstrap.min.js', '_js/arrow-toggle.js', '_js/shortlist.js', '_js/limit-item-load.js']
+                    'js/scripts.min.js': ['_js/bootstrap.min.js', '_js/img-lazy-load.js']
                 }
             }
         },
