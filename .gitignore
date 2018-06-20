@@ -24,6 +24,9 @@ composer.lock
 # ignore jekyll build directory
 /_site
 
+# ignore github pages /docs directory
+/docs
+
 # ignore OS generated files
 ehthumbs.db
 Thumbs.db
