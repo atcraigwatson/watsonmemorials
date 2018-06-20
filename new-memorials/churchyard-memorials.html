@@ -1,0 +1,28 @@
+---
+layout:            new-memorials
+page-id:           "churchyard-memorials"
+title:             "Churchyard Memorials, Headstones and Gravestones by Watson Memorials"
+description:       "Churchyard Memorials, Headstones and Gravestones that are available from Watson Memorials"
+keywords:          "Churchyard, Churches, Traditional, Natural, Stone, Headstones, Memorials, Gravestones"
+heading:           "Churchyard Memorials and Headstones"
+lead:              "When designing headstones for churchyards, the first step is always to find out what regulations the churchyard has in place for the erection of a memorial. Many Churchyards have rules specific to that Churchyard alone, the memorials found on this page cover the wider spectrum to give a good variety of design ideas and to help illustrate possibilities."
+twitter_image:     "social-meta-churchyard-memorials.png"
+twitter_image_alt: "Three graphical illustrations of headstones that are of a traditional design to suit churchyards."
+twitter_excerpt:   "Watson Memorials provides a wide variety of suitable materials to design and craft beautiful headstones that meet churchyard regulations."
+facebook_image:    "social-meta-churchyard-memorials.png"
+facebook_excerpt:  "Watson Memorials provides a wide variety of suitable materials to design and craft beautiful headstones that meet churchyard regulations."
+---
+
+<div class="container py-5">
+  <div class="row justify-content-center brochure-item-container">
+
+    {% for brochure_item in site.data.churchyard-memorials %}
+
+      {% include brochure-item.html %}
+
+    {% endfor %}
+
+  </div>
+</div>
+
+{% include contact-callout.html %}

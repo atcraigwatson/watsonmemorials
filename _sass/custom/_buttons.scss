@@ -1,0 +1,53 @@
+// Buttons
+//
+// All modifications to the .btn class are made here.
+// -------------------------------------------------------------- //
+button:hover {
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+.btn-primary {
+    color: $white;
+    background-color: $red-base;
+    border-color: $red-base;
+
+    &:hover,
+    &:focus {
+        color: $white;
+        background-color: $red-dark;
+        border-color: $red-dark;
+    }
+}
+
+.btn-outline-primary {
+    color: $slate-darkest;
+    border-color: $slate-darkest;
+
+    &:hover,
+    &:focus {
+        color: $slate-darkest;
+        background-color: $slate-light;
+        border-color: $slate-light;
+        box-shadow: none;
+    }
+}
+
+.btn-outline-secondary {
+    color: $slate-darkest;
+    border-color: $slate-lightest;
+    background-color: transparent;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $slate-darkest !important;
+        border-color: $slate-lightest !important;
+        background-color: $slate-lightest !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}

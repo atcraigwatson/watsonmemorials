@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Open head -->
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{{ page.title }}</title>
+
+    <!-- Informational meta tags -->
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{{ page.keywords }}">
+    <meta name="author" content="Craig Watson">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600" rel="stylesheet">
+
+    <!-- Compiled CSS including Bootstrap -->
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <!-- Facebook OG -->
+    {% include facebook-og.html %}
+
+    <!-- Twitter meta -->
+    {% include twitter-card.html %}
+
+    <!-- Google Analytics -->
+    {% include google-analytics.html %}
+
+    <!-- Contact Form Scripts -->
+    {% if page.url == '/contact.html' %}
+      <style>
+        /* Make recapture responsive (fit on small screens) */
+        @media screen and (max-height: 575px) and (max-width: 335px){
+          #rc-imageselect, .g-recaptcha {
+            transform:scale(0.77);
+            -webkit-transform:scale(0.77);
+            transform-origin:0 0;
+            -webkit-transform-origin:0 0;
+          }
+        }
+      </style>
+    {% endif %}
+
+  </head>
+  <!-- ./ head -->
+
+  <!-- Open Body -->
+  <body>

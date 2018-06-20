@@ -1,0 +1,59 @@
+// Brand and site specific modifiers
+// -------------------------------------------------------------- //
+
+// Backgrounds
+.bg-slate-darkest  {
+    background-color: #374355 !important;
+}
+.bg-slate-darker   {
+    background-color: #3D4D65 !important;
+}
+.bg-slate-dark     {
+    background-color: #53657D !important;
+}
+.bg-slate-base     {
+    background-color: #8393A7 !important;
+}
+.bg-slate-light    {
+    background-color: #ADB9C9 !important;
+}
+.bg-slate-lighter  {
+    background-color: #C9D3DF !important;
+}
+.bg-slate-lightest {
+    background-color: #EBEFF3 !important;
+}
+
+// Borders
+.border-color-lighter {
+    border-color: #C9D3DF !important;
+}
+
+// Text colors
+.text-slate-darkest  {
+    color: #374355 !important;
+}
+.text-slate-darker   {
+    color: #3D4D65 !important;
+}
+.text-slate-dark     {
+    color: #53657D !important;
+}
+.text-slate-base     {
+    color: #8393A7 !important;
+}
+.text-slate-light    {
+    color: #ADB9C9 !important;
+}
+.text-slate-lighter  {
+    color: #C9D3DF !important;
+}
+.text-slate-lightest {
+    color: #EBEFF3 !important;
+}
+
+// Padding and Margin
+.py-10 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}

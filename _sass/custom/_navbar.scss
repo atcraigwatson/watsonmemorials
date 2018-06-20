@@ -1,0 +1,84 @@
+// Navbar
+//
+// All modifications to the site navbar are made here, including
+// chnages made to the dropdown menu of the navbar.
+// -------------------------------------------------------------- //
+.navbar {
+
+    padding: 0 1rem;
+    background-color: $white;
+    box-shadow: 0 0 20px rgba($slate-darkest, 0.1);
+
+    .navbar-brand {
+        padding: 13px 0;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+        outline: none !important;
+    }
+
+    .nav-item {
+        @include breakpoint(lg) {
+            border: none !important;
+        }
+    }
+
+    .nav-item:first-child {
+        border-top: 1px solid $slate-light;
+    }
+
+    .nav-item:not(:last-child) {
+        border-bottom: 1px solid $slate-light;
+    }
+
+    .nav-item.dropdown.show {
+        background-color: $slate-lightest;
+    }
+
+    .nav-link {
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+        .fa {
+            align-self: center;
+        }
+
+        .fa-angle-down,
+        .fa-angle-up {
+            @include breakpoint(lg) {
+                margin-left: 4px !important;
+                margin-top: 4px !important;
+            }
+        }
+    }
+
+    .dropdown-toggle::after {
+        display: none !important;
+    }
+
+    .dropdown-menu {
+        padding: 0;
+        margin: 0;
+        top: 56px;
+        background-color: $slate-lightest;
+    }
+
+    .dropdown-item {
+        padding: 1rem 1.5rem;
+
+        &:hover,
+        &:focus {
+            background-color: $slate-lighter;
+        }
+
+        &.active,
+        &:active {
+            color: #292b2c;
+            text-decoration: underline;
+            background-color: $slate-lightest;
+        }
+    }
+
+}
