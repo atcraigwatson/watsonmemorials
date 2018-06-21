@@ -25,7 +25,7 @@ composer.lock
 /_site
 
 # ignore github pages /docs directory
-/docs
+docs
 
 # ignore OS generated files
 ehthumbs.db
