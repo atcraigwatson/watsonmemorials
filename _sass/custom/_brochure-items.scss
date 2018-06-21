@@ -32,22 +32,6 @@
   }
 }
 
-.brochure-item .table-brochure-item tr:first-child th,
-.brochure-item .table-brochure-item tr:first-child td {
-  border-top: 0;
-}
-.brochure-item .table-brochure-item tr:last-child th,
-.brochure-item .table-brochure-item tr:last-child td {
-  border-bottom: 0;
-}
-.brochure-item .table-brochure-item tr th {
-  border-left: 0;
-  padding-left: 0;
-}
-.brochure-item .table-brochure-item tr td {
-  border-right: 0;
-}
-
 .brochure-item .table-brochure-item caption {
   color: $slate-darkest !important;
   font-size: 20px;
