@@ -40,6 +40,11 @@
 .new-memorials-jumbotron {
 
     padding: 2rem 0;
+    margin-bottom: 0; 
+
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
 
     @include breakpoint(md){
         padding: 7.5rem 0;
@@ -69,43 +74,29 @@
 }
 
 #jumbotron-lawn-memorials {
-    background: url("../images/lawn-memorial-page-jumbotron-bg.jpg") no-repeat center left;
-    background-size: cover;
-    background-position-x: center;
-    margin-bottom: 0;   
+    background-image: url("../images/lawn-memorial-page-jumbotron-bg.jpg");  
 }
 
 #jumbotron-churchyard-memorials {
-    background: url("../images/churchyard-memorial-page-jumbotron-bg.jpg") no-repeat center left;
-    background-size: cover;
-    background-position-x: center;
-    margin-bottom: 0;   
+    background-image: url("../images/churchyard-memorial-page-jumbotron-bg.jpg"); 
 }
 
 #jumbotron-childrens-memorials {
-    background: url("../images/childrens-memorial-page-jumbotron-bg.jpg") no-repeat center left;
-    background-size: cover;
-    background-position-x: center;
-    margin-bottom: 0;   
+    background-image: url("../images/childrens-memorial-page-jumbotron-bg.jpg");  
 }
 
 #jumbotron-kerb-memorials {
-    background: url("../images/kerb-memorial-page-jumbotron-bg.jpg") no-repeat center left;
-    background-size: cover;
-    background-position-x: center;
-    margin-bottom: 0;   
+    background-image: url("../images/kerb-memorial-page-jumbotron-bg.jpg");
 }
 
 #jumbotron-vase-memorials {
-    background: url("../images/vase-memorial-page-jumbotron-bg.jpg") no-repeat center left;
-    background-size: cover;
-    background-position-x: center;
-    margin-bottom: 0;   
+    background-image: url("../images/vase-memorial-page-jumbotron-bg.jpg"); 
 }
 
 #jumbotron-tablet-memorials {
-    background: url("../images/tablet-memorial-page-jumbotron-bg.jpg") no-repeat center left;
-    background-size: cover;
-    background-position-x: center;
-    margin-bottom: 0;   
+    background-image: url("../images/tablet-memorial-page-jumbotron-bg.jpg"); 
+}
+
+#jumbotron-headstone-inscriptions {
+    background-image: url("../images/inscription-page-jumbotron-bg.jpg");  
 }

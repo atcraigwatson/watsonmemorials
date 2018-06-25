@@ -1,0 +1,43 @@
+---
+layout:            default
+page-id:           "headstone-inscriptions"
+title:             "Headstone and Memorial Inscriptions"
+description:       "A collection of inscriptions and epitaphs to help design wording for headstones, memorials and gravestones."
+keywords:          "Inscriptions, Wording, Epitaphs, Headstones, Memorials, Gravestones"
+heading:           "Headstone and Memorial Inscriptions"
+lead:              "Below is a collection of inscriptions and epitaphs to help when designing wording for headstones, memorials and gravestones."
+twitter_image:     "social-meta-contact-page.png"
+twitter_image_alt: "Graphic to show the multiple ways you can contact watson memorials."
+twitter_excerpt:   "Please feel free to contact Watson Memorials with any questions."
+facebook_image:    "social-meta-contact-page.png"
+facebook_excerpt:  "Please feel free to contact Watson Memorials with any questions."
+---
+
+<div class="container py-5">
+    <div class="row">
+
+        {% for inscription in site.data.inscriptions %}
+
+            <div class="col-12 col-md-10 col-lg-6 col-xl-4 mb-5">
+                <div class="card brochure-item">
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            <span class="d-block">
+                                {{ inscription.inscription | 
+                                    replace: '[/S]', '</span>' |
+                                    replace: '[S]', '<span class="d-block">' | 
+                                    replace: '[SS]', '<span class="d-block insc-small">' | 
+                                    replace: '[SL]', '<span class="d-block insc-large">' | 
+                                    replace: '[SI]', '<span class="d-block font-italic">' | 
+                                    replace: '[BR]', '<br />'
+                                }}
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>  
+
+        {% endfor %}
+
+    </div>
+</div>
