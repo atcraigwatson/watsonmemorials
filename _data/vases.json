@@ -5,6 +5,7 @@
         "description": "with angel design.",
         "size_vase": "1' X 10\" X 6\"",
         "price": "400.00",
+        "price_carving": "200.00",
         "price_excluding_design": "200.00",
         "image_alt": "Barrel sided memorial vase with angel design.",
         "image_path": "vases/Barrel.jpg",
@@ -16,6 +17,7 @@
         "description": "",
         "size_vase": "6\" X 6\" X 6\"",
         "price": "85.00 - Black Granite",
+        "price_carving": "N/A",
         "image_alt": "Square block vases with flower container.",
         "image_path": "vases/Block.jpg",
         "id_prefix": "V"
@@ -26,6 +28,7 @@
         "description": "to emphasize its elegant shape.",
         "size_vase": "1' X 6.5\" X 6.5\"",
         "price": "210.00",
+        "price_carving": "N/A",
         "image_alt": "Black granite vase with stylish elegant shape.",
         "image_path": "vases/Castleton.jpg",
         "id_prefix": "V"
@@ -36,6 +39,7 @@
         "description": "with emphasis on the chamfered corners.",
         "size_vase": "8\" X 6\" X 6\"",
         "price": "120.00",
+        "price_carving": "N/A",
         "image_alt": "Square tapered vase with chamfered corners.",
         "image_path": "vases/Chamfered.jpg",
         "id_prefix": "V"
@@ -46,6 +50,7 @@
         "description": "emphasizing the unique heart shape.",
         "size_vase": "1' X 1' X 6.25\"",
         "price": "200.00",
+        "price_carving": "N/A",
         "image_alt": "Black granite heart shaped vase.",
         "image_path": "vases/Heart.jpg",
         "id_prefix": "V"
@@ -56,6 +61,7 @@
         "description": "with floral design.",
         "size_vase": "1' X 10\" X 10\"",
         "price": "585.00 - Excludes lettering",
+        "price_carving": "285.00",
         "price_excluding_design": "300.00",
         "image_alt": "6 sided pepper pot shaped vase in south african dark grey granite.",
         "image_path": "vases/PepperPotLarge.jpg",
@@ -67,6 +73,7 @@
         "description": "with detailed rose carving.",
         "size_vase": "8\" X 9\" X 9\"",
         "price": "345.00 - Excludes lettering",
+        "price_carving": "170.00",
         "price_excluding_design": "175.00",
         "image_alt": "6 sided pepper pot shaped vase in black granite with rose design.",
         "image_path": "vases/PepperPotSmall.jpg",
@@ -78,6 +85,7 @@
         "description": "with twin flower containers and rose design.",
         "size_vase": "10\" X 1' X 6\"",
         "price": "235.00",
+        "price_carving": "60.00",
         "price_excluding_design": "175.00",
         "image_alt": "Black granite rectangle shaped vase.",
         "image_path": "vases/Rectangle.jpg",
@@ -90,6 +98,7 @@
         "size_vase": "10\" X 1' X 6\"",
         "size_vase_base": "2\" X 1'2\" X 8\"",
         "price": "200.00",
+        "price_carving": "N/A",
         "image_alt": "Lavender blue granite rectangle shaped vase with base.",
         "image_path": "vases/RectangleAndBase.jpg",
         "id_prefix": "V"
@@ -100,6 +109,7 @@
         "description": "with tapered sides and rolled base.",
         "size_vase": "8\" X 8\" X 8\"",
         "price": "155.00",
+        "price_carving": "N/A",
         "image_alt": "South african dark grey granite tapered vase.",
         "image_path": "vases/Tapered.jpg",
         "id_prefix": "V"

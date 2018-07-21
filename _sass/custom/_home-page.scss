@@ -43,3 +43,26 @@
         box-shadow: none !important;
     }
 }
+
+#testimonials .testimonial {
+    text-align: center;
+}
+
+#testimonials .testimonial .star::before {
+	content: "\2605";
+	font-size: 32px;
+	color: $slate-darkest;
+	line-height: 1;
+}
+
+#testimonials .carousel-indicators {
+    bottom: -32px;
+}
+
+#testimonials .carousel-indicators li {
+    background-color: $slate-light;
+}
+
+#testimonials .carousel-indicators .active {
+    background-color: $slate-darkest;
+}
