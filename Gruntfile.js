@@ -65,7 +65,7 @@ module.exports = function (grunt) {
             },
             my_target: {
                 files: {
-                    'js/scripts.min.js': ['_js/bootstrap.min.js', '_js/img-lazy-load.js']
+                    'js/scripts.min.js': ['_js/bootstrap.min.js', '_js/img-lazy-load.js', '_js/price-calculator.js']
                 }
             }
         },
