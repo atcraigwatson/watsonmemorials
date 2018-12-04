@@ -1,5 +1,5 @@
 var formatInscription = function(inscription) {
-	var formatedInscription = inscription.replace(/\.|\n|\-|\/|\"|\'|\\|\||\s/g, '');
+	var formatedInscription = inscription.replace(/\.|\n|\-|\/|\"|\'|\\|\||\s|\,/g, '');
 	return formatedInscription;
 }
 
@@ -88,5 +88,13 @@ $('#calculateInscription').click( function() {
 	
 	var totalPrice = totalLetteringPrice + totalMemorialPrice;
 	$('#totalPrice').text("£ " + totalPrice.toFixed(2));
+
+});
+
+$('#selectMemorial').change( function() {
+
+	// Get the img path from data-img-path on select change and update img
+	var newImgPath = $(this).find(":selected").data("img-path");
+	$('#selectedMemorialImg').attr( 'src', newImgPath );
 
 });

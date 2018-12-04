@@ -13,6 +13,7 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
 ---
 
 <main class="container py-5">
+
 	<div class="row">
 		<div class="col-12">
 			<h1>Price Calculator</h1>
@@ -20,8 +21,16 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
             <hr>
 		</div>
 	</div>
+
 	<section class="row">
-		<div class="col-12 col-lg-6" id="selectMemorialAlert">
+
+		<div class="col-12 col-lg-6">
+			<div class="d-flex justify-content-center">
+				<img id="selectedMemorialImg" src="/images/new-memorials/new-memorial-placeholder.png" alt="Price calculator selected image.">
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-6" id="selectMemorial">
             <div class="form-group">
 			    <label for="selectMemorial">Select A Memorial</label>
 			    <select class="form-control" id="selectMemorial">
@@ -31,7 +40,8 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
 
                         <option value="{{ brochure_item.name }}" 
                                 data-price-ex="{{ brochure_item.price_excluding_design }}"
-                                data-price-inc="{{ brochure_item.price }}">
+								data-price-inc="{{ brochure_item.price }}"
+								data-img-path="/images/new-memorials/{{ brochure_item.image_path }}">
                                 {{ brochure_item.name }}
                         </option>
             
@@ -39,41 +49,39 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
             
                 </select>	
             </div>
-		</div>
-		<div class="col-12 col-lg-6 align-self-lg-end mb-3 pb-lg-2" id="designChoice">
-			<div class="custom-control custom-radio custom-control-inline">
-				<input type="radio" id="includingDesign" name="designChoice" class="custom-control-input" value="incDesign">
-				<label class="custom-control-label" for="includingDesign">Including Design</label>
+		
+			<div class="mb-3 pb-lg-2" id="selectMemorialDesignChoice">
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="includingDesign" name="designChoice" class="custom-control-input" value="incDesign">
+					<label class="custom-control-label" for="includingDesign">Including Design</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="excludingDesign" name="designChoice" class="custom-control-input" value="exDesign">
+					<label class="custom-control-label" for="excludingDesign">Excluding Design</label>
+				</div>
 			</div>
-			<div class="custom-control custom-radio custom-control-inline">
-				<input type="radio" id="excludingDesign" name="designChoice" class="custom-control-input" value="exDesign">
-				<label class="custom-control-label" for="excludingDesign">Excluding Design</label>
-			</div>
-		</div>
-		<div class="col-12 col-lg-6">
-			<div class="form-group">
+
+			<div class="form-group position-relative">
+				<span class="letter-count bg-secondary text-light px-2 py-1" id="letterCount">0</span>
 				<label for="exampleFormControlTextarea1">Desired Inscription</label>
 				<textarea class="form-control" id="inscriptionTextarea" rows="12" maxlength="1000"></textarea>
 			</div>
-			<span class="letter-count bg-secondary text-light px-2 py-1" id="letterCount">0</span>
-		</div>
-		<div class="col-12 col-lg-6 mb-3 mt-lg-3 pt-lg-3" id="letteringChoice">
-			<div class="custom-control custom-radio custom-control-inline">
-				<input type="radio" id="paintedLetters" name="letteringType" class="custom-control-input" value="painted">
-				<label class="custom-control-label" for="paintedLetters">Painted (Silver & Black)</label>
+			<div class="mb-3 mt-lg-3 pt-lg-3" id="letteringChoice">
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="paintedLetters" name="letteringType" class="custom-control-input" value="painted">
+					<label class="custom-control-label" for="paintedLetters">Painted (Silver & Black)</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="goldLetters" name="letteringType" class="custom-control-input" value="gold">
+					<label class="custom-control-label" for="goldLetters">Gold Leaf</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="leadLetters" name="letteringType" class="custom-control-input" value="lead">
+					<label class="custom-control-label" for="leadLetters">Lead (For Use On Marble)</label>
+				</div>
 			</div>
-			<div class="custom-control custom-radio custom-control-inline">
-				<input type="radio" id="goldLetters" name="letteringType" class="custom-control-input" value="gold">
-				<label class="custom-control-label" for="goldLetters">Gold Leaf</label>
-			</div>
-			<div class="custom-control custom-radio custom-control-inline">
-				<input type="radio" id="leadLetters" name="letteringType" class="custom-control-input" value="lead">
-				<label class="custom-control-label" for="leadLetters">Lead (For Use On Marble)</label>
-			</div>
 		</div>
-		<div class="col-12 mb-3">
-			<button class="btn btn-primary" id="calculateInscription">Calculate</button>
-		</div>
+
 		<div class="col-12 col-lg-6">
 			<div class="card">
 				<h5 class="card-header">Price(s)</h5>
@@ -89,6 +97,7 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
 				</ul>
 				<div class="card-footer text-muted text-right"><span id="totalPrice">£ 0.00</span></div>
 			</div>
+			<button class="btn btn-primary mt-3" id="calculateInscription">Calculate</button>
 		</div>
 	</section>
 </main>
