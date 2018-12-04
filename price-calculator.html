@@ -24,47 +24,40 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
 
 	<section class="row">
 
-		<div class="col-12 col-lg-6">
-			<div class="d-flex justify-content-center">
-				<img id="selectedMemorialImg" src="/images/new-memorials/new-memorial-placeholder.png" alt="Price calculator selected image.">
-			</div>
-		</div>
+		<div class="col-12 col-md-6 col-lg-5" id="selectMemorial">
 
-		<div class="col-12 col-lg-6" id="selectMemorial">
             <div class="form-group">
 			    <label for="selectMemorial">Select A Memorial</label>
 			    <select class="form-control" id="selectMemorial">
-                <option selected>Please select a memorial</option>
 
-                    {% for brochure_item in site.data.lawn-memorials %}
+                	<option selected>Please select a memorial</option>
 
-                        <option value="{{ brochure_item.name }}" 
-                                data-price-ex="{{ brochure_item.price_excluding_design }}"
-								data-price-inc="{{ brochure_item.price }}"
-								data-img-path="/images/new-memorials/{{ brochure_item.image_path }}">
-                                {{ brochure_item.name }}
-                        </option>
-            
-                    {% endfor %}
+					{% include price-calculator-memorial-list.html %}
             
                 </select>	
-            </div>
+			</div>
 		
 			<div class="mb-3 pb-lg-2" id="selectMemorialDesignChoice">
 				<div class="custom-control custom-radio custom-control-inline">
 					<input type="radio" id="includingDesign" name="designChoice" class="custom-control-input" value="incDesign">
-					<label class="custom-control-label" for="includingDesign">Including Design</label>
+					<label class="custom-control-label" for="includingDesign">Including Carving</label>
 				</div>
 				<div class="custom-control custom-radio custom-control-inline">
 					<input type="radio" id="excludingDesign" name="designChoice" class="custom-control-input" value="exDesign">
-					<label class="custom-control-label" for="excludingDesign">Excluding Design</label>
+					<label class="custom-control-label" for="excludingDesign">Excluding Carving</label>
 				</div>
 			</div>
 
+			<div>
+				<img id="selectedMemorialImg" class="img-fluid" src="/images/new-memorials/new-memorial-placeholder.png" alt="Price calculator selected image.">
+			</div>
+
+		</div>
+		<div class="col-12 col-md-6 col-lg-4">
 			<div class="form-group position-relative">
 				<span class="letter-count bg-secondary text-light px-2 py-1" id="letterCount">0</span>
-				<label for="exampleFormControlTextarea1">Desired Inscription</label>
-				<textarea class="form-control" id="inscriptionTextarea" rows="12" maxlength="1000"></textarea>
+				<label for="inscriptionTextarea">Desired Inscription</label>
+				<textarea class="form-control" id="inscriptionTextarea" rows="15" maxlength="1000"></textarea>
 			</div>
 			<div class="mb-3 mt-lg-3 pt-lg-3" id="letteringChoice">
 				<div class="custom-control custom-radio custom-control-inline">
@@ -81,10 +74,9 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
 				</div>
 			</div>
 		</div>
-
-		<div class="col-12 col-lg-6">
+		<div class="col-12 col-lg-3">
+			<p class="mb-2">Price(s)</p>
 			<div class="card">
-				<h5 class="card-header">Price(s)</h5>
 				<ul class="list-group list-group-flush">
 					<li class="list-group-item d-flex">
 						<span class="w-50 border-right">Memorial</span>
@@ -95,9 +87,9 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
 						<span class="text-right w-50" id="letPrice">£ 0.00</span>
 					</li>
 				</ul>
-				<div class="card-footer text-muted text-right"><span id="totalPrice">£ 0.00</span></div>
+				<div class="card-footer text-muted text-right bg-white"><span id="totalPrice">£ 0.00</span></div>
 			</div>
-			<button class="btn btn-primary mt-3" id="calculateInscription">Calculate</button>
+			<button class="btn btn-block btn-primary mt-3" id="calculateInscription">Calculate</button>
 		</div>
 	</section>
 </main>

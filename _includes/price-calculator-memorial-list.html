@@ -1,0 +1,77 @@
+<option>-- LAWN MEMORIALS --</option>
+
+{% for brochure_item in site.data.lawn-memorials %}
+
+<option value="{{ brochure_item.name }}" 
+        data-price-ex="{{ brochure_item.price_excluding_design }}"
+        data-price-inc="{{ brochure_item.price }}"
+        data-img-path="/images/new-memorials/{{ brochure_item.image_path }}">
+        {{ brochure_item.name }}
+</option>
+
+{% endfor %}
+
+<option>-- CHURCHYARD MEMORIALS --</option>
+
+{% for brochure_item in site.data.churchyard-memorials %}
+
+<option value="{{ brochure_item.name }}" 
+        data-price-ex="{{ brochure_item.price_excluding_design }}"
+        data-price-inc="{{ brochure_item.price }}"
+        data-img-path="/images/new-memorials/{{ brochure_item.image_path }}">
+        {{ brochure_item.name }}
+</option>
+
+{% endfor %}
+
+<option>-- CHILDRENS MEMORIALS --</option>
+
+{% for brochure_item in site.data.childrens-memorials %}
+
+<option value="{{ brochure_item.name }}" 
+        data-price-ex="{{ brochure_item.price_excluding_design }}"
+        data-price-inc="{{ brochure_item.price }}"
+        data-img-path="/images/new-memorials/{{ brochure_item.image_path }}">
+        {{ brochure_item.name }}
+</option>
+
+{% endfor %}
+
+<option>-- KERB MEMORIALS --</option>
+
+{% for brochure_item in site.data.kerbs %}
+
+<option value="{{ brochure_item.name }}" 
+        data-price-ex="{{ brochure_item.price_excluding_design }}"
+        data-price-inc="{{ brochure_item.price }}"
+        data-img-path="/images/new-memorials/{{ brochure_item.image_path }}">
+        {{ brochure_item.name }}
+</option>
+
+{% endfor %}
+
+<option>-- VASE MEMORIALS --</option>
+
+{% for brochure_item in site.data.vases %}
+
+<option value="{{ brochure_item.name }}" 
+        data-price-ex="{{ brochure_item.price_excluding_design }}"
+        data-price-inc="{{ brochure_item.price }}"
+        data-img-path="/images/new-memorials/{{ brochure_item.image_path }}">
+        {{ brochure_item.name }}
+</option>
+
+{% endfor %}
+
+<option>-- TABLET & DESK MEMORIALS --</option>
+
+{% for brochure_item in site.data.plaques %}
+
+<option value="{{ brochure_item.name }}" 
+        data-price-ex="{{ brochure_item.price_excluding_design }}"
+        data-price-inc="{{ brochure_item.price }}"
+        data-img-path="/images/new-memorials/{{ brochure_item.image_path }}">
+        {{ brochure_item.name }}
+</option>
+
+{% endfor %}

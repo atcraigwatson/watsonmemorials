@@ -66,7 +66,7 @@ $('#calculateInscription').click( function() {
 	var designChoice = $("input[name='designChoice']:checked").val();
 	
 	if ( selectedMemorial === "Please select a memorial" ) {
-		$('#selectMemorialAlert').append(createAlert("alertMemorial", "Please Select a Memorial!", "All our prices for memorials seen on the site are listed, simply select the name of the stone and your design option."));
+		$('#selectMemorial').prepend(createAlert("alertMemorial", "Please Select a Memorial!", "All our prices for memorials seen on the site are listed, simply select the name of the stone and the carving option."));
 	}
 	
 	if ( designChoice ) {
@@ -91,10 +91,24 @@ $('#calculateInscription').click( function() {
 
 });
 
+// Update the placeholder image when a memorial is chosen from the dropdown,
+// if there is no memorial selected or a placeholder is selected, this should
+// default back to the placeholder...
 $('#selectMemorial').change( function() {
 
-	// Get the img path from data-img-path on select change and update img
-	var newImgPath = $(this).find(":selected").data("img-path");
-	$('#selectedMemorialImg').attr( 'src', newImgPath );
+	// Set the placeholder image path
+	var placeholderImgPath = '/images/new-memorials/new-memorial-placeholder.png';
+
+	// Get the selected memorial image path
+	var selectedMemorialImgPath = $(this).find(":selected").data("img-path");
+
+	// Check if the path is empty
+	if ( selectedMemorialImgPath ) {
+		// Update image
+		$('#selectedMemorialImg').attr( 'src', selectedMemorialImgPath );
+	} else {
+		// Stick with or return to placeholder
+		$('#selectedMemorialImg').attr( 'src', placeholderImgPath );
+	}
 
 });
