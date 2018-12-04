@@ -1,5 +1,5 @@
 <!-- Open .navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded" id="siteNavbar">
 
   <!-- Open .navbar-brand -->
   <a class="navbar-brand" href="/index.html">
@@ -9,13 +9,13 @@
   <!-- //Close .navbar-brand -->
 
   <!-- Open .navbar-toggler -->
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#siteNavbar" aria-controls="siteNavbar" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#siteNavbarCollapse" aria-controls="siteNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span>Menu</span>
   </button>
   <!-- //Close .navbar-toggler -->
 
   <!-- Open .navbar-collapse -->
-  <div class="collapse navbar-collapse" id="siteNavbar">
+  <div class="collapse navbar-collapse" id="siteNavbarCollapse">
 
     <!-- Open .navbar-nav -->
     <div class="navbar-nav ml-auto">
@@ -40,39 +40,10 @@
         {% if page.url == '/price-calculator.html' %}<span class="sr-only">(current)</span>{% endif %}
       </a>
 
-      <!-- Open .dropdown -->
-      <div class="nav-item dropdown" id="mainNavDropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-          New Memorials <span class="icon-angle-down"></span>
-        </a>
-        <div class="dropdown-menu dropdown-menu-right border-0 rounded-0" id="newMemorialsDropdown">
-          <a class="dropdown-item {% if page.url == '/new-memorials/lawn-memorials.html' %}active{% endif %}" href="/new-memorials/lawn-memorials.html">
-            Lawn Memorials
-            {% if page.url == '/new-memorials/lawn-memorials.html' %}<span class="sr-only">(current)</span>{% endif %}
-          </a>
-          <a class="dropdown-item {% if page.url == '/new-memorials/churchyard-memorials.html' %}active{% endif %}" href="/new-memorials/churchyard-memorials.html">
-            Churchyard Memorials
-            {% if page.url == '/new-memorials/churchyard-memorials.html' %}<span class="sr-only">(current)</span>{% endif %}
-          </a>
-          <a class="dropdown-item {% if page.url == '/new-memorials/childrens-memorials.html' %}active{% endif %}" href="/new-memorials/childrens-memorials.html">
-            Children's Memorials
-            {% if page.url == '/new-memorials/childrens-memorials.html' %}<span class="sr-only">(current)</span>{% endif %}
-          </a>
-          <a class="dropdown-item {% if page.url == '/new-memorials/kerbs.html' %}active{% endif %}" href="/new-memorials/kerbs.html">
-            Kerbs
-            {% if page.url == '/new-memorials/kerbs.html' %}<span class="sr-only">(current)</span>{% endif %}
-          </a>
-          <a class="dropdown-item {% if page.url == '/new-memorials/vases.html' %}active{% endif %}" href="/new-memorials/vases.html">
-            Vases
-            {% if page.url == '/new-memorials/vases.html' %}<span class="sr-only">(current)</span>{% endif %}
-          </a>
-          <a class="dropdown-item {% if page.url == '/new-memorials/tablets.html' %}active{% endif %}" href="/new-memorials/tablets.html">
-            Tablets
-            {% if page.url == '/new-memorials/tablets.html' %}<span class="sr-only">(current)</span>{% endif %}
-          </a>
-        </div>
-      </div>
-      <!-- //Close .dropdown -->
+      <a class="nav-item nav-link {% if page.url == '/new-memorials/*.html' %}active{% endif %}" href="/new-memorials/lawn-memorials.html">
+        New Memorials
+        {% if page.url == '/new-memorials/lawn-memorials.html' %}<span class="sr-only">(current)</span>{% endif %}
+      </a>
 
       <!-- Open .dropdown -->
       <div class="nav-item dropdown" id="mainNavDropdown2">

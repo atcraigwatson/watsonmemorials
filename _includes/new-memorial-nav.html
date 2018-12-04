@@ -1,0 +1,54 @@
+<!-- Open .navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded" id="newMemorialsNavbar">
+
+    <!-- Open .navbar-toggler -->
+    <button class="navbar-toggler navbar-toggler-right w-100 py-3" type="button" data-toggle="collapse" data-target="#newMemorialNavbarCollapse" aria-controls="newMemorialNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="text-center">Filter Memorial Type</span>
+    </button>
+    <!-- //Close .navbar-toggler -->
+  
+    <!-- Open .navbar-collapse -->
+    <div class="collapse navbar-collapse" id="newMemorialNavbarCollapse">
+  
+      <!-- Open .navbar-nav -->
+      <div class="navbar-nav ml-auto mr-auto">
+  
+        <a class="nav-item nav-link {% if page.url == '/new-memorials/lawn-memorials.html' %}active{% endif %}" href="/new-memorials/lawn-memorials.html">
+            Lawn Memorials
+            {% if page.url == '/new-memorials/lawn-memorials.html' %}<span class="sr-only">(current)</span>{% endif %}
+        </a>
+
+        <a class="nav-item nav-link {% if page.url == '/new-memorials/churchyard-memorials.html' %}active{% endif %}" href="/new-memorials/churchyard-memorials.html">
+            Churchyard Memorials
+            {% if page.url == '/new-memorials/churchyard-memorials.html' %}<span class="sr-only">(current)</span>{% endif %}
+        </a>
+
+        <a class="nav-item nav-link {% if page.url == '/new-memorials/childrens-memorials.html' %}active{% endif %}" href="/new-memorials/childrens-memorials.html">
+            Children's Memorials
+            {% if page.url == '/new-memorials/childrens-memorials.html' %}<span class="sr-only">(current)</span>{% endif %}
+        </a>
+
+        <a class="nav-item nav-link {% if page.url == '/new-memorials/kerbs.html' %}active{% endif %}" href="/new-memorials/kerbs.html">
+            Kerb Memorials
+            {% if page.url == '/new-memorials/kerbs.html' %}<span class="sr-only">(current)</span>{% endif %}
+        </a>
+
+        <a class="nav-item nav-link {% if page.url == '/new-memorials/vases.html' %}active{% endif %}" href="/new-memorials/vases.html">
+            Vase Memorials
+            {% if page.url == '/new-memorials/vases.html' %}<span class="sr-only">(current)</span>{% endif %}
+        </a>
+
+        <a class="nav-item nav-link {% if page.url == '/new-memorials/tablets.html' %}active{% endif %}" href="/new-memorials/tablets.html">
+            Tablet & Desk Memorials
+            {% if page.url == '/new-memorials/tablets.html' %}<span class="sr-only">(current)</span>{% endif %}
+        </a>
+  
+      </div>
+      <!-- //Close .navbar-nav -->
+  
+    </div>
+    <!-- //Close .navbar-collapse -->
+  
+  </nav>
+  <!-- //Close .navbar -->
+  
