@@ -10,7 +10,12 @@
              alt="{{ brochure_item.image_alt }}"
              itemprop="image">
         <div class="card-body">
-            <h4 class="card-title" itemprop="name">{{ brochure_item.name }} - <small class="text-slate-dark">£{{ brochure_item.price }}</small></h4>
+            <h4 class="card-title">
+                <span itemprop="name">{{ brochure_item.name }}</span>
+                {% if brochure_item.price %} 
+                    - <small class="text-slate-dark">£{{ brochure_item.price }}</small>
+                {% endif %}
+            </h4>
 
             {% if brochure_item.price_excluding_design and brochure_item.price_carving %}
                 <hr>

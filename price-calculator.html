@@ -22,9 +22,13 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
 		</div>
 	</div>
 
-	<section class="row">
+	<section class="row" id="priceCalculator">
 
-		<div class="col-12 col-md-6 col-lg-5" id="selectMemorial">
+		<div class="col-12" id="emptyFormAlertBanner">
+			<p class="sr-only">This is the Watson Memorials Price Calculator for memorials.</p>
+		</div>
+
+		<div class="col-12 col-md-6 col-lg-5" id="memorial">
 
             <div class="form-group">
 			    <label for="selectMemorial">Select A Memorial</label>
@@ -39,7 +43,7 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
 		
 			<div class="mb-3 pb-lg-2" id="selectMemorialDesignChoice">
 				<div class="custom-control custom-radio custom-control-inline">
-					<input type="radio" id="includingDesign" name="designChoice" class="custom-control-input" value="incDesign">
+					<input type="radio" id="includingDesign" name="designChoice" class="custom-control-input" value="incDesign" checked>
 					<label class="custom-control-label" for="includingDesign">Including Carving</label>
 				</div>
 				<div class="custom-control custom-radio custom-control-inline">
@@ -53,7 +57,7 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
 			</div>
 
 		</div>
-		<div class="col-12 col-md-6 col-lg-4">
+		<div class="col-12 col-md-6 col-lg-4" id="inscription">
 			<div class="form-group position-relative">
 				<span class="letter-count bg-secondary text-light px-2 py-1" id="letterCount">0</span>
 				<label for="inscriptionTextarea">Desired Inscription</label>
@@ -61,7 +65,7 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
 			</div>
 			<div class="mb-3 mt-lg-3 pt-lg-3" id="letteringChoice">
 				<div class="custom-control custom-radio custom-control-inline">
-					<input type="radio" id="paintedLetters" name="letteringType" class="custom-control-input" value="painted">
+					<input type="radio" id="paintedLetters" name="letteringType" class="custom-control-input" value="painted" checked>
 					<label class="custom-control-label" for="paintedLetters">Painted (Silver & Black)</label>
 				</div>
 				<div class="custom-control custom-radio custom-control-inline">
@@ -83,13 +87,17 @@ facebook_excerpt:  "Please feel free to contact Watson Memorials with any questi
 						<span class="text-right w-50" id="memPrice">£ 0.00</span>
 					</li>
 					<li class="list-group-item d-flex">
+						<span class="w-50 border-right">Carving</span>
+						<span class="text-right w-50" id="carvPrice">£ 0.00</span>
+					</li>
+					<li class="list-group-item d-flex">
 						<span class="w-50 border-right">Lettering</span>
 						<span class="text-right w-50" id="letPrice">£ 0.00</span>
 					</li>
 				</ul>
 				<div class="card-footer text-muted text-right bg-white"><span id="totalPrice">£ 0.00</span></div>
 			</div>
-			<button class="btn btn-block btn-primary mt-3" id="calculateInscription">Calculate</button>
+			<button class="btn btn-block btn-primary mt-3" id="calculatePrice">Calculate</button>
 		</div>
 	</section>
 </main>
