@@ -1,5 +1,13 @@
 <!-- Brochure Item -->
-<div class="col-12 col-md-10 col-lg-6 col-xl-4 mb-5 brochure-item-wrapper">
+<div class="
+    {% if brochure_item.id_prefix == 'K' %}
+        col-12 col-lg-6
+    {% else %}
+        col-12 col-md-10 col-lg-6 col-xl-4
+    {% endif %}
+        mb-5 brochure-item-wrapper">
+    
+    
     <div class="card brochure-item" 
         itemscope 
         itemtype="http://schema.org/Product"
@@ -10,70 +18,36 @@
              alt="{{ brochure_item.image_alt }}"
              itemprop="image">
         <div class="card-body">
-            <h4 class="card-title">
+            <h4 class="card-title mb-1">
                 <span itemprop="name">{{ brochure_item.name }}</span>
                 {% if brochure_item.price %} 
                     - <small class="text-slate-dark">£{{ brochure_item.price }}</small>
                 {% endif %}
             </h4>
-
-            {% if brochure_item.price_excluding_design and brochure_item.price_carving %}
-                <hr>
-                <h5>Memorial Only - <small class="text-slate-dark">£{{ brochure_item.price_excluding_design }}</small></h5>
-                <h5>Decorative Carving - <small class="text-slate-dark">£{{ brochure_item.price_carving }}</small></h5>
-            {% endif %}
-
-            {% if brochure_item.price %}
-                {% unless brochure_item.price_excluding_design %}
-                <hr>
-                <h5>Memorial Only - <small class="text-slate-dark">£{{ brochure_item.price }}</small></h5>
-                <h5>Decorative Carving - <small class="text-slate-dark">{% if brochure_item.price_excluding_design %}£{% endif %}{{ brochure_item.price_carving }}</small></h5>
-                {% endunless %}
-            {% endif %}
-
-            <hr>
-            <p class="card-text" itemprop="description">Shown in <strong itemprop="material" class="text-slate-dark">{{ brochure_item.material }}</strong> {{ brochure_item.description }}</p>
+            <p class="memorial-prices mb-2">
+                {% if brochure_item.price_excluding_design and brochure_item.price_carving %}
+                    <span class="text-slate-base font-italic mr-1">Memorial: £{{ brochure_item.price_excluding_design }}</span>
+                    <span class="text-slate-base font-italic">Carving: £{{ brochure_item.price_carving }}</span>
+                {% endif %}
+                {% if brochure_item.price %}
+                    {% unless brochure_item.price_excluding_design %}
+                        <span class="text-slate-base font-italic">Memorial: £{{ brochure_item.price }}</span>
+                    {% endunless %}
+                {% endif %}
+            </p>
+            <p class="card-text" itemprop="description">Shown in <span itemprop="material">{{ brochure_item.material }}</span> {{ brochure_item.description }}</p>
         </div>
-        {% if brochure_item.price %}
-        <button class="btn btn-outline-secondary btn-block border-bottom-0 border-right-0 border-left-0 rounded-0 text-left py-3"
+        {% if brochure_item.price and brochure_item.id_prefix != 'K' %}
+        <button class="btn btn-outline-secondary btn-block border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3"
                 type="button"
                 data-toggle="collapse"
                 data-target="#collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}"
                 aria-expanded="false"
-                aria-controls="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">More Details
+                aria-controls="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">Sizes
                 <span class="icon-angle-down float-right"></span>
         </button>
         <div class="collapse px-3" 
              id="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">
-
-             <table class="table table-bordered table-sm table-brochure-item border-0 mt-3 mb-3">
-                <caption><strong>Price(s)</strong></caption>
-
-                <tbody>
-
-                    {% if brochure_item.price_excluding_design %}
-                    <tr>
-                        <th>Memorial</th>
-                        <td class="text-right">£{{ brochure_item.price_excluding_design }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.price_carving %}
-                    <tr>
-                        <th>Carving</th>
-                        <td class="text-right">£{{ brochure_item.price_carving }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.price %}
-                    <tr>
-                        <th>As Seen</th>
-                        <td class="text-right">£{{ brochure_item.price }}</td>
-                    </tr>
-                    {% endif %}
-
-                </tbody>
-            </table>
 
             <table class="table table-bordered table-sm table-brochure-item border-0 mt-3">
                 <caption><strong>Size(s)</strong></caption>
