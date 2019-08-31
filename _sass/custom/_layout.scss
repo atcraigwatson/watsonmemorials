@@ -49,3 +49,15 @@ body {
         width: 100%;
     }
 }
+
+.w-lg-33 {
+    @include breakpoint(lg) {
+        width: 33.335% !important;
+    }
+}
+
+.w-lg-50 {
+    @include breakpoint(lg) {
+        width: 50% !important;
+    }
+}
