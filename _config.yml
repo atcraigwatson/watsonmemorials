@@ -17,7 +17,7 @@ title: Watson Memorials | Headstones Memorials and Gravestones
 email: contact@watsonmemorials.co.uk
 description: "Darlington based Monumental Mason providing Headstone, Memorial and Gravestone services across County Durham and North Yorkshire."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://watsonmemorials.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://watsonmemorials.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: watsonmemorials
 facebook_pagename: watsonmemorials
 linkedin_companypage: watsonmemorials
