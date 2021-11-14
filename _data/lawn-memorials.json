@@ -1,4 +1,4 @@
-[ 
+[
      {
           "name": "Ogee",
           "material": "Black Granite",
@@ -317,7 +317,7 @@
         "image_path": "lawn-memorials/Cranswick.jpg",
         "id_prefix": "LM"
    },
-   {  
+   {
         "name": "Cropton",
         "material": "Chinese Rustenburg Granite",
         "description": "with contemporary scroll shape.",
@@ -770,7 +770,7 @@
         "image_path": "lawn-memorials/Kingston.jpg",
         "id_prefix": "LM"
    },
-   { 
+   {
         "name": "Kingswood",
         "material": "Lavender Blue Granite",
         "description": "with large bowed profile and floral carving.",
