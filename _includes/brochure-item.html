@@ -6,21 +6,26 @@
         col-12 col-md-10 col-lg-6 col-xl-4
     {% endif %}
         mb-5 brochure-item-wrapper">
-    
-    
-    <div class="card brochure-item" 
-        itemscope 
-        itemtype="http://schema.org/Product"
-        id="{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">
+
+
+    <div class="card brochure-item" id="{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}"
+        itemtype="https://schema.org/Product" itemscope>
+        <meta itemprop="name" content="{{ brochure_item.name }}" />
+        <meta itemprop="description" content="Headstone shown in {{ brochure_item.material }} {{ brochure_item.description }}" />
+        <meta itemprop="itemCondition" content="https://schema.org/NewCondition" />
+        <meta itemprop="material" contect="{{ brochure_item.material }}"" />
+        <link itemprop="image" href="https://watsonmemorials.co.uk/images/new-memorials/{{ brochure_item.image_path }}" />
         <img class="card-img-top lazy"
              src="/images/new-memorials/new-memorial-placeholder.png"
              data-src="/images/new-memorials/{{ brochure_item.image_path }}"
-             alt="{{ brochure_item.image_alt }}"
-             itemprop="image">
-        <div class="card-body">
+             alt="{{ brochure_item.image_alt }}">
+        <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
+          <meta itemprop="priceCurrency" content="GDP" />
+          <meta itemprop="price" content="{{ brochure_item.price }}" />
+          <meta itemprop="availability" content="https://schema.org/InStock" />
             <h4 class="card-title mb-1">
-                <span itemprop="name">{{ brochure_item.name }}</span>
-                {% if brochure_item.price %} 
+                <span>{{ brochure_item.name }}</span>
+                {% if brochure_item.price %}
                     - <small class="text-slate-dark">£{{ brochure_item.price }}</small>
                 {% endif %}
             </h4>
@@ -35,7 +40,7 @@
                     {% endunless %}
                 {% endif %}
             </p>
-            <p class="card-text" itemprop="description">Shown in <span itemprop="material">{{ brochure_item.material }}</span> {{ brochure_item.description }}</p>
+            <p class="card-text">Shown in <span itemprop="material">{{ brochure_item.material }}</span> {{ brochure_item.description }}</p>
         </div>
         {% if brochure_item.price and brochure_item.id_prefix != 'K' %}
         <button class="btn btn-outline-secondary btn-block border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3"
@@ -43,10 +48,10 @@
                 data-toggle="collapse"
                 data-target="#collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}"
                 aria-expanded="false"
-                aria-controls="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">View Sizes
+                aria-controls="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">View Size & Lettering Prices
                 <span class="icon-angle-down float-right"></span>
         </button>
-        <div class="collapse px-3" 
+        <div class="collapse px-3"
              id="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">
 
             <table class="table table-bordered table-sm table-brochure-item border-0 mt-3">
@@ -60,14 +65,14 @@
                         <td>{{ brochure_item.size_desk }}</td>
                     </tr>
                     {% endif %}
-    
+
                     {% if brochure_item.size_desk_slope %}
                     <tr>
                         <th>Slope</th>
                         <td>{{ brochure_item.size_desk_slope }}</td>
                     </tr>
                     {% endif %}
-    
+
                     {% if brochure_item.size_desk_flat %}
                     <tr>
                         <th>Flat</th>
@@ -151,7 +156,7 @@
                         <td>{{ brochure_item.size_memorial_rest }}</td>
                     </tr>
                     {% endif %}
-                
+
                     {% if brochure_item.size_memorial_riser %}
                     <tr>
                         <th>Riser(s)</th>
@@ -203,8 +208,8 @@
             <p class="card-text font-italic pb-3">
                 <small class="d-block mb-1">Price includes <strong>full fitting</strong> of the memorial and <strong>flower vases</strong> as appropriate.</small>
                 <small class="d-block mb-1">Lettering costs:
-                    <span class="d-block pl-3"><strong>Silver:&nbsp;</strong>£1.75 per letter.</span>
-                    <span class="d-block pl-3"><strong>Gold:&nbsp;</strong>£2.25 per letter.</span>
+                    <span class="d-block pl-3"><strong>Silver or Black:&nbsp;</strong>£2.15 per letter.</span>
+                    <span class="d-block pl-3"><strong>Gold:&nbsp;</strong>£2.65 per letter.</span>
                 </small>
                 <small class="d-block">For other colors or sizes please <a href="../contact.html">contact us.</a></small>
             </p>
