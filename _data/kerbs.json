@@ -9,7 +9,8 @@
    "price_excluding_design": "6635.00",
    "image_alt": "Black granite kerb memorial with full plinth, decorative kerbs and unique vase.",
    "image_path": "kerbs/Castleton.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  },
  {
    "name": "Cayton",
@@ -21,7 +22,8 @@
    "price_excluding_design": "6160.00",
    "image_alt": "Black granite kerb memorial with full plinth, decorative kerbs and large splayed base.",
    "image_path": "kerbs/Cayton.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  },
  {
    "name": "Coniston",
@@ -33,7 +35,8 @@
    "price_excluding_design": "2745.00",
    "image_alt": "Black granite kerb memorial with traditionally styled headpiece and corner posts.",
    "image_path": "kerbs/Coniston.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  },
  {
    "name": "Farndale",
@@ -45,7 +48,8 @@
    "price_excluding_design": "3060.00",
    "image_alt": "Lavender blue granite kerb memorial with simplistic kerbs and posts that accept flower containers.",
    "image_path": "kerbs/Farndale.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  },
  {
    "name": "Gowthorpe",
@@ -57,7 +61,8 @@
    "price_excluding_design": "6465.00",
    "image_alt": "Blue pearl and sera granite kerb memorial with open garden section and unique seating area.",
    "image_path": "kerbs/Gowthorpe.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  },
  {
    "name": "Harewood",
@@ -69,7 +74,8 @@
    "price_excluding_design": "5100.00",
    "image_alt": "Cathay light grey granite kerb memorial with full cover slab, stepped kerbs and decorative ornamentation.",
    "image_path": "kerbs/Harewood.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  },
  {
    "name": "Helmsley",
@@ -81,7 +87,8 @@
    "price_excluding_design": "5655.00",
    "image_alt": "Honed evergreen granite kerb memorial with elegant contours complimented by distinctive shaded designs.",
    "image_path": "kerbs/Helmsley.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  },
  {
    "name": "Houghton",
@@ -93,7 +100,8 @@
    "price_excluding_design": "9435.00",
    "image_alt": "Sera grey granite and black granite kerb memorial with heart memorial, full cover slab and optional seating area.",
    "image_path": "kerbs/Houghton.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  },
  {
    "name": "Laytham",
@@ -105,7 +113,8 @@
    "price_excluding_design": "4220.00",
    "image_alt": "South African dark grey granite kerb memorial with intricately carved lattice work and contrasting material finishes.",
    "image_path": "kerbs/Laytham.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  },
  {
    "name": "Newsham",
@@ -117,7 +126,8 @@
    "price_excluding_design": "2385.00",
    "image_alt": "Black granite kerb memorial with interchangeable headpiece as well as splayed base and foot-kerb.",
    "image_path": "kerbs/Newsham.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  },
  {
    "name": "Newsham with Stamford",
@@ -129,7 +139,8 @@
    "price_excluding_design": "4125.00",
    "image_alt": "Imperial green granite kerb memorial, this is an example of using the Newsham with the Stamford headpiece.",
    "image_path": "kerbs/NewshamStamford.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  },
  {
    "name": "Sandholm",
@@ -141,6 +152,7 @@
    "price_excluding_design": "3880.00",
    "image_alt": "Oriental light grey granite kerb memorial with contemporary curves to both headpiece and cover slab.",
    "image_path": "kerbs/Sandholm.jpg",
-   "id_prefix": "K"
+   "id_prefix": "K",
+   "mem_type" : "kerbs",
  }
 ]

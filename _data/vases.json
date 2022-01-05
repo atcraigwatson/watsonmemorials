@@ -9,7 +9,8 @@
    "price_excluding_design": "420.00",
    "image_alt": "Barrel sided memorial vase with angel design.",
    "image_path": "vases/Barrel.jpg",
-   "id_prefix": "V"
+   "id_prefix": "V",
+   "mem_type" : "vases",
  },
  {
    "name": "Block Vase",
@@ -19,7 +20,8 @@
    "price_carving": "N/A",
    "image_alt": "Square block vases with flower container.",
    "image_path": "vases/Block.jpg",
-   "id_prefix": "V"
+   "id_prefix": "V",
+   "mem_type" : "vases",
  },
  {
    "name": "Castleton Vase",
@@ -30,7 +32,8 @@
    "price_carving": "N/A",
    "image_alt": "Black granite vase with stylish elegant shape.",
    "image_path": "vases/Castleton.jpg",
-   "id_prefix": "V"
+   "id_prefix": "V",
+   "mem_type" : "vases",
  },
  {
    "name": "Chamfered Vase",
@@ -41,7 +44,8 @@
    "price_carving": "N/A",
    "image_alt": "Square tapered vase with chamfered corners.",
    "image_path": "vases/Chamfered.jpg",
-   "id_prefix": "V"
+   "id_prefix": "V",
+   "mem_type" : "vases",
  },
  {
    "name": "Heart Vase",
@@ -52,7 +56,8 @@
    "price_carving": "N/A",
    "image_alt": "Black granite heart shaped vase.",
    "image_path": "vases/Heart.jpg",
-   "id_prefix": "V"
+   "id_prefix": "V",
+   "mem_type" : "vases",
  },
  {
    "name": "Pepper Pot Vase (Large)",
@@ -64,7 +69,8 @@
    "price_excluding_design": "600.00",
    "image_alt": "6 sided pepper pot shaped vase in south african dark grey granite.",
    "image_path": "vases/PepperPotLarge.jpg",
-   "id_prefix": "V"
+   "id_prefix": "V",
+   "mem_type" : "vases",
  },
  {
    "name": "Pepper Pot Vase (Small)",
@@ -76,7 +82,8 @@
    "price_excluding_design": "375.00",
    "image_alt": "6 sided pepper pot shaped vase in black granite with rose design.",
    "image_path": "vases/PepperPotSmall.jpg",
-   "id_prefix": "V"
+   "id_prefix": "V",
+   "mem_type" : "vases",
  },
  {
    "name": "Rectangle Vase",
@@ -88,7 +95,8 @@
    "price_excluding_design": "315.00",
    "image_alt": "Black granite rectangle shaped vase.",
    "image_path": "vases/Rectangle.jpg",
-   "id_prefix": "V"
+   "id_prefix": "V",
+   "mem_type" : "vases",
  },
  {
    "name": "Rectangle Vase with Base",
@@ -100,7 +108,8 @@
    "image_alt": "Lavender blue granite rectangle shaped vase with base.",
    "image_path": "vases/RectangleAndBase.jpg",
    "id_prefix": "V",
-   "size_vase_base": "2\" X 1'2\" X 8\""
+   "size_vase_base": "2\" X 1'2\" X 8\"",
+   "mem_type" : "vases",
  },
  {
    "name": "Tapered Vase",
@@ -111,6 +120,7 @@
    "price_carving": "N/A",
    "image_alt": "South african dark grey granite tapered vase.",
    "image_path": "vases/Tapered.jpg",
-   "id_prefix": "V"
+   "id_prefix": "V",
+   "mem_type" : "vases",
  }
 ]

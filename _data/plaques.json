@@ -10,7 +10,8 @@
    "price_carving": "N/A",
    "image_alt": "Black granite desk with flat for flower container or vase.",
    "image_path": "plaques/Desk.jpg",
-   "id_prefix": "P"
+   "id_prefix": "P",
+   "mem_type" : "tablets",
  },
  {
    "name": "Desk Carved Book",
@@ -24,7 +25,8 @@
    "image_alt": "Black granite desk with flat for flower container or vase and carved book design.",
    "image_path": "plaques/DeskCarvedBook.jpg",
    "id_prefix": "P",
-   "price_excluding_design": "720.00"
+   "price_excluding_design": "720.00",
+   "mem_type" : "tablets",
  },
  {
    "name": "Desk Large",
@@ -37,7 +39,8 @@
    "price_carving": "N/A",
    "image_alt": "Balmoral red granite desk with flat for flower container or vase.",
    "image_path": "plaques/DeskLarge.jpg",
-   "id_prefix": "P"
+   "id_prefix": "P",
+   "mem_type" : "tablets",
  },
  {
    "name": "Desk Moulded",
@@ -50,7 +53,8 @@
    "price_carving": "N/A",
    "image_alt": "Black granite desk with flat for flower container or vase and moulded edges.",
    "image_path": "plaques/DeskMoulded.jpg",
-   "id_prefix": "P"
+   "id_prefix": "P",
+   "mem_type" : "tablets",
  },
  {
    "name": "Desk Raised Book",
@@ -63,7 +67,8 @@
    "price_carving": "N/A",
    "image_alt": "Black granite desk with flat for flower container or vase and raised book carving.",
    "image_path": "plaques/DeskRaisedBook.jpg",
-   "id_prefix": "P"
+   "id_prefix": "P",
+   "mem_type" : "tablets",
  },
  {
    "name": "Desk Rolling",
@@ -76,7 +81,8 @@
    "price_carving": "N/A",
    "image_alt": "Black granite and Aurora desks with curved sloping face.",
    "image_path": "plaques/DeskRolling.jpg",
-   "id_prefix": "P"
+   "id_prefix": "P",
+   "mem_type" : "tablets",
  },
  {
    "name": "Desk Rustic",
@@ -89,7 +95,8 @@
    "price_carving": "N/A",
    "image_alt": "Blue Pearl granite desk with flat for flower container and rustic edges.",
    "image_path": "plaques/DeskRustic.jpg",
-   "id_prefix": "P"
+   "id_prefix": "P",
+   "mem_type" : "tablets",
  },
  {
    "name": "Desk Scroll",
@@ -102,7 +109,8 @@
    "price_carving": "N/A",
    "image_alt": "Black granite and impala grey desks with flat for flower container or vase and raised scroll.",
    "image_path": "plaques/DeskScroll.jpg",
-   "id_prefix": "P"
+   "id_prefix": "P",
+   "mem_type" : "tablets",
  },
  {
    "name": "Wedge",
@@ -114,7 +122,8 @@
    "price_carving": "N/A",
    "image_alt": "South african dark grey granite wedge.",
    "image_path": "plaques/Wedge.jpg",
-   "id_prefix": "P"
+   "id_prefix": "P",
+   "mem_type" : "tablets",
  },
  {
    "name": "Wedge Rustic",
@@ -126,6 +135,7 @@
    "price_carving": "N/A",
    "image_alt": "Blue Pearl granite rustic wedge.",
    "image_path": "plaques/WedgeRustic.jpg",
-   "id_prefix": "P"
+   "id_prefix": "P",
+   "mem_type" : "tablets",
  }
 ]

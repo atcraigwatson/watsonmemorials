@@ -5,7 +5,8 @@
       "description": "these chippings are perfect for complimenting any kerb set.",
       "image_alt": "Cobalt Blue chippings are perfect for complimenting any kerb set.",
       "image_path": "chippings/ChippingsCobaltBlue.jpg",
-      "id_prefix": "CHIP"
+      "id_prefix": "CHIP",
+      "mem_type" : "kerbs"
    },
    {
       "name": "Green",
@@ -13,7 +14,8 @@
       "description": "these chippings are perfect for complimenting any kerb set.",
       "image_alt": "Green chippings are perfect for complimenting any kerb set.",
       "image_path": "chippings/ChippingsGreenGlass.jpg",
-      "id_prefix": "CHIP"
+      "id_prefix": "CHIP",
+      "mem_type" : "kerbs"
    },
    {
       "name": "Grey Granite",
@@ -21,7 +23,8 @@
       "description": "these chippings are perfect for complimenting any kerb set.",
       "image_alt": "Grey Granite chippings are perfect for complimenting any kerb set.",
       "image_path": "chippings/ChippingsGreyGranite.jpg",
-      "id_prefix": "CHIP"
+      "id_prefix": "CHIP",
+      "mem_type" : "kerbs"
    },
    {
       "name": "Ice White Glass",
@@ -29,7 +32,8 @@
       "description": "these chippings are perfect for complimenting any kerb set.",
       "image_alt": "Ice White Glass chippings are perfect for complimenting any kerb set.",
       "image_path": "chippings/ChippingsIceWhite.jpg",
-      "id_prefix": "CHIP"
+      "id_prefix": "CHIP",
+      "mem_type" : "kerbs"
    },
    {
       "name": "Lilac",
@@ -37,7 +41,8 @@
       "description": "these chippings are perfect for complimenting any kerb set.",
       "image_alt": "Lilac chippings are perfect for complimenting any kerb set.",
       "image_path": "chippings/ChippingsLilac.jpg",
-      "id_prefix": "CHIP"
+      "id_prefix": "CHIP",
+      "mem_type" : "kerbs"
    },
    {
       "name": "Pebbles",
@@ -45,7 +50,8 @@
       "description": "these chippings are perfect for complimenting any kerb set.",
       "image_alt": "Pebble chippings are perfect for complimenting any kerb set.",
       "image_path": "chippings/ChippingsPebbles.jpg",
-      "id_prefix": "CHIP"
+      "id_prefix": "CHIP",
+      "mem_type" : "kerbs"
    },
    {
       "name": "Slate",
@@ -53,7 +59,8 @@
       "description": "these chippings are perfect for complimenting any kerb set.",
       "image_alt": "Slate chippings are perfect for complimenting any kerb set.",
       "image_path": "chippings/ChippingsSlate.jpg",
-      "id_prefix": "CHIP"
+      "id_prefix": "CHIP",
+      "mem_type" : "kerbs"
    },
    {
       "name": "Turqoise",
@@ -61,7 +68,8 @@
       "description": "these chippings are perfect for complimenting any kerb set.",
       "image_alt": "Turqoise chippings are perfect for complimenting any kerb set.",
       "image_path": "chippings/ChippingsTurquoise.jpg",
-      "id_prefix": "CHIP"
+      "id_prefix": "CHIP",
+      "mem_type" : "kerbs"
    },
    {
       "name": "White Marble",
@@ -69,7 +77,8 @@
       "description": "these chippings are perfect for complimenting any kerb set.",
       "image_alt": "White Marble chippings are perfect for complimenting any kerb set.",
       "image_path": "chippings/ChippingsWhiteMarble.jpg",
-      "id_prefix": "CHIP"
+      "id_prefix": "CHIP",
+      "mem_type" : "kerbs"
    },
    {
       "name": "White Quartz",
@@ -77,6 +86,7 @@
       "description": "these chippings are perfect for complimenting any kerb set.",
       "image_alt": "White Quartz chippings are perfect for complimenting any kerb set.",
       "image_path": "chippings/ChippingsWhiteQuartz.jpg",
-      "id_prefix": "CHIP"
+      "id_prefix": "CHIP",
+      "mem_type" : "kerbs"
    }
 ]

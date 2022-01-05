@@ -20,6 +20,7 @@
              data-src="/images/new-memorials/{{ brochure_item.image_path }}"
              alt="{{ brochure_item.image_alt }}">
         <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
+          <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/{{ brochure_item.mem_type }}.html#{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}" />
           <meta itemprop="priceCurrency" content="GDP" />
           <meta itemprop="price" content="{{ brochure_item.price }}" />
           <meta itemprop="availability" content="https://schema.org/InStock" />

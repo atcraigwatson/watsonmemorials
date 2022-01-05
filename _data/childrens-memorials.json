@@ -12,7 +12,8 @@
       "price_excluding_design": "1095.00",
       "image_alt": "Black granite children’s headstone with heart shaped memorial and rose bowl vase.",
       "image_path": "childrens/Appleton.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Bentley",
@@ -24,7 +25,8 @@
       "price_carving": "N/A",
       "image_alt": "Blue pearl granite children’s headstone with hand carved Bentley Bear.",
       "image_path": "childrens/Bentley.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Big Ted",
@@ -37,7 +39,8 @@
       "price_excluding_design": "855.00",
       "image_alt": "Black granite children’s headstone with carved bear shape and etched bear features.",
       "image_path": "childrens/BigTed.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Bubble and Squeak",
@@ -50,7 +53,8 @@
       "price_excluding_design": "765.00",
       "image_alt": "Impala grey granite children’s headstone with gentle curves and children’s toy designs.",
       "image_path": "childrens/BubbleSqueak.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Elvington",
@@ -64,7 +68,8 @@
       "price_excluding_design": "875.00",
       "image_alt": "Black granite children’s headstone with magical fairy-tale design.",
       "image_path": "childrens/Elvington.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Fairy Inscription",
@@ -76,7 +81,8 @@
       "price_carving": "N/A",
       "image_alt": "Blue pearl granite children’s headstone with fairy-tale images combined with unique lettering.",
       "image_path": "childrens/FairyInscription.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Fairy Letter",
@@ -88,7 +94,8 @@
       "price_carving": "N/A",
       "image_alt": "Ruby red granite children-s headstone with unique fairy-tale lettering.",
       "image_path": "childrens/FairyLetter.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Fairytale Castle",
@@ -101,7 +108,8 @@
       "price_excluding_design": "1305.00",
       "image_alt": "Black granite children’s headstone with detailed princess castle.",
       "image_path": "childrens/FairytaleCastle.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Furry Friends",
@@ -114,7 +122,8 @@
       "price_excluding_design": "900.00",
       "image_alt": "South African dark grey granite children’s headstone with lullaby inspired design.",
       "image_path": "childrens/FurryFriends.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Little Prince Castle",
@@ -127,7 +136,8 @@
       "price_excluding_design": "1305.00",
       "image_alt": "Sera grey granite children’s headstone with boy’s style prince castle design.",
       "image_path": "childrens/LittlePrinceCastle.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Make A Wish",
@@ -140,7 +150,8 @@
       "price_excluding_design": "645.00",
       "image_alt": "Black granite children’s headstone with etched design of a child sleeping.",
       "image_path": "childrens/MakeAWish.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Ollie Bear",
@@ -153,7 +164,8 @@
       "price_excluding_design": "992.00",
       "image_alt": "Aurora granite children’s headstone with small teddy bear carving.",
       "image_path": "childrens/OllieBear.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Shooting Star",
@@ -166,7 +178,8 @@
       "price_excluding_design": "540.00",
       "image_alt": "Black granite children’s headstone with shooting star design.",
       "image_path": "childrens/ShootingStar.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Sweet Dreams",
@@ -179,7 +192,8 @@
       "price_excluding_design": "655.00",
       "image_alt": "Rustenburg granite children’s headstone with lullaby influenced design.",
       "image_path": "childrens/SweetDreams.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    },
    {
       "name": "Tumbling Ted",
@@ -193,6 +207,7 @@
       "price_excluding_design": "1410.00",
       "image_alt": "Black granite children’s headstone with small carved teddy bear with heart and book.",
       "image_path": "childrens/TumblingTed.jpg",
-      "id_prefix": "CM"
+      "id_prefix": "CM",
+      "mem_type" : "childrens-memorials"
    }
 ]
