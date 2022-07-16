@@ -1,12 +1,15 @@
+--- 
+---
+
 //
 // Root SCSS manifest file.
 //
 
 // Get variables (custom and Bootstrap overrides).
-@import "custom/variables";
+@import "../_sass/custom/variables";
 
 // Get bootstrap
-@import "bootstrap/bootstrap";
+@import "../_sass/bootstrap/bootstrap";
 
 // Get custom SCSS
-@import "custom/index";
+@import "../_sass/custom/index";
