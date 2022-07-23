@@ -29,6 +29,8 @@ sass:
 
 markdown: kramdown
 
+excerpt_separator: <!--more-->
+
 gems:
   - jekyll-feed
 
@@ -43,7 +45,6 @@ exclude:
   - docs
   - .gitignore
   - node_modules
-
-keep_files: ['_site/css']
+  - gruntfile
 
 destination: docs
