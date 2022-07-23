@@ -22,3 +22,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Jekyll Watch
+gem 'jekyll-watch'
+
+# Jekyll Sass Converter
+gem 'jekyll-sass-converter'
