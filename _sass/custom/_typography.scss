@@ -3,7 +3,7 @@
 // This file modifiles and base text styles.
 // -------------------------------------------------------------- //
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Times New Roman', Times, sans-serif;
+    font-family: $heading-font-family;
     font-weight: bold !important;
     color: $slate-darkest;
 }
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .font-times {
-    font-family: 'Times New Roman', Times, sans-serif !important;
+    font-family: $heading-font-family !important;
 }
 
 .display-5 {
