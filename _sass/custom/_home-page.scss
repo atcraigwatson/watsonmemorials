@@ -1,14 +1,28 @@
 .home-section .row {
-    padding: 32px 17px;
-    box-shadow: 0 0 20px rgba($slate-darkest, 0.1);
+    padding: 64px 17px;
+
+    &:first-child {
+        border-bottom: 2px solid $slate-lightest;
+    }
+    @include breakpoint(md) {
+        box-shadow: 0 0 20px rgba($slate-darkest, 0.1);
+        &:first-child {
+            border-bottom: none;
+        }
+    }
     @include breakpoint(lg) {
         padding: 64px 49px;
     }
 }
 
-.home-section-content {
+.home-section .row.noshadow {
+    box-shadow: none !important;
+}
 
+.home-section-content {
+    text-align: center;
     @include breakpoint(lg) {
+        text-align: left;
         margin-right: 34px;
         padding-top: 64px;
         padding-bottom: 64px;
@@ -17,7 +31,10 @@
     }
 
     h2 {
-        font-size: 42px;
+        font-size: 38px;
+        @include breakpoint(lg) {
+            font-size: 42px;
+        }
     }
 }
 
@@ -44,6 +61,19 @@
     }
 }
 
+#testimonials .col-lg-6 {
+
+    &:first-of-type {
+        border-bottom: 2px solid $slate-lightest;
+    }
+    @include breakpoint(md) {
+        box-shadow: $home-page-box-shadow;
+        &:first-of-type {
+            border-bottom: none;
+        }
+    }
+}
+
 #testimonials .testimonial {
     text-align: center;
 }
@@ -65,4 +95,62 @@
 
 #testimonials .carousel-indicators .active {
     background-color: $slate-darkest;
+}
+
+#testimonials .carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: -32px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    background-color: $slate-darkest;
+}
+
+#testimonials .carousel-control-prev {
+    box-shadow: -5px 5px 20px rgba($slate-darkest, 0.8);
+}
+
+#testimonials .carousel-control-next {
+    left: 64px;
+    top: 0;
+    box-shadow: 5px -5px 20px rgba($slate-darkest, 0.8);
+}
+
+.testimonial-callout h3 {
+    font-size: 24px;
+    font-family: $body-font-family;
+    font-weight: 300 !important;
+    @include breakpoint(md) {
+        font-size: 32px;
+    }
+    @include breakpoint(md) {
+        font-size: 24px;
+    }
+    @include breakpoint(xl) {
+        font-size: 32px;
+    }
+}
+
+.testimonial-callout p {
+    font-size: 38px;
+    font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
+    color: $slate-darkest;
+    font-style: italic;
+    line-height: 1;
+    @include breakpoint(md) {
+        font-size: 48px;
+    }
+    @include breakpoint(lg) {
+        font-size: 38px;
+    }
+    @include breakpoint(xl) {
+        font-size: 48px;
+    }
 }

@@ -23,6 +23,9 @@
 .bg-slate-lightest {
     background-color: #EBEFF3 !important;
 }
+.bg-red-base {
+    background-color: $red-base;
+}
 
 // Borders
 .border-color-lighter {
@@ -56,4 +59,9 @@
 .py-10 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+}
+
+// Typography
+.font-family-body {
+    font-family: $body-font-family;
 }
