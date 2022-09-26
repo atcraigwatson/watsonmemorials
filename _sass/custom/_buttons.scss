@@ -51,3 +51,18 @@ button:hover {
         box-shadow: none !important;
     }
 }
+
+.btn-brochure-item {
+
+    color: $slate-lightest !important;
+    background-color: $slate-darkest;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $slate-lightest !important;
+        border-color: $slate-dark !important;
+        background-color: $slate-dark !important;
+
+    }
+}
