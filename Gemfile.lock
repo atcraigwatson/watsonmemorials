@@ -7,6 +7,8 @@ GEM
     concurrent-ruby (1.1.10)
     ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
+    htmlbeautifier (1.4.2)
+    htmlcompressor (0.4.0)
     jekyll (3.4.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -18,10 +20,15 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-datapage-generator (1.4.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-tidy (0.2.2)
+      htmlbeautifier
+      htmlcompressor
+      jekyll
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -53,8 +60,10 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 3.4.3)
+  jekyll-datapage-generator
   jekyll-feed (~> 0.6)
   jekyll-sass-converter
+  jekyll-tidy
   jekyll-watch
   tzinfo-data
 
