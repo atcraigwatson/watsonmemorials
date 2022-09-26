@@ -21,7 +21,7 @@
              alt="{{ brochure_item.image_alt }}">
         <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
           <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/{{ brochure_item.mem_type }}.html#{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}" />
-          <meta itemprop="priceCurrency" content="GDP" />
+          <meta itemprop="priceCurrency" content="GBP" />
           <meta itemprop="price" content="{{ brochure_item.price }}" />
           <meta itemprop="availability" content="https://schema.org/InStock" />
             <h4 class="card-title mb-1">
@@ -43,180 +43,11 @@
             </p>
             <p class="card-text">Shown in <span itemprop="material">{{ brochure_item.material }}</span> {{ brochure_item.description }}</p>
         </div>
-        {% if brochure_item.price and brochure_item.id_prefix != 'K' %}
-        <button class="btn btn-outline-secondary btn-block border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}"
-                aria-expanded="false"
-                aria-controls="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">View Size & Lettering Prices
-                <span class="icon-angle-down float-right"></span>
-        </button>
-        <div class="collapse px-3"
-             id="collapse_{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">
-
-            <table class="table table-bordered table-sm table-brochure-item border-0 mt-3">
-                <caption><strong>Size(s)</strong></caption>
-
-                <tbody>
-
-                    {% if brochure_item.size_desk %}
-                    <tr>
-                        <th>Size</th>
-                        <td>{{ brochure_item.size_desk }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_desk_slope %}
-                    <tr>
-                        <th>Slope</th>
-                        <td>{{ brochure_item.size_desk_slope }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_desk_flat %}
-                    <tr>
-                        <th>Flat</th>
-                        <td>{{ brochure_item.size_desk_flat }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_vase %}
-                    <tr>
-                        <th>Vase</th>
-                        <td>{{ brochure_item.size_vase }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_vase_base %}
-                    <tr>
-                        <th>Base</th>
-                        <td>{{ brochure_item.size_vase_base }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_cap %}
-                    <tr>
-                        <th>Base</th>
-                        <td>{{ brochure_item.size_memorial_cap }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_columns %}
-                    <tr>
-                        <th>Column(s)</th>
-                        <td>{{ brochure_item.size_memorial_columns }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_head %}
-                    <tr>
-                        <th>Headstone</th>
-                        <td>{{ brochure_item.size_memorial_head }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_cross %}
-                    <tr>
-                        <th>Cross</th>
-                        <td>{{ brochure_item.size_memorial_cross }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_scroll %}
-                    <tr>
-                        <th>Scroll</th>
-                        <td>{{ brochure_item.size_memorial_scroll }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_book %}
-                    <tr>
-                        <th>Book</th>
-                        <td>{{ brochure_item.size_memorial_book }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_wings %}
-                    <tr>
-                        <th>Wings</th>
-                        <td>{{ brochure_item.size_memorial_wings }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_angel %}
-                    <tr>
-                        <th>Angel</th>
-                        <td>{{ brochure_item.size_memorial_angel }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_rest %}
-                    <tr>
-                        <th>Rest(s)</th>
-                        <td>{{ brochure_item.size_memorial_rest }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_riser %}
-                    <tr>
-                        <th>Riser(s)</th>
-                        <td>{{ brochure_item.size_memorial_riser }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_vase %}
-                    <tr>
-                        <th>Vase(s)</th>
-                        <td>{{ brochure_item.size_memorial_vase }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_plaque_oval %}
-                    <tr>
-                        <th>Oval Plaques(s)</th>
-                        <td>{{ brochure_item.size_memorial_plaque_oval }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_plaque_square %}
-                    <tr>
-                        <th>Square Plaques(s)</th>
-                        <td>{{ brochure_item.size_memorial_plaque_square }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_bear %}
-                    <tr>
-                        <th>Bear</th>
-                        <td>{{ brochure_item.size_memorial_bear }}</td>
-                    </tr>
-                    {% endif %}
-
-                    {% if brochure_item.size_memorial_base %}
-                    <tr>
-                        <th>Base</th>
-                        <td>{{ brochure_item.size_memorial_base }}</td>
-                    </tr>
-                    {% endif %}
-
-                </tbody>
-
-            </table>
-
-
-
-            <p class="card-text font-italic pb-3">
-                <small class="d-block mb-1">Price includes <strong>full fitting</strong> of the memorial and <strong>flower vases</strong> as appropriate.</small>
-                <small class="d-block mb-1">Lettering costs:
-                    <span class="d-block pl-3"><strong>Silver, Black or Gold:&nbsp;</strong>£2.25 per letter.</span>
-                    <span class="d-block pl-3"><strong>Gold Leaf:&nbsp;</strong>£2.75 per letter.</span>
-                </small>
-                <small class="d-block">For other colors or sizes please <a href="../contact.html">contact us.</a></small>
-            </p>
-
-        </div>
-        {% endif %}
+        <a href="/new-memorials/memorials/{{ brochure_item.name | replace: ' ', '-' | replace: '(', '' | replace: ')', ''}}.html"
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
+           Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+        </a>
+        
     </div>
 </div>
 <!-- //Close Brochure Item -->
