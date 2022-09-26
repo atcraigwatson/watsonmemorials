@@ -29,6 +29,46 @@ sass:
 
 markdown: kramdown
 
+page_gen-dirs: true
+
+page_gen:
+  - data: lawn-memorials
+    template: memorial
+    dir: new-memorials/memorials
+    index_files: false
+    name: name
+    title: name
+  - data: churchyard-memorials
+    template: memorial
+    dir: new-memorials/memorials
+    index_files: false
+    name: name
+    title: name
+  - data: childrens-memorials
+    template: memorial
+    dir: new-memorials/memorials
+    index_files: false
+    name: name
+    title: name
+  - data: vases
+    template: memorial
+    dir: new-memorials/memorials
+    index_files: false
+    name: name
+    title: name
+  - data: plaques
+    template: memorial
+    dir: new-memorials/memorials
+    index_files: false
+    name: name
+    title: name
+  - data: kerbs
+    template: memorial
+    dir: new-memorials/memorials
+    index_files: false
+    name: name
+    title: name
+
 excerpt_separator: <!--more-->
 
 gems:
