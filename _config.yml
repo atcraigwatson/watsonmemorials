@@ -37,36 +37,42 @@ page_gen:
     dir: new-memorials/memorials
     index_files: false
     name: name
+    name_expr: record['name'].downcase
     title: name
   - data: churchyard-memorials
     template: memorial
     dir: new-memorials/memorials
     index_files: false
     name: name
+    name_expr: record['name'].downcase
     title: name
   - data: childrens-memorials
     template: memorial
     dir: new-memorials/memorials
     index_files: false
     name: name
+    name_expr: record['name'].downcase
     title: name
   - data: vases
     template: memorial
     dir: new-memorials/memorials
     index_files: false
     name: name
+    name_expr: record['name'].downcase
     title: name
   - data: plaques
     template: memorial
     dir: new-memorials/memorials
     index_files: false
     name: name
+    name_expr: record['name'].downcase
     title: name
   - data: kerbs
     template: memorial
     dir: new-memorials/memorials
     index_files: false
     name: name
+    name_expr: record['name'].downcase
     title: name
 
 excerpt_separator: <!--more-->

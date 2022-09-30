@@ -43,7 +43,7 @@
             </p>
             <p class="card-text">Shown in <span itemprop="material">{{ brochure_item.material }}</span> {{ brochure_item.description }}</p>
         </div>
-        <a href="/new-memorials/memorials/{{ brochure_item.name | replace: ' ', '-' | replace: '(', '' | replace: ')', ''}}.html"
+        <a href="/new-memorials/memorials/{{ brochure_item.name | downcase | replace: ' ', '-' | replace: '(', '' | replace: ')', ''}}.html"
            class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
            Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
         </a>
