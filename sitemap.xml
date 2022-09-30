@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -73,5 +77,24 @@
     <loc>https://watsonmemorials.co.uk/contact.html</loc>
 
   </url>
+
+  {% for mem in site.data.lawn-memorials %}   
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/{{ mem.name | downcase | replace: ' ', '-' | replace: '(', '' | replace: ')', ''}}.html</loc></url>
+  {% endfor %}
+  {% for mem in site.data.churchyard-memorials %}   
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/{{ mem.name | downcase | replace: ' ', '-' | replace: '(', '' | replace: ')', ''}}.html</loc></url>
+  {% endfor %}
+    {% for mem in site.data.childrens-memorials %}   
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/{{ mem.name | downcase | replace: ' ', '-' | replace: '(', '' | replace: ')', ''}}.html</loc></url>
+  {% endfor %}
+  {% for mem in site.data.vases %}   
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/{{ mem.name | downcase | replace: ' ', '-' | replace: '(', '' | replace: ')', ''}}.html</loc></url>
+  {% endfor %}
+  {% for mem in site.data.plaques %}   
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/{{ mem.name | downcase | replace: ' ', '-' | replace: '(', '' | replace: ')', ''}}.html</loc></url>
+  {% endfor %}
+  {% for mem in site.data.kers %}   
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/{{ mem.name | downcase | replace: ' ', '-' | replace: '(', '' | replace: ')', ''}}.html</loc></url>
+  {% endfor %}
 
 </urlset>
