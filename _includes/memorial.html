@@ -6,7 +6,7 @@
         </div>
     </div>
 
-    <div class="row justify-content-center brochure-item-container" itemtype="https://schema.org/Product" itemscope>
+    <div class="row justify-content-center" itemtype="https://schema.org/Product" itemscope>
 
         <meta itemprop="name" content="{{ page.title }} - Headstone" />
         <meta itemprop="description" content="Headstone shown in {{ page.material }} {{ page.description }}" />
@@ -15,11 +15,11 @@
         <link itemprop="image" href="https://watsonmemorials.co.uk/images/new-memorials/{{ page.image_path }}" />
 
         <div class="col-12 col-md-6 col-lg-5">
-            <img src="/images/new-memorials/{{ page.image_path }}" alt="{{ page.image_alt }}" class="img-fluid box-shadow">
+            <img src="/images/new-memorials/{{ page.image_path }}" alt="{{ page.image_alt }}" class="img-fluid w-100 box-shadow">
         </div>
 
         <div class="col-12 col-md-6 col-lg-7">
-            <h1>{{ page.title }}</h1>
+            <h1 class="mt-5 mt-md-0">{{ page.title }}</h1>
             <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>
                 <meta itemprop="name" content="Watson Memorials" />
             </div>
@@ -65,4 +65,14 @@
         </div>
 
     </div>
+
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="box-shadow p-5">
+                <h4>Send Enquiry</h4>
+                {% include memorial-enquiry-form.html %}
+            </div>
+        </div>
+    </div>
+
 </div>

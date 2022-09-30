@@ -458,9 +458,20 @@
     </footer>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <!-- Watson Memorial Scripts -->
     <script src="/js/scripts.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // after the page elements are all loaded, then run the script
+        // Set the input field with unique ID #email to a value
+
+        $("#memName").val('Watson Memorials | Based in Darlington we provides Headstones, Gravestones & Memorials across the North East of England.');
+
+
+      });
+    </script>
   </body>
   <!-- //Close body -->
 </html>
