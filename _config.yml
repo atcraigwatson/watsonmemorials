@@ -80,6 +80,10 @@ excerpt_separator: <!--more-->
 gems:
   - jekyll-feed
 
+url: "https://watsonmemorials.co.uk"
+plugins_dir:
+  - jekyll-sitemap
+
 exclude:
   - Gemfile
   - Gemfile.lock
