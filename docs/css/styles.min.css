@@ -6381,6 +6381,14 @@ button:hover {
     outline: none !important;
     box-shadow: none !important; }
 
+.btn-brochure-item {
+  color: #EBEFF3 !important;
+  background-color: #374355; }
+  .btn-brochure-item:hover, .btn-brochure-item:focus, .btn-brochure-item:active {
+    color: #EBEFF3 !important;
+    border-color: #53657D !important;
+    background-color: #53657D !important; }
+
 .form-control, .form-control-sm, .input-group-sm > .form-control,
 .input-group-sm > .input-group-prepend > .input-group-text,
 .input-group-sm > .input-group-append > .input-group-text,
@@ -6446,6 +6454,9 @@ button:hover {
 
 .font-family-body {
   font-family: "Roboto", "Open Sans", sans-serif; }
+
+.box-shadow {
+  box-shadow: 0 0 20px rgba(55, 67, 85, 0.2); }
 
 .navbar {
   padding: 0 1rem;

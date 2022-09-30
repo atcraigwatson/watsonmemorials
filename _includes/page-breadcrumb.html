@@ -1,0 +1,23 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb bg-slate-lightest rounded-0 mb-5">
+        <li class="breadcrumb-item">
+            <a href="../../index.html" class="text-slate-darkest">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+            {% if page.mem_type == "lawn-memorials" %}
+                <a href="../lawn-memorials.html" class="text-slate-darkest">Lawn Memorials</a>
+            {% elsif page.mem_type == "churchyard-memorials" %}
+                <a href="../churchyard-memorials.html" class="text-slate-darkest">Churchyard Memorials</a>
+            {% elsif page.mem_type == "childrens-memorials" %}
+                <a href="../childrens-memorials.html" class="text-slate-darkest">Childrens Memorials</a>
+            {% elsif page.mem_type == "tablets" %}
+                <a href="../tablets.html" class="text-slate-darkest">Tablets</a>
+            {% elsif page.mem_type == "vases" %}
+                <a href="../vases.html" class="text-slate-darkest">Vases</a>
+            {% elsif page.mem_type == "kerbs" %}
+                <a href="../kerbs.html" class="text-slate-darkest">Kerbs</a>
+            {% endif %}
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+</nav>
