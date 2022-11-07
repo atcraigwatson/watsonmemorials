@@ -154,3 +154,37 @@
         font-size: 48px;
     }
 }
+
+#details-are-important .row {
+    background: linear-gradient(rgba(56, 67, 85, 0.7), rgba(56, 67, 85, 0.7)), url("../images/home-page-callout-image-one.jpg") 50% 50% / cover no-repeat;
+}
+
+#custom-designs .row {
+    background: linear-gradient(rgba(56, 67, 85, 0.7), rgba(56, 67, 85, 0.7)), url("../images/home-page-callout-image-two.jpg") 50% 50% / cover no-repeat;
+}
+
+#additional-inscriptions .row {
+    background: linear-gradient(rgba(56, 67, 85, 0.7), rgba(56, 67, 85, 0.7)), url("../images/home-page-callout-image-three.jpg") 50% 50% / cover no-repeat;
+}
+
+#details-are-important .btn-outline-primary,
+#custom-designs .btn-outline-primary,
+#additional-inscriptions .btn-outline-primary {
+    color: #fff;
+    border-color: #fff;
+}
+
+
+#restorationServices .display-5 {
+    font-size: 36px;
+}
+
+#restorationServices .home-section-img  {
+    padding: 3rem;
+    @include breakpoint(md) {
+        padding: 3rem 25%;
+    }
+    @include breakpoint(lg) {
+        padding: 3rem;
+    }
+}
