@@ -1,0 +1,226 @@
+[
+    {
+        "name": "Oval",
+        "description": "Oval shaped photo tile.",
+        "image_alt": "Oval shaped photo tile for headstone.",
+        "image_path": "photo-plaques/Oval-Photo-Plaque.jpg",
+        "type": "tile"
+    },
+    {
+        "name": "Round",
+        "description": "Round shaped photo tile.",
+        "image_alt": "Round shaped photo tile for headstone.",
+        "image_path": "photo-plaques/Round-Photo-Plaque.jpg",
+        "type": "tile"
+    },
+    {
+        "name": "Rectangle",
+        "description": "Rectangle shaped photo tile.",
+        "image_alt": "Rectangle shaped photo tile for headstone.",
+        "image_path": "photo-plaques/Rectangle-Photo-Plaque.jpg",
+        "type": "tile"
+    },
+    {
+        "name": "Square",
+        "description": "Square shaped photo tile.",
+        "image_alt": "Square shaped photo tile for headstone.",
+        "image_path": "photo-plaques/Square-Photo-Plaque.jpg",
+        "type": "tile"
+    },
+    {
+        "name": "Heart",
+        "description": "Heart shaped photo tile.",
+        "image_alt": "Heart shaped photo tile for headstone.",
+        "image_path": "photo-plaques/Heart-Photo-Plaque.jpg",
+        "type": "tile"
+    },
+    {
+        "name": "Window",
+        "description": "Window shaped photo tile.",
+        "image_alt": "Window shaped photo tile for headstone.",
+        "image_path": "photo-plaques/Window-Photo-Plaque.jpg",
+        "type": "tile"
+    },
+    {
+        "name": "Rectangle Thick",
+        "description": "Thick edge rectangle shaped photo tile frame.",
+        "image_alt": "Thick edge rectangle shaped photo tile frame for headstone.",
+        "image_path": "photo-plaques/Rectangle-Thick-Photo-Plaque-Frame.jpg",
+        "type": "frame"
+    },
+    {
+        "name": "Rectangle Thin",
+        "description": "Thin edge rectangle shaped photo tile frame.",
+        "image_alt": "Thin edge rectangle shaped photo tile frame for headstone.",
+        "image_path": "photo-plaques/Rectangle-Thin-Photo-Plaque-Frame.jpg",
+        "type": "frame"
+    },
+    {
+        "name": "Ivy Leaves",
+        "description": "Ivy Leaf edge oval shaped photo tile frame.",
+        "image_alt": "Ivy Leaf edge oval shaped photo tile frame for headstone.",
+        "image_path": "photo-plaques/Ivy-Leaves-Photo-Plaque-Frame.jpg",
+        "type": "frame"
+    },
+    {
+        "name": "Oval Patterned",
+        "description": "Patterned edge oval shaped photo tile frame.",
+        "image_alt": "Patterned edge oval shaped photo tile frame for headstone.",
+        "image_path": "photo-plaques/Oval-Patterned-Photo-Plaque-Frame.jpg",
+        "type": "frame"
+    },
+    {
+        "name": "Gold Thin",
+        "description": "Thin edge oval shaped photo tile frame in gold.",
+        "image_alt": "Thin edge oval shaped photo tile frame in gold for headstone.",
+        "image_path": "photo-plaques/Gold-Thin-Photo-Plaque-Frame.jpg",
+        "type": "frame"
+    },
+    {
+        "name": "Gold Thick",
+        "description": "Thick edge oval shaped photo tile frame in gold.",
+        "image_alt": "Thick edge oval shaped photo tile frame in gold for headstone.",
+        "image_path": "photo-plaques/Gold-Thick-Photo-Plaque-Frame.jpg",
+        "type": "frame"
+    },
+    {
+        "name": "Stainless Steel Thin",
+        "description": "Thin edge oval shaped photo tile frame in stainless steel.",
+        "image_alt": "Thin edge oval shaped photo tile frame in stainless steel for headstone.",
+        "image_path": "photo-plaques/Stainless-Steel-Thin-Photo-Plaque-Frame.jpg",
+        "type": "frame"
+    },
+    {
+        "name": "Stainless Steel Thick",
+        "description": "Thick edge oval shaped photo tile frame in stainless steel.",
+        "image_alt": "Thick edge oval shaped photo tile frame in stainless steel for headstone.",
+        "image_path": "photo-plaques/Stainless-Steel-Thick-Photo-Plaque-Frame.jpg",
+        "type": "frame"
+    },
+    {
+        "name": "Round",
+        "description": "Round shaped photo tile frame.",
+        "image_alt": "Round shaped photo tile frame.",
+        "image_path": "photo-plaques/Round-Photo-Plaque-Frame.jpg",
+        "type": "frame"
+    },
+    {
+        "name": "Black Granite Example",
+        "description": "Shown on Black Granite: Wings Heart Plaque, Sparkle Oval Plaque, Celtic Fern Round Plaque, Angel Oval Plaque",
+        "image_alt": "Shown on Black Granite: Wings Heart Plaque, Sparkle Oval Plaque, Celtic Fern Round Plaque, Angel Oval Plaque",
+        "image_path": "photo-plaques/Sandblasted-One-Photo-Plaque-Frame.jpg",
+        "type": "sb-frame"
+    },  
+    {
+        "name": "Ruby Red Granite Example",
+        "description": "Shown on Ruby Red Granite: Octagonal Oval Plaque, Routh Round Plaque, Floral Oval Plaque, Locket Heart Plaque",
+        "image_alt": "Shown on Ruby Red Granite: Octagonal Oval Plaque, Routh Round Plaque, Floral Oval Plaque, Locket Heart Plaque",
+        "image_path": "photo-plaques/Sandblasted-Three-Photo-Plaque-Frame.jpg",
+        "type": "sb-frame"
+    },
+    {
+        "name": "Sera Grey Granite Example",
+        "description": "Shown on Sera Grey Granite: Teddy Round Plaque, Lily Oval Plaque",
+        "image_alt": "Shown on Sera Grey Granite: Teddy Round Plaque, Lily Oval Plaque",
+        "image_path": "photo-plaques/Sandblasted-Four-Photo-Plaque-Frame.jpg",
+        "type": "sb-frame"
+    },
+    {
+        "name": "SA Dark Grey Granite Example",
+        "description": "Shown on SA Dark Grey Granite: Roses Oval Plaque, Daisy Oval Plaque.",
+        "image_alt": "Shown on South African Dark Grey Granite: Roses Oval Plaque, Daisy Oval Plaque.",
+        "image_path": "photo-plaques/Sandblasted-Five-Photo-Plaque-Frame.jpg",
+        "type": "sb-frame"
+    },
+    {
+        "name": "Beige",
+        "description": "Beige background to be used behind an image on a photo plaque.",
+        "image_alt": "Beige background to be used behind an image on a photo plaque.",
+        "image_path": "photo-plaques/Beige-Photo-Plaque-Background.jpg",
+        "type": "background"
+    },
+    {
+        "name": "Grey Mottle",
+        "description": "Grey Mottle background to be used behind an image on a photo plaque.",
+        "image_alt": "Grey Mottle background to be used behind an image on a photo plaque.",
+        "image_path": "photo-plaques/Grey-Mottle-Photo-Plaque-Background.jpg",
+        "type": "background"
+    },
+    {
+        "name": "Blue Mottle",
+        "description": "Blue Mottle background to be used behind an image on a photo plaque.",
+        "image_alt": "Blue Mottle background to be used behind an image on a photo plaque.",
+        "image_path": "photo-plaques/Blue-Mottle-Photo-Plaque-Background.jpg",
+        "type": "background"
+    },
+    {
+        "name": "Blue Gradient",
+        "description": "Blue Gradient background to be used behind an image on a photo plaque.",
+        "image_alt": "Blue Gradient background to be used behind an image on a photo plaque.",
+        "image_path": "photo-plaques/Blue-Gradient-Photo-Plaque-Background.jpg",
+        "type": "background"
+    },
+    {
+        "name": "Blue Sky",
+        "description": "Blue Sky background to be used behind an image on a photo plaque.",
+        "image_alt": "Blue Sky background to be used behind an image on a photo plaque.",
+        "image_path": "photo-plaques/Blue-Sky-Photo-Plaque-Background.jpg",
+        "type": "background"
+    },
+    {
+        "name": "Cream",
+        "description": "Cream background to be used behind an image on a photo plaque.",
+        "image_alt": "Cream background to be used behind an image on a photo plaque.",
+        "image_path": "photo-plaques/Cream-Photo-Plaque-Background.jpg",
+        "type": "background"
+    },
+    {
+        "name": "Green",
+        "description": "Green background to be used behind an image on a photo plaque.",
+        "image_alt": "Green background to be used behind an image on a photo plaque.",
+        "image_path": "photo-plaques/Green-Photo-Plaque-Background.jpg",
+        "type": "background"
+    },
+    {
+        "name": "Light Blue",
+        "description": "Light Blue background to be used behind an image on a photo plaque.",
+        "image_alt": "Light Blue background to be used behind an image on a photo plaque.",
+        "image_path": "photo-plaques/Light-Blue-Photo-Plaque-Background.jpg",
+        "type": "background"
+    },
+    {
+        "name": "Plain Blue",
+        "description": "Plain Blue background to be used behind an image on a photo plaque.",
+        "image_alt": "Plain Blue background to be used behind an image on a photo plaque.",
+        "image_path": "photo-plaques/Plain-Blue-Photo-Plaque-Background.jpg",
+        "type": "background"
+    },
+    {
+        "name": "Original",
+        "description": "Original photo before retouching has been applied.",
+        "image_alt": "Original photo before retouching has been applied.",
+        "image_path": "photo-plaques/Lady-Before-Photo-Plaque-Retouching.jpg",
+        "type": "retouch"
+    },
+    {
+        "name": "Retouched Photo",
+        "description": "Retouched photo after retouching has been applied.",
+        "image_alt": "Retouched photo after retouching has been applied.",
+        "image_path": "photo-plaques/Lady-After-Photo-Plaque-Retouching.jpg",
+        "type": "retouch"
+    },
+    {
+        "name": "Original",
+        "description": "Original photo before retouching has been applied.",
+        "image_alt": "Original photo before retouching has been applied.",
+        "image_path": "photo-plaques/Man-Before-Photo-Plaque-Retouching.jpg",
+        "type": "retouch"
+    },
+    {
+        "name": "Retouched Photo",
+        "description": "Retouched photo after retouching has been applied.",
+        "image_alt": "Retouched photo after retouching has been applied.",
+        "image_path": "photo-plaques/Man-After-Photo-Plaque-Retouching.jpg",
+        "type": "retouch"
+    }
+]
