@@ -1,0 +1,114 @@
+---
+layout:            default
+page-id:           "photo-plaques"
+title:             "Headstone and Memorial Photo Plaques"
+description:       "Examples of the available memorial photo plaques from Watson Memorials."
+keywords:          "Photo Plaques, Photo Tiles, Headstones, Memorials, Gravestones"
+heading:           "Headstone and Memorial Photo Plaques"
+lead:              "Ceramic photo plaques for headstones and memorials. We stock a wide range of sizes and shapes, many of which are available with standard frames or sandblast design frames. Some of our oval and round frames also have the option of a gold or silver filet border."
+twitter_image:     "social-meta-contact-page.png"
+twitter_image_alt: "Graphic to show the multiple ways you can contact watson memorials."
+twitter_excerpt:   "Please feel free to contact Watson Memorials with any questions."
+facebook_image:    "social-meta-contact-page.png"
+facebook_excerpt:  "Please feel free to contact Watson Memorials with any questions."
+---
+
+<div class="container py-5">
+    
+    <div class="row">
+
+        <!-- Sub-heading -->
+        <div class="col-12">
+            <h2 id="photo-plaque-shapes">Memorial Photo Plaque Shapes</h2>
+            <p class="lead mb-5">We have 6 ceramic photo tile shapes to choose from, all are available in a variety of different sizes to suit your chosen memorial and inscription layout.</p>
+        </div>
+        <!-- // Sub-heading -->
+
+        {% for photo_plaque in site.data.photo-plaques %}
+
+            {% if photo_plaque.type == "tile" %}
+
+                {% include photo-plaque-item.html %}
+
+            {% endif %}
+  
+        {% endfor %}
+
+
+        <!-- Sub-heading -->
+        <div class="col-12">
+            <hr>
+            <h2 id="photo-plaque-frames">Memorial Photo Plaque - Solid Frames</h2>
+            <p class="lead mb-5">There are several solid frame options for our memorial photo plaques, they mainly suit our oval shaped photo plaques but with the addition of an option for the round.</p>
+        </div>
+        <!-- // Sub-heading -->
+
+        {% for photo_plaque in site.data.photo-plaques %}
+
+            {% if photo_plaque.type == "frame" %}
+
+                {% include photo-plaque-item.html %}
+
+            {% endif %}
+  
+        {% endfor %}
+
+        <!-- Sub-heading -->
+        <div class="col-12">
+            <hr>
+            <h2 id="photo-plaque-sb-frames">Memorial Photo Plaque - Sand carved Frames</h2>
+            <p class="lead mb-5">Sand carved photo plaque frames give even more options when designing the layout of the memorial and the inscription. This flexibility also allows us to frame all photo plaque shapes.</p>
+        </div>
+        <!-- // Sub-heading -->
+
+        {% for photo_plaque in site.data.photo-plaques %}
+
+            {% if photo_plaque.type == "sb-frame" %}
+
+                {% include photo-plaque-item.html %}
+
+            {% endif %}
+  
+        {% endfor %}
+
+        <!-- Sub-heading -->
+        <div class="col-12">
+            <hr>
+            <h2 id="photo-plaque-backgrounds">Memorial Photo Plaque Backgrounds</h2>
+            <p class="lead mb-5">If you would like to remove the background of an image you are wishing to use for a memorial photo plaque, we can replace the background with the below colours.</p>
+        </div>
+        <!-- // Sub-heading -->
+
+        {% for photo_plaque in site.data.photo-plaques %}
+
+            {% if photo_plaque.type == "background" %}
+
+                {% include photo-plaque-item.html %}
+
+            {% endif %}
+  
+        {% endfor %}
+
+        <!-- Sub-heading -->
+        <div class="col-12">
+            <hr>
+            <h2 id="photo-plaque-retouching">Memorial Photo Plaque Retouching</h2>
+            <p class="lead mb-5">Often it can be an older image or pixelated image that is the preferred choice, we offer a retouching service to increase the quality of the image before producing the plaque for the memorial.</p>
+        </div>
+        <!-- // Sub-heading -->
+
+        {% for photo_plaque in site.data.photo-plaques %}
+
+            {% if photo_plaque.type == "retouch" %}
+
+                {% include photo-plaque-item.html %}
+
+            {% endif %}
+  
+        {% endfor %}
+
+
+    </div>
+</div>
+
+{% include contact-callout.html %}
