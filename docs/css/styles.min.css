@@ -6584,6 +6584,10 @@ button:hover {
 #jumbotron-headstone-inscriptions {
   background-image: url("../images/inscription-page-jumbotron-bg.jpg"); }
 
+#jumbotron-photo-plaques {
+  background-image: url("../images/photo-plaques-page-jumbotron-bg.jpg");
+  background-position: center center; }
+
 #contact-callout .btn-secondary {
   background: #EBEFF3;
   color: #374355;
@@ -6618,6 +6622,9 @@ footer .nav-item .nav-link {
   height: auto;
   align-self: center;
   border-radius: 0; }
+
+.brochure-item .card-img-top-full-width {
+  max-width: 100%; }
 
 .brochure-item .card-text a {
   color: #c23356; }
