@@ -1,0 +1,26 @@
+            <!-- Photo Plaque Item -->
+            <div class="{% if photo_plaque.type == 'tile' %}
+                col-12 col-sm-6 col-lg-4
+            {% elsif photo_plaque.type == 'frame' %}
+                col-12 col-sm-6 col-lg-4
+            {% elsif photo_plaque.type == 'sb-frame' %}
+                col-12 col-lg-6
+            {% elsif photo_plaque.type == 'background' %}
+                col-12 col-sm-6 col-lg-4
+            {% elsif photo_plaque.type == 'retouch' %}
+                col-12 col-sm-6 col-xl-3
+            {% endif %} mb-5 brochure-item-wrapper">
+                <div class="card brochure-item">
+                    <link itemprop="image" href="https://watsonmemorials.co.uk/images/photo-plaques/Oval-Photo-Plaque.jpg" />
+                    <img class="card-img-top card-img-top-full-width lazy"
+                        src="/images/new-memorials/new-memorial-placeholder.png"
+                        data-src="/images/{{ photo_plaque.image_path }}"
+                        alt="Oval Photo Plaque for Headstone">
+                    <div class="card-body bg-slate-darkest">
+                        <h4 class="card-title text-white mb-1">{{ photo_plaque.name }}</h4>
+                        <p class="card-text text-slate-light">{{ photo_plaque.description }}</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- //Close Photo Plaque Item -->
