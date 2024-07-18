@@ -24,6 +24,9 @@
                 <meta itemprop="name" content="Watson Memorials" />
             </div>
             <p class="lead">Shown in <span itemprop="material">{{ page.material }}</span> {{ page.description }}</p>
+            <div class="alert alert-warning" role="alert">
+                Please be aware we are currently updating all our prices - your quote may differ from the price shown below.
+            </div>
 
             <div class="mb-3" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url"
@@ -39,12 +42,12 @@
                 </h4>
                 <p class="memorial-prices mb-2">
                     {% if page.price_excluding_design and page.price_carving %}
-                    <span class="text-slate-base font-italic mr-1">Memorial: £{{ page.price_excluding_design }}</span>
-                    <span class="text-slate-base font-italic">Carving: £{{ page.price_carving }}</span>
+                    <span class="text-slate-base fst-italic mr-1">Memorial: £{{ page.price_excluding_design }}</span>
+                    <span class="text-slate-base fst-italic">Carving: £{{ page.price_carving }}</span>
                     {% endif %}
                     {% if page.price %}
                     {% unless page.price_excluding_design %}
-                    <span class="text-slate-base font-italic">Memorial: £{{ page.price }}</span>
+                    <span class="text-slate-base fst-italic">Memorial: £{{ page.price }}</span>
                     {% endunless %}
                     {% endif %}
                 </p>

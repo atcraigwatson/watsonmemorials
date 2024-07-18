@@ -79,6 +79,7 @@ excerpt_separator: <!--more-->
 
 gems:
   - jekyll-feed
+  - jekyll-tidy
 
 url: "https://watsonmemorials.co.uk"
 plugins_dir:

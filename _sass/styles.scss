@@ -6,7 +6,8 @@
 @import "custom/variables";
 
 // Get bootstrap
-@import "bootstrap/bootstrap";
+//@import "bootstrap/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 // Get custom SCSS
 @import "custom/index";

@@ -1,86 +1,107 @@
 <!-- Open .navbar -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded" id="siteNavbar">
+  <div class="container-fluid">
+    <!-- Open .navbar-brand -->
+    <a class="navbar-brand" href="/index.html">
+      <img src="/images/watson-memorials-logo-icon.svg" height="30" width="41" class="d-inline-block align-top"
+        id="navbar-logo-text-right" alt="Watson Memorials Logo Icon">
+      <span class="visually-hidden">Watson Memorials</span>
+    </a>
+    <!-- //Close .navbar-brand -->
 
-  <!-- Open .navbar-brand -->
-  <a class="navbar-brand" href="/index.html">
-    <img src="/images/watson-memorials-logo-icon.svg" height="30" width="41" class="d-inline-block align-top" id="navbar-logo-text-right" alt="Watson Memorials Logo Icon">
-    <span class="sr-only">Watson Memorials</span>
-  </a>
-  <!-- //Close .navbar-brand -->
+    <!-- Open .navbar-toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- //Close .navbar-toggler -->
 
-  <!-- Open .navbar-toggler -->
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#siteNavbarCollapse" aria-controls="siteNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span>Menu</span>
-  </button>
-  <!-- //Close .navbar-toggler -->
+    <!-- Open .navbar-collapse -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-  <!-- Open .navbar-collapse -->
-  <div class="collapse navbar-collapse" id="siteNavbarCollapse">
+      <!-- Open .navbar-nav -->
+      <ul class="navbar-nav ms-auto">
 
-    <!-- Open .navbar-nav -->
-    <div class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/index.html' %}active{% endif %}" href="/index.html">
+            Home <span class="icon-angle-right d-lg-none"></span>
+            {% if page.url == '/index.html' %}<span class="visually-hidden">(current)</span>{% endif %}
+          </a>
+        </li>
 
-      <a class="nav-item nav-link {% if page.url == '/index.html' %}active{% endif %}" href="/index.html">
-        Home <span class="icon-angle-right d-lg-none"></span>
-        {% if page.url == '/index.html' %}<span class="sr-only">(current)</span>{% endif %}
-      </a>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/about.html' %}active{% endif %}" href="/about.html">
+            About <span class="icon-angle-right d-lg-none"></span>
+            {% if page.url == '/about.html' %}<span class="visually-hidden">(current)</span>{% endif %}
+          </a>
+        </li>
 
-      <a class="nav-item nav-link {% if page.url == '/about.html' %}active{% endif %}" href="/about.html">
-        About <span class="icon-angle-right d-lg-none"></span>
-        {% if page.url == '/about.html' %}<span class="sr-only">(current)</span>{% endif %}
-      </a>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/new-memorials/*.html' %}active{% endif %}"
+            href="/new-memorials/lawn-memorials.html">
+            Online Brochure
+            {% if page.url == '/new-memorials/lawn-memorials.html' %}<span class="visually-hidden">(current)</span>{%
+            endif %}
+          </a>
+        </li>
 
-      <a class="nav-item nav-link {% if page.url == '/new-memorials/*.html' %}active{% endif %}" href="/new-memorials/lawn-memorials.html">
-        Online Brochure
-        {% if page.url == '/new-memorials/lawn-memorials.html' %}<span class="sr-only">(current)</span>{% endif %}
-      </a>
-
-      <a class="nav-item nav-link {% if page.url == '/photo-plaques.html' %}active{% endif %}" href="/photo-plaques.html">
-        Photo Plaques <span class="icon-angle-right d-lg-none"></span>
-        {% if page.url == '/photo-plaques.html' %}<span class="sr-only">(current)</span>{% endif %}
-      </a>
-
-      <a class="nav-item nav-link {% if page.url == '/headstone-inscriptions.html' %}active{% endif %}" href="/headstone-inscriptions.html">
-        Inscription Examples <span class="icon-angle-right d-lg-none"></span>
-        {% if page.url == '/headstone-inscriptions.html' %}<span class="sr-only">(current)</span>{% endif %}
-      </a>
-
-      <!-- Open .dropdown -->
-      <div class="nav-item dropdown" id="mainNavDropdown2">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-          Services <span class="icon-angle-down"></span>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/photo-plaques.html' %}active{% endif %}" href="/photo-plaques.html">
+            Photo Plaques <span class="icon-angle-right d-lg-none"></span>
+            {% if page.url == '/photo-plaques.html' %}<span class="visually-hidden">(current)</span>{% endif %}
+          </a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-item nav-link {% if page.url == '/headstone-inscriptions.html' %}active{% endif %}"
+          href="/headstone-inscriptions.html">
+          Inscription Examples <span class="icon-angle-right d-lg-none"></span>
+          {% if page.url == '/headstone-inscriptions.html' %}<span class="visually-hidden">(current)</span>{% endif %}
         </a>
-        <div class="dropdown-menu dropdown-menu-right border-0 rounded-0">
-          <a class="dropdown-item {% if page.url == '/services/cleaning-and-restoration.html' %}active{% endif %}" href="/services/cleaning-and-restoration.html">
-            Cleaning &amp; Restoration
-            {% if page.url == '/services/cleaning-and-restoration.html' %}<span class="sr-only">(current)</span>{% endif %}
-          </a>
-          <a class="dropdown-item {% if page.url == '/services/re-paint-and-re-gild.html' %}active{% endif %}" href="/services/re-paint-and-re-gild.html">
-            Re-Paint &amp; Re-Gild
-            {% if page.url == '/services/re-paint-and-re-gild.html' %}<span class="sr-only">(current)</span>{% endif %}
-          </a>
-          <a class="dropdown-item {% if page.url == '/services/re-fix-and-straighten.html' %}active{% endif %}" href="/services/re-fix-and-straighten.html">
-            Re-Fix &amp; Straighten
-            {% if page.url == '/services/re-fix-and-straighten.html' %}<span class="sr-only">(current)</span>{% endif %}
-          </a>
-          <a class="dropdown-item {% if page.url == '/services/order-additional-inscription.html' %}active{% endif %}" href="/services/order-additional-inscription.html">
-            Add Additional Wording to Headstone
-            {% if page.url == '/services/order-additional-inscription.html' %}<span class="sr-only">(current)</span>{% endif %}
-          </a>
-        </div>
-      </div>
-      <!-- //Close .dropdown -->
+        </li>
 
-      <a class="nav-item nav-link {% if page.url == '/contact.html' %}active{% endif %}" href="/contact.html">
-        Contact <span class="icon-angle-right d-lg-none"></span>
-        {% if page.url == '/contact.html' %}<span class="sr-only">(current)</span>{% endif %}
-      </a>
+        <!-- Open .dropdown -->
+        <li class="nav-item dropdown" id="mainNavDropdown2">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services <span class="icon-angle-down"></span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end border-0 rounded-0">
+            <li>
+              <a class="dropdown-item {% if page.url == '/services/cleaning-and-restoration.html' %}active{% endif %}" href="/services/cleaning-and-restoration.html">
+                Cleaning &amp; Restoration
+                {% if page.url == '/services/cleaning-and-restoration.html' %}<span class="visually-hidden">(current)</span>{% endif %}
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item {% if page.url == '/services/re-paint-and-re-gild.html' %}active{% endif %}"
+                href="/services/re-paint-and-re-gild.html">
+                Re-Paint &amp; Re-Gild
+                {% if page.url == '/services/re-paint-and-re-gild.html' %}<span class="visually-hidden">(current)</span>{% endif %}
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item {% if page.url == '/services/re-fix-and-straighten.html' %}active{% endif %}"
+                href="/services/re-fix-and-straighten.html">
+                Re-Fix &amp; Straighten
+                {% if page.url == '/services/re-fix-and-straighten.html' %}<span class="visually-hidden">(current)</span>{% endif %}
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item {% if page.url == '/services/order-additional-inscription.html' %}active{% endif %}"
+                href="/services/order-additional-inscription.html">
+                Add Additional Wording to Headstone
+                {% if page.url == '/services/order-additional-inscription.html' %}<span class="visually-hidden">(current)</span>{% endif %}
+              </a>
+            </li>
+          </ul>
+        </li>
 
+        <li class="nav-item">
+          <a class="nav-item nav-link {% if page.url == '/contact.html' %}active{% endif %}" href="/contact.html">
+            Contact <span class="icon-angle-right d-lg-none"></span>
+            {% if page.url == '/contact.html' %}<span class="visually-hidden">(current)</span>{% endif %}
+          </a>
+        </li>
+
+      </ul>
     </div>
-    <!-- //Close .navbar-nav -->
-
   </div>
-  <!-- //Close .navbar-collapse -->
-
 </nav>
-<!-- //Close .navbar -->

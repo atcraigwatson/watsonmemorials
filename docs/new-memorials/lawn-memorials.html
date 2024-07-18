@@ -53,67 +53,91 @@
     <header>
       <!-- Open .navbar -->
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded" id="siteNavbar">
-        <!-- Open .navbar-brand -->
-        <a class="navbar-brand" href="/index.html">
-          <img src="/images/watson-memorials-logo-icon.svg" height="30" width="41" class="d-inline-block align-top" id="navbar-logo-text-right" alt="Watson Memorials Logo Icon">
-          <span class="sr-only">Watson Memorials</span>
-        </a>
-        <!-- //Close .navbar-brand -->
-        <!-- Open .navbar-toggler -->
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#siteNavbarCollapse" aria-controls="siteNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span>Menu</span>
-        </button>
-        <!-- //Close .navbar-toggler -->
-        <!-- Open .navbar-collapse -->
-        <div class="collapse navbar-collapse" id="siteNavbarCollapse">
-          <!-- Open .navbar-nav -->
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link " href="/index.html">
-              Home <span class="icon-angle-right d-lg-none"></span>
-            </a>
-            <a class="nav-item nav-link " href="/about.html">
-              About <span class="icon-angle-right d-lg-none"></span>
-            </a>
-            <a class="nav-item nav-link " href="/new-memorials/lawn-memorials.html">
-              Online Brochure
-              <span class="sr-only">(current)</span>
-            </a>
-            <a class="nav-item nav-link " href="/photo-plaques.html">
-              Photo Plaques <span class="icon-angle-right d-lg-none"></span>
-            </a>
-            <a class="nav-item nav-link " href="/headstone-inscriptions.html">
-              Inscription Examples <span class="icon-angle-right d-lg-none"></span>
-            </a>
-            <!-- Open .dropdown -->
-            <div class="nav-item dropdown" id="mainNavDropdown2">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                Services <span class="icon-angle-down"></span>
-              </a>
-              <div class="dropdown-menu dropdown-menu-right border-0 rounded-0">
-                <a class="dropdown-item " href="/services/cleaning-and-restoration.html">
-                  Cleaning &amp; Restoration
+        <div class="container-fluid">
+          <!-- Open .navbar-brand -->
+          <a class="navbar-brand" href="/index.html">
+            <img src="/images/watson-memorials-logo-icon.svg" height="30" width="41" class="d-inline-block align-top"
+        id="navbar-logo-text-right" alt="Watson Memorials Logo Icon">
+            <span class="visually-hidden">Watson Memorials</span>
+          </a>
+          <!-- //Close .navbar-brand -->
+          <!-- Open .navbar-toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- //Close .navbar-toggler -->
+          <!-- Open .navbar-collapse -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Open .navbar-nav -->
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="/index.html">
+                  Home <span class="icon-angle-right d-lg-none"></span>
                 </a>
-                <a class="dropdown-item " href="/services/re-paint-and-re-gild.html">
-                  Re-Paint &amp; Re-Gild
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/about.html">
+                  About <span class="icon-angle-right d-lg-none"></span>
                 </a>
-                <a class="dropdown-item " href="/services/re-fix-and-straighten.html">
-                  Re-Fix &amp; Straighten
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "
+            href="/new-memorials/lawn-memorials.html">
+                  Online Brochure
+                  <span class="visually-hidden">(current)</span>
                 </a>
-                <a class="dropdown-item " href="/services/order-additional-inscription.html">
-                  Add Additional Wording to Headstone
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/photo-plaques.html">
+                  Photo Plaques <span class="icon-angle-right d-lg-none"></span>
                 </a>
-              </div>
-            </div>
-            <!-- //Close .dropdown -->
-            <a class="nav-item nav-link " href="/contact.html">
-              Contact <span class="icon-angle-right d-lg-none"></span>
-            </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-item nav-link "
+          href="/headstone-inscriptions.html">
+                  Inscription Examples <span class="icon-angle-right d-lg-none"></span>
+                </a>
+              </li>
+              <!-- Open .dropdown -->
+              <li class="nav-item dropdown" id="mainNavDropdown2">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services <span class="icon-angle-down"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end border-0 rounded-0">
+                  <li>
+                    <a class="dropdown-item " href="/services/cleaning-and-restoration.html">
+                      Cleaning &amp; Restoration
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item "
+                href="/services/re-paint-and-re-gild.html">
+                      Re-Paint &amp; Re-Gild
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item "
+                href="/services/re-fix-and-straighten.html">
+                      Re-Fix &amp; Straighten
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item "
+                href="/services/order-additional-inscription.html">
+                      Add Additional Wording to Headstone
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-item nav-link " href="/contact.html">
+                  Contact <span class="icon-angle-right d-lg-none"></span>
+                </a>
+              </li>
+            </ul>
           </div>
-          <!-- //Close .navbar-nav -->
         </div>
-        <!-- //Close .navbar-collapse -->
       </nav>
-      <!-- //Close .navbar -->
       <!-- Open .navbar -->
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded" id="newMemorialsNavbar">
         <!-- Open .navbar-toggler -->
@@ -124,10 +148,10 @@
         <!-- Open .navbar-collapse -->
         <div class="collapse navbar-collapse" id="newMemorialNavbarCollapse">
           <!-- Open .navbar-nav -->
-          <div class="navbar-nav ml-auto mr-auto">
+          <div class="navbar-nav ms-auto me-auto">
             <a class="nav-item nav-link active" href="/new-memorials/lawn-memorials.html">
               Lawn Memorials
-              <span class="sr-only">(current)</span>
+              <span class="visually-hidden">(current)</span>
             </a>
             <a class="nav-item nav-link " href="/new-memorials/churchyard-memorials.html">
               Churchyard Memorials
@@ -182,21 +206,21 @@
               <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html#Ogee" />
                 <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="735.00" />
+                <meta itemprop="price" content="895.00" />
                 <meta itemprop="availability" content="https://schema.org/InStock" />
                 <h4 class="card-title mb-1">
                   <span>Ogee</span>
-                  - <small class="text-slate-dark font-family-body">£735.00</small>
+                  - <small class="text-slate-dark font-family-body">£895.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £735.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £895.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with traditional ogee shaped top.</p>
               </div>
               <a href="/new-memorials/memorials/ogee.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -221,21 +245,21 @@
               <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html#Camber" />
                 <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="735.00" />
+                <meta itemprop="price" content="895.00" />
                 <meta itemprop="availability" content="https://schema.org/InStock" />
                 <h4 class="card-title mb-1">
                   <span>Camber</span>
-                  - <small class="text-slate-dark font-family-body">£735.00</small>
+                  - <small class="text-slate-dark font-family-body">£895.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £735.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £895.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with traditional camber shaped top.</p>
               </div>
               <a href="/new-memorials/memorials/camber.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -260,21 +284,21 @@
               <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html#HalfOgee" />
                 <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="735.00" />
+                <meta itemprop="price" content="895.00" />
                 <meta itemprop="availability" content="https://schema.org/InStock" />
                 <h4 class="card-title mb-1">
                   <span>Half Ogee</span>
-                  - <small class="text-slate-dark font-family-body">£735.00</small>
+                  - <small class="text-slate-dark font-family-body">£895.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £735.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £895.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with traditional half ogee shaped top.</p>
               </div>
               <a href="/new-memorials/memorials/half-ogee.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -299,21 +323,21 @@
               <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html#Ainthorpe" />
                 <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="1385.00" />
+                <meta itemprop="price" content="1695.00" />
                 <meta itemprop="availability" content="https://schema.org/InStock" />
                 <h4 class="card-title mb-1">
                   <span>Ainthorpe</span>
-                  - <small class="text-slate-dark font-family-body">£1385.00</small>
+                  - <small class="text-slate-dark font-family-body">£1695.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £735.00</span>
-                  <span class="text-slate-base font-italic">Carving: £650.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £895.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £800.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with raised oval panel and decorative carved roses.</p>
               </div>
               <a href="/new-memorials/memorials/ainthorpe.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -338,21 +362,21 @@
               <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html#Aldbrough" />
                 <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="850.00" />
+                <meta itemprop="price" content="1045.00" />
                 <meta itemprop="availability" content="https://schema.org/InStock" />
                 <h4 class="card-title mb-1">
                   <span>Aldbrough</span>
-                  - <small class="text-slate-dark font-family-body">£850.00</small>
+                  - <small class="text-slate-dark font-family-body">£1045.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £730.00</span>
-                  <span class="text-slate-base font-italic">Carving: £120.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £895.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £150.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with simplistic etching of a fisherman.</p>
               </div>
               <a href="/new-memorials/memorials/aldbrough.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -377,21 +401,21 @@
               <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html#Applegarth" />
                 <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="1815.00" />
+                <meta itemprop="price" content="2100.00" />
                 <meta itemprop="availability" content="https://schema.org/InStock" />
                 <h4 class="card-title mb-1">
                   <span>Applegarth</span>
-                  - <small class="text-slate-dark font-family-body">£1815.00</small>
+                  - <small class="text-slate-dark font-family-body">£2100.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1215.00</span>
-                  <span class="text-slate-base font-italic">Carving: £600.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1500.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £600.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">South African Dark Grey Granite</span> with elegant heart headpiece.</p>
               </div>
               <a href="/new-memorials/memorials/applegarth.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -416,21 +440,21 @@
               <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html#Appleton" />
                 <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="1225.00" />
+                <meta itemprop="price" content="1300.00" />
                 <meta itemprop="availability" content="https://schema.org/InStock" />
                 <h4 class="card-title mb-1">
                   <span>Appleton</span>
-                  - <small class="text-slate-dark font-family-body">£1225.00</small>
+                  - <small class="text-slate-dark font-family-body">£1300.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1015.00</span>
-                  <span class="text-slate-base font-italic">Carving: £210.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1050.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £250.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Lavender Blue Granite</span> with heart headpiece and rose bowl.</p>
               </div>
               <a href="/new-memorials/memorials/appleton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -455,21 +479,21 @@
               <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html#Aysgarth" />
                 <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="1345.00" />
+                <meta itemprop="price" content="1950.00" />
                 <meta itemprop="availability" content="https://schema.org/InStock" />
                 <h4 class="card-title mb-1">
                   <span>Aysgarth</span>
-                  - <small class="text-slate-dark font-family-body">£1345.00</small>
+                  - <small class="text-slate-dark font-family-body">£1950.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £855.00</span>
-                  <span class="text-slate-base font-italic">Carving: £490.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1300.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £650.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with pitched edges and waterfall design.</p>
               </div>
               <a href="/new-memorials/memorials/aysgarth.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -494,21 +518,21 @@
               <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html#Bainton" />
                 <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="1270.00" />
+                <meta itemprop="price" content="1450.00" />
                 <meta itemprop="availability" content="https://schema.org/InStock" />
                 <h4 class="card-title mb-1">
                   <span>Bainton</span>
-                  - <small class="text-slate-dark font-family-body">£1270.00</small>
+                  - <small class="text-slate-dark font-family-body">£1450.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1025.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1100.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £350.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with centre round, checked shoulders and barrel sides.</p>
               </div>
               <a href="/new-memorials/memorials/bainton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -533,21 +557,21 @@
               <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html#Barley" />
                 <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="1300.00" />
+                <meta itemprop="price" content="1550.00" />
                 <meta itemprop="availability" content="https://schema.org/InStock" />
                 <h4 class="card-title mb-1">
                   <span>Barley</span>
-                  - <small class="text-slate-dark font-family-body">£1300.00</small>
+                  - <small class="text-slate-dark font-family-body">£1550.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £955.00</span>
-                  <span class="text-slate-base font-italic">Carving: £345.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1100.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £450.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with centre round, ogee shoulders and 1inch chamfer.</p>
               </div>
               <a href="/new-memorials/memorials/barley.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -572,21 +596,21 @@
               <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                 <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html#Barmston" />
                 <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="1875.00" />
+                <meta itemprop="price" content="1950.00" />
                 <meta itemprop="availability" content="https://schema.org/InStock" />
                 <h4 class="card-title mb-1">
                   <span>Barmston</span>
-                  - <small class="text-slate-dark font-family-body">£1875.00</small>
+                  - <small class="text-slate-dark font-family-body">£1950.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1875.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1950.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Blue Pearl Granite</span> with tall open book headpiece.</p>
               </div>
               <a href="/new-memorials/memorials/barmston.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -618,14 +642,14 @@
                   - <small class="text-slate-dark font-family-body">£895.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £730.00</span>
-                  <span class="text-slate-base font-italic">Carving: £165.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £730.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £165.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with half ogee top and Mary design.</p>
               </div>
               <a href="/new-memorials/memorials/beverley.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -657,14 +681,14 @@
                   - <small class="text-slate-dark font-family-body">£1440.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1440.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1440.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Blue Pearl and Black Granite</span> with fully carved reclining book.</p>
               </div>
               <a href="/new-memorials/memorials/bielby.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -696,14 +720,14 @@
                   - <small class="text-slate-dark font-family-body">£1265.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1140.00</span>
-                  <span class="text-slate-base font-italic">Carving: £125.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1140.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £125.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Blue Pearl Granite</span> of ogee shape with bird design.</p>
               </div>
               <a href="/new-memorials/memorials/birdsall.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -735,14 +759,14 @@
                   - <small class="text-slate-dark font-family-body">£870.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £870.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £870.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with fully carved book on stands.</p>
               </div>
               <a href="/new-memorials/memorials/bramley.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -774,14 +798,14 @@
                   - <small class="text-slate-dark font-family-body">£1410.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1085.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1085.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">South African Dark Grey Granite</span> of half round shape.</p>
               </div>
               <a href="/new-memorials/memorials/broomfleet.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -813,14 +837,14 @@
                   - <small class="text-slate-dark font-family-body">£1315.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £990.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £990.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with intricately carved heart pendant.</p>
               </div>
               <a href="/new-memorials/memorials/brotherton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -852,14 +876,14 @@
                   - <small class="text-slate-dark font-family-body">£1335.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1335.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1335.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with fully carved book and natural tassel.</p>
               </div>
               <a href="/new-memorials/memorials/buxton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -891,14 +915,14 @@
                   - <small class="text-slate-dark font-family-body">£1485.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1485.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1485.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with fully carved book, natural tassel on raised base.</p>
               </div>
               <a href="/new-memorials/memorials/buxton-raised.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -930,14 +954,14 @@
                   - <small class="text-slate-dark font-family-body">£1440.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1070.00</span>
-                  <span class="text-slate-base font-italic">Carving: £370.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1070.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £370.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with 2inch chamfer front and back.</p>
               </div>
               <a href="/new-memorials/memorials/camerton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -969,14 +993,14 @@
                   - <small class="text-slate-dark font-family-body">£1540.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1050.00</span>
-                  <span class="text-slate-base font-italic">Carving: £490.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1050.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £490.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with floral design around the outer face.</p>
               </div>
               <a href="/new-memorials/memorials/carlton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1008,14 +1032,14 @@
                   - <small class="text-slate-dark font-family-body">£1185.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £735.00</span>
-                  <span class="text-slate-base font-italic">Carving: £450.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £735.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £450.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with rose design in the top right corner.</p>
               </div>
               <a href="/new-memorials/memorials/carnaby.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1047,14 +1071,14 @@
                   - <small class="text-slate-dark font-family-body">£960.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £960.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £960.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with centre round top and ogee shoulders.</p>
               </div>
               <a href="/new-memorials/memorials/cr1.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1086,14 +1110,14 @@
                   - <small class="text-slate-dark font-family-body">£1025.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1025.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1025.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with centre round top, check shoulders and barrel sides.</p>
               </div>
               <a href="/new-memorials/memorials/cr2.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1125,14 +1149,14 @@
                   - <small class="text-slate-dark font-family-body">£1940.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1705.00</span>
-                  <span class="text-slate-base font-italic">Carving: £235.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1705.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £235.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> of centre round checked shoulders shape with 6" base.</p>
               </div>
               <a href="/new-memorials/memorials/cranswick.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1164,14 +1188,14 @@
                   - <small class="text-slate-dark font-family-body">£1965.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1395.00</span>
-                  <span class="text-slate-base font-italic">Carving: £570.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1395.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £570.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Chinese Rustenburg Granite</span> with contemporary scroll shape.</p>
               </div>
               <a href="/new-memorials/memorials/cropton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1203,14 +1227,14 @@
                   - <small class="text-slate-dark font-family-body">£1240.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1030.00</span>
-                  <span class="text-slate-base font-italic">Carving: £210.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1030.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £210.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Sera Grey Granite</span> with removable black granite plaques.</p>
               </div>
               <a href="/new-memorials/memorials/danthorpe.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1242,14 +1266,14 @@
                   - <small class="text-slate-dark font-family-body">£1315.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £825.00</span>
-                  <span class="text-slate-base font-italic">Carving: £490.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £825.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £490.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Sera Grey Granite</span> with carved floral panels.</p>
               </div>
               <a href="/new-memorials/memorials/denby.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1281,14 +1305,14 @@
                   - <small class="text-slate-dark font-family-body">£1460.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1215.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1215.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £245.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Star Galaxy Granite</span> with reclining book shape and tall vase.</p>
               </div>
               <a href="/new-memorials/memorials/dodworth.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1320,14 +1344,14 @@
                   - <small class="text-slate-dark font-family-body">£1420.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1155.00</span>
-                  <span class="text-slate-base font-italic">Carving: £265.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1155.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £265.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> of ogee shape with 1" chamfer.</p>
               </div>
               <a href="/new-memorials/memorials/dunswell.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1359,14 +1383,14 @@
                   - <small class="text-slate-dark font-family-body">£1825.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1090.00</span>
-                  <span class="text-slate-base font-italic">Carving: £735.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1090.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £735.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Lavender Blue Granite</span> with heart ogee top and angel design.</p>
               </div>
               <a href="/new-memorials/memorials/eastburn.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1398,14 +1422,14 @@
                   - <small class="text-slate-dark font-family-body">£1385.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £735.00</span>
-                  <span class="text-slate-base font-italic">Carving: £650.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £735.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £650.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with half ogee top and elegant angel design.</p>
               </div>
               <a href="/new-memorials/memorials/edenfield.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1437,14 +1461,14 @@
                   - <small class="text-slate-dark font-family-body">£1495.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1330.00</span>
-                  <span class="text-slate-base font-italic">Carving: £165.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1330.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £165.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with ogee top, 6" base and taller head plate.</p>
               </div>
               <a href="/new-memorials/memorials/elgin.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1476,14 +1500,14 @@
                   - <small class="text-slate-dark font-family-body">£965.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £730.00</span>
-                  <span class="text-slate-base font-italic">Carving: £235.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £730.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £235.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with ogee top and decorative autumnal design.</p>
               </div>
               <a href="/new-memorials/memorials/elmswell.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1515,14 +1539,14 @@
                   - <small class="text-slate-dark font-family-body">£1060.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £735.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £735.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with ogee top and decorative wildlife carving.</p>
               </div>
               <a href="/new-memorials/memorials/eppleworth.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1554,14 +1578,14 @@
                   - <small class="text-slate-dark font-family-body">£1100.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £730.00</span>
-                  <span class="text-slate-base font-italic">Carving: £370.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £730.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £370.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with off-set pion top and eternal flame design.</p>
               </div>
               <a href="/new-memorials/memorials/eston.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1593,14 +1617,14 @@
                   - <small class="text-slate-dark font-family-body">£2435.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £2190.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £2190.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £245.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Lavender Blue Granite</span> with pitched edges and Celtic cross carving.</p>
               </div>
               <a href="/new-memorials/memorials/etton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1632,14 +1656,14 @@
                   - <small class="text-slate-dark font-family-body">£1510.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1185.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1185.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Butterfly Blue Granite</span> with stylish chamfers front and back.</p>
               </div>
               <a href="/new-memorials/memorials/eyeston.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1671,14 +1695,14 @@
                   - <small class="text-slate-dark font-family-body">£1570.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1080.00</span>
-                  <span class="text-slate-base font-italic">Carving: £490.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1080.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £490.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">South African Dark Grey Granite</span> with floral carvings.</p>
               </div>
               <a href="/new-memorials/memorials/ferriby.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1710,14 +1734,14 @@
                   - <small class="text-slate-dark font-family-body">£1575.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1165.00</span>
-                  <span class="text-slate-base font-italic">Carving: £410.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1165.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £410.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Cathay Grey Granite</span> with pitched edges and carved Celtic knot and flowers.</p>
               </div>
               <a href="/new-memorials/memorials/flinton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1749,14 +1773,14 @@
                   - <small class="text-slate-dark font-family-body">£1350.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1105.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1105.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £245.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">South African Dark Grey Granite</span> with gothic top.</p>
               </div>
               <a href="/new-memorials/memorials/garrowby.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1788,14 +1812,14 @@
                   - <small class="text-slate-dark font-family-body">£1695.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1285.00</span>
-                  <span class="text-slate-base font-italic">Carving: £410.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1285.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £410.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with ogee top and splayed base.</p>
               </div>
               <a href="/new-memorials/memorials/goathland.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1827,14 +1851,14 @@
                   - <small class="text-slate-dark font-family-body">£1050.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1050.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1050.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with traditional gothic shaped top.</p>
               </div>
               <a href="/new-memorials/memorials/gothic.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1866,14 +1890,14 @@
                   - <small class="text-slate-dark font-family-body">£1385.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1095.00</span>
-                  <span class="text-slate-base font-italic">Carving: £290.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1095.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £290.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with heart ogee top and decorative moulded base.</p>
               </div>
               <a href="/new-memorials/memorials/grassington.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1905,14 +1929,14 @@
                   - <small class="text-slate-dark font-family-body">£1485.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1195.00</span>
-                  <span class="text-slate-base font-italic">Carving: £290.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1195.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £290.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">South African Dark Grey Granite</span> with decorative mouldings.</p>
               </div>
               <a href="/new-memorials/memorials/grimston.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1944,14 +1968,14 @@
                   - <small class="text-slate-dark font-family-body">£1440.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1275.00</span>
-                  <span class="text-slate-base font-italic">Carving: £165.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1275.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £165.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Emerald Pearl Granite</span> with ogee top, barrel sides and tapered chamfers.</p>
               </div>
               <a href="/new-memorials/memorials/hasholme.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -1983,14 +2007,14 @@
                   - <small class="text-slate-dark font-family-body">£1475.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £855.00</span>
-                  <span class="text-slate-base font-italic">Carving: £620.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £855.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £620.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> of pitched sides and back with raised panel and roses.</p>
               </div>
               <a href="/new-memorials/memorials/hatfield.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2022,14 +2046,14 @@
                   - <small class="text-slate-dark font-family-body">£1140.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1140.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1140.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Sera Grey Granite</span> with innovative removable plaques.</p>
               </div>
               <a href="/new-memorials/memorials/hazelwood.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2061,14 +2085,14 @@
                   - <small class="text-slate-dark font-family-body">£925.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £925.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £925.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with heart shaped sides and top.</p>
               </div>
               <a href="/new-memorials/memorials/heart.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2100,14 +2124,14 @@
                   - <small class="text-slate-dark font-family-body">£925.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £925.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £925.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with heart ogee shaped top.</p>
               </div>
               <a href="/new-memorials/memorials/heart-ogee.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2139,14 +2163,14 @@
                   - <small class="text-slate-dark font-family-body">£2790.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £2790.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £2790.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Impala Grey Granite</span> with detailed scroll and cross.</p>
               </div>
               <a href="/new-memorials/memorials/hepworth.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2178,14 +2202,14 @@
                   - <small class="text-slate-dark font-family-body">£975.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £730.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £730.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £245.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with delicate rose in vase design.</p>
               </div>
               <a href="/new-memorials/memorials/hessle.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2217,14 +2241,14 @@
                   - <small class="text-slate-dark font-family-body">£1510.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1185.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1185.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Evergreen Granite</span> of ogee top with decorative moulding.</p>
               </div>
               <a href="/new-memorials/memorials/highgate.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2256,14 +2280,14 @@
                   - <small class="text-slate-dark font-family-body">£1920.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1920.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1920.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with heart shaped headpiece and carved roses.</p>
               </div>
               <a href="/new-memorials/memorials/hotham.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2295,14 +2319,14 @@
                   - <small class="text-slate-dark font-family-body">£1385.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1060.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1060.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Butterfly Blue Granite</span> with entwined jewellery influenced hearts.</p>
               </div>
               <a href="/new-memorials/memorials/huggate.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2334,14 +2358,14 @@
                   - <small class="text-slate-dark font-family-body">£1220.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £975.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £975.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £245.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Paradise Granite</span> with half ogee top, barrel sides and tapered chamfers.</p>
               </div>
               <a href="/new-memorials/memorials/ilkley.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2373,14 +2397,14 @@
                   - <small class="text-slate-dark font-family-body">£1810.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1485.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1485.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with half ogee top, barrel sides and tapered chamfers.</p>
               </div>
               <a href="/new-memorials/memorials/inverness.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2412,14 +2436,14 @@
                   - <small class="text-slate-dark font-family-body">£945.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £730.00</span>
-                  <span class="text-slate-base font-italic">Carving: £215.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £730.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £215.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> of ogee top with cross and rose design.</p>
               </div>
               <a href="/new-memorials/memorials/keyingham.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2451,14 +2475,14 @@
                   - <small class="text-slate-dark font-family-body">£1875.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1465.00</span>
-                  <span class="text-slate-base font-italic">Carving: £410.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1465.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £410.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> of ogee top, pitched edges and dual finish base.</p>
               </div>
               <a href="/new-memorials/memorials/kinghorn.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2490,14 +2514,14 @@
                   - <small class="text-slate-dark font-family-body">£1635.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1310.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1310.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">South African Dark Grey Granite</span> of gothic shape with floral carving.</p>
               </div>
               <a href="/new-memorials/memorials/kingston.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2529,14 +2553,14 @@
                   - <small class="text-slate-dark font-family-body">£1775.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1285.00</span>
-                  <span class="text-slate-base font-italic">Carving: £490.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1285.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £490.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Lavender Blue Granite</span> with large bowed profile and floral carving.</p>
               </div>
               <a href="/new-memorials/memorials/kingswood.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2568,14 +2592,14 @@
                   - <small class="text-slate-dark font-family-body">£1225.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1060.00</span>
-                  <span class="text-slate-base font-italic">Carving: £165.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1060.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £165.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with barrel sides and accompanying vase.</p>
               </div>
               <a href="/new-memorials/memorials/kinsley.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2607,14 +2631,14 @@
                   - <small class="text-slate-dark font-family-body">£975.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £730.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £730.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £245.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with carved and painted cross design.</p>
               </div>
               <a href="/new-memorials/memorials/kirkham.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2646,14 +2670,14 @@
                   - <small class="text-slate-dark font-family-body">£1275.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £985.00</span>
-                  <span class="text-slate-base font-italic">Carving: £290.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £985.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £290.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with wide base for block vases.</p>
               </div>
               <a href="/new-memorials/memorials/leconfield.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2685,14 +2709,14 @@
                   - <small class="text-slate-dark font-family-body">£2245.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1920.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1920.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with heart shape and carved lilies.</p>
               </div>
               <a href="/new-memorials/memorials/linthorpe.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2724,14 +2748,14 @@
                   - <small class="text-slate-dark font-family-body">£1300.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £975.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £975.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with moulded front edges and locket design.</p>
               </div>
               <a href="/new-memorials/memorials/lockington.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2763,14 +2787,14 @@
                   - <small class="text-slate-dark font-family-body">£2140.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1490.00</span>
-                  <span class="text-slate-base font-italic">Carving: £650.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1490.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £650.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with ogee top and pillar sides.</p>
               </div>
               <a href="/new-memorials/memorials/lofthouse.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2802,14 +2826,14 @@
                   - <small class="text-slate-dark font-family-body">£1090.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £855.00</span>
-                  <span class="text-slate-base font-italic">Carving: £235.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £855.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £235.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">South African Dark Grey Granite</span> with book carving on tablet style headpiece.</p>
               </div>
               <a href="/new-memorials/memorials/melton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2841,14 +2865,14 @@
                   - <small class="text-slate-dark font-family-body">£1600.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1275.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1275.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Chinese Rustenburg Granite</span> with ogee top and pillar sides.</p>
               </div>
               <a href="/new-memorials/memorials/minster.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2880,14 +2904,14 @@
                   - <small class="text-slate-dark font-family-body">£1050.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £805.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £805.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £245.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Lavender Blue Granite</span> of ogee top with deep carved roses and pin line.</p>
               </div>
               <a href="/new-memorials/memorials/molescroft.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2919,14 +2943,14 @@
                   - <small class="text-slate-dark font-family-body">£1425.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1100.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1100.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> of norman round shape and mouldings front and back.</p>
               </div>
               <a href="/new-memorials/memorials/normanby.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2958,14 +2982,14 @@
                   - <small class="text-slate-dark font-family-body">£735.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £735.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £735.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with traditional offset pion shaped top.</p>
               </div>
               <a href="/new-memorials/memorials/offset-pion.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -2997,14 +3021,14 @@
                   - <small class="text-slate-dark font-family-body">£POA</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £POA</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £POA</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Lavender Blue Granite</span> with angel sculpture overlooking from the right.</p>
               </div>
               <a href="/new-memorials/memorials/patrington.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3036,14 +3060,14 @@
                   - <small class="text-slate-dark font-family-body">£1300.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £975.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £975.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Imperial Green Granite</span> with stylish chamfers.</p>
               </div>
               <a href="/new-memorials/memorials/pearson.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3075,14 +3099,14 @@
                   - <small class="text-slate-dark font-family-body">£1060.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £735.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £735.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> of ogee shape with book and rose design.</p>
               </div>
               <a href="/new-memorials/memorials/pickering.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3114,14 +3138,14 @@
                   - <small class="text-slate-dark font-family-body">£1840.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1350.00</span>
-                  <span class="text-slate-base font-italic">Carving: £490.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1350.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £490.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with heart shape and beautiful posy design.</p>
               </div>
               <a href="/new-memorials/memorials/pollington.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3153,14 +3177,14 @@
                   - <small class="text-slate-dark font-family-body">£POA</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £POA</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £POA</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Lavender Blue Granite</span> with sculpted angel and polished wings.</p>
               </div>
               <a href="/new-memorials/memorials/queensbury.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3192,14 +3216,14 @@
                   - <small class="text-slate-dark font-family-body">£2625.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £2215.00</span>
-                  <span class="text-slate-base font-italic">Carving: £410.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £2215.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £410.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with sculpted cross and open book.</p>
               </div>
               <a href="/new-memorials/memorials/ripon.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3231,14 +3255,14 @@
                   - <small class="text-slate-dark font-family-body">£1335.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1010.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1010.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with concaved sides and tapered chamfers.</p>
               </div>
               <a href="/new-memorials/memorials/rosebury.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3270,14 +3294,14 @@
                   - <small class="text-slate-dark font-family-body">£2200.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1875.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1875.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Aurora Granite</span> with a unique elliptical shaped.</p>
               </div>
               <a href="/new-memorials/memorials/rossington.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3309,14 +3333,14 @@
                   - <small class="text-slate-dark font-family-body">£970.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £725.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £725.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £245.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with a decorative floral outline.</p>
               </div>
               <a href="/new-memorials/memorials/routh.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3348,14 +3372,14 @@
                   - <small class="text-slate-dark font-family-body">£935.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £735.00</span>
-                  <span class="text-slate-base font-italic">Carving: £200.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £735.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £200.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Chinese Dark Grey Granite</span> of ogee shape with rural motif.</p>
               </div>
               <a href="/new-memorials/memorials/ryehill.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3387,14 +3411,14 @@
                   - <small class="text-slate-dark font-family-body">£1300.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1135.00</span>
-                  <span class="text-slate-base font-italic">Carving: £165.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1135.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £165.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Emerald Pearl Granite</span> of ogee shape with shaded roses.</p>
               </div>
               <a href="/new-memorials/memorials/seaton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3426,14 +3450,14 @@
                   - <small class="text-slate-dark font-family-body">£1260.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £935.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £935.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black and Lavender Blue Granite</span> with chamfered barrel sides.</p>
               </div>
               <a href="/new-memorials/memorials/selby.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3465,14 +3489,14 @@
                   - <small class="text-slate-dark font-family-body">£1310.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1145.00</span>
-                  <span class="text-slate-base font-italic">Carving: £165.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1145.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £165.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Imperial Green and Lavender Blue Granite</span> of pebble shape.</p>
               </div>
               <a href="/new-memorials/memorials/skipsea.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3504,14 +3528,14 @@
                   - <small class="text-slate-dark font-family-body">£1710.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1710.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1710.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Impala Grey Granite</span> of traditional cross and die shape.</p>
               </div>
               <a href="/new-memorials/memorials/sowerby.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3543,14 +3567,14 @@
                   - <small class="text-slate-dark font-family-body">£3000.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £3000.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £3000.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Emerald Pearl Granite</span> of pillar and cap shape with heart detail.</p>
               </div>
               <a href="/new-memorials/memorials/staxton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3582,14 +3606,14 @@
                   - <small class="text-slate-dark font-family-body">£1140.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £975.00</span>
-                  <span class="text-slate-base font-italic">Carving: £165.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £975.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £165.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Karin Grey Granite</span> with cross and flower carved in relief.</p>
               </div>
               <a href="/new-memorials/memorials/sutton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3621,14 +3645,14 @@
                   - <small class="text-slate-dark font-family-body">£1415.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1170.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1170.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £245.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with accompanying block vases.</p>
               </div>
               <a href="/new-memorials/memorials/swanland.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3660,14 +3684,14 @@
                   - <small class="text-slate-dark font-family-body">£1145.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £900.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £900.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £245.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> of centre round check shoulder shape.</p>
               </div>
               <a href="/new-memorials/memorials/tunstall.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3699,14 +3723,14 @@
                   - <small class="text-slate-dark font-family-body">£1540.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1215.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1215.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Lavender Blue Granite</span> of centre round check shoulder shape.</p>
               </div>
               <a href="/new-memorials/memorials/wheldrake.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3738,14 +3762,14 @@
                   - <small class="text-slate-dark font-family-body">£1350.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £730.00</span>
-                  <span class="text-slate-base font-italic">Carving: £620.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £730.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £620.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Indian Light Grey Granite</span> with raised panel and carved roses.</p>
               </div>
               <a href="/new-memorials/memorials/whitedale.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3777,14 +3801,14 @@
                   - <small class="text-slate-dark font-family-body">£1445.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £995.00</span>
-                  <span class="text-slate-base font-italic">Carving: £450.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £995.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £450.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> of ogee stepped shoulder shape.</p>
               </div>
               <a href="/new-memorials/memorials/whickersey.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3816,14 +3840,14 @@
                   - <small class="text-slate-dark font-family-body">£2575.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £2280.00</span>
-                  <span class="text-slate-base font-italic">Carving: £295.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £2280.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £295.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with unconventionally stylised scroll shape.</p>
               </div>
               <a href="/new-memorials/memorials/wilberforce.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3855,14 +3879,14 @@
                   - <small class="text-slate-dark font-family-body">£1095.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1095.00</span>
-                  <span class="text-slate-base font-italic">Carving: £N/A</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1095.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £N/A</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Lavender Blue Granite</span> with contrasting removable plaques.</p>
               </div>
               <a href="/new-memorials/memorials/winterburn.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3894,14 +3918,14 @@
                   - <small class="text-slate-dark font-family-body">£1360.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £990.00</span>
-                  <span class="text-slate-base font-italic">Carving: £370.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £990.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £370.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">South African Dark Grey Granite</span> with pitched back and sides.</p>
               </div>
               <a href="/new-memorials/memorials/witham.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3933,14 +3957,14 @@
                   - <small class="text-slate-dark font-family-body">£1470.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £1225.00</span>
-                  <span class="text-slate-base font-italic">Carving: £245.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £1225.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £245.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Imperial Green Granite</span> with accompanying tall vase.</p>
               </div>
               <a href="/new-memorials/memorials/woodhouse.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -3972,14 +3996,14 @@
                   - <small class="text-slate-dark font-family-body">£865.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £730.00</span>
-                  <span class="text-slate-base font-italic">Carving: £135.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £730.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £135.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black and Cats Eye Granite</span> with decorative pin line.</p>
               </div>
               <a href="/new-memorials/memorials/woodmansey.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -4011,14 +4035,14 @@
                   - <small class="text-slate-dark font-family-body">£1050.00</small>
                 </h4>
                 <p class="memorial-prices mb-2">
-                  <span class="text-slate-base font-italic mr-1">Memorial: £725.00</span>
-                  <span class="text-slate-base font-italic">Carving: £325.00</span>
+                  <span class="text-slate-base fst-italic me-1">Memorial: £725.00</span>
+                  <span class="text-slate-base fst-italic">Carving: £325.00</span>
                 </p>
                 <p class="card-text">Shown in <span itemprop="material">Black Granite</span> with decorative kneeling angel design.</p>
               </div>
               <a href="/new-memorials/memorials/wyton.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-right-0 border-left-0 rounded-0 text-left p-3 m-0">
-                Further Details or Submit Enquiry<span class="icon-angle-right float-right"></span>
+           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
+                Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
               </a>
             </div>
           </div>
@@ -4031,7 +4055,7 @@
             <div class="col-12 py-5" id="contact-callout">
               <h2 class="text-slate-lightest mb-3">Contact Watson Memorials</h2>
               <p class="text-slate-lighter">If you have any questions regarding memorials, services or the background of Watson Memorials, Craig would be more than happy to talk to you and discuss your queries in detail, Watson Memorials is a proud business and would like to offer the highest quality customer service at all times.</p>
-              <a class="btn btn-lg btn-secondary" href="/contact.html">Contact<span class="icon-angle-right ml-2"></span></a>
+              <a class="btn btn-lg btn-secondary" href="/contact.html">Contact<span class="icon-angle-right ms-2"></span></a>
             </div>
           </div>
         </div>
@@ -4052,7 +4076,7 @@
           <div class="row">
             <div class="col-12">
               <p class="text-center text-slate-dark">
-                &copy; 2023 Craig Andrew Watson T/A Watson Memorials | 
+                &copy; 2024 Watson Memorials Ltd | Co. Reg. No. 15007633 | VAT No. 397578226 | 
                 <a href="/privacy-policy.html" class="text-slate-darkest">Privacy Policy</a> | 
                 <a href="/terms-conditions.html" class="text-slate-darkest">Terms &amp; Conditions</a>
               </p>
@@ -4063,8 +4087,8 @@
     </footer>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <!-- Watson Memorial Scripts -->
     <script src="/js/scripts.min.js"></script>
     <script>
