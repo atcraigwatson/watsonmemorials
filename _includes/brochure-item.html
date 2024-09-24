@@ -1,51 +1,81 @@
 <!-- Brochure Item -->
-<div class="
-    {% if brochure_item.id_prefix == 'K' %}
-        col-12 col-lg-6
-    {% else %}
-        col-12 col-md-10 col-lg-6 col-xl-4
-    {% endif %}
-        mb-5 brochure-item-wrapper">
-    <div class="card brochure-item" id="{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}"
-        itemtype="https://schema.org/Product" itemscope>
-        <meta itemprop="name" content="{{ brochure_item.name }}" />
-        <meta itemprop="description" content="Headstone shown in {{ brochure_item.material }} {{ brochure_item.description }}" />
-        <meta itemprop="itemCondition" content="https://schema.org/NewCondition" />
-        <meta itemprop="material" contect="{{ brochure_item.material }}"" />
-        <link itemprop="image" href="https://watsonmemorials.co.uk/images/new-memorials/{{ brochure_item.image_path }}" />
-        <img class="card-img-top lazy"
-             src="/images/new-memorials/new-memorial-placeholder.png"
-             data-src="/images/new-memorials/{{ brochure_item.image_path }}"
-             alt="{{ brochure_item.image_alt }}">
-        <div class="card-body" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
-          <link itemprop="url" href="https://watsonmemorials.co.uk/new-memorials/{{ brochure_item.mem_type }}.html#{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}" />
-          <meta itemprop="priceCurrency" content="GBP" />
-          <meta itemprop="price" content="{{ brochure_item.price }}" />
-          <meta itemprop="availability" content="https://schema.org/InStock" />
-            <h4 class="card-title mb-1">
-                <span>{{ brochure_item.name }}</span>
-                {% if brochure_item.price %}
-                    - <small class="text-slate-dark font-family-body">£{{ brochure_item.price }}</small>
-                {% endif %}
-            </h4>
-            <p class="memorial-prices mb-2">
-                {% if brochure_item.price_excluding_design and brochure_item.price_carving %}
-                    <span class="text-slate-base fst-italic me-1">Memorial: £{{ brochure_item.price_excluding_design }}</span>
-                    <span class="text-slate-base fst-italic">Carving: £{{ brochure_item.price_carving }}</span>
-                {% endif %}
-                {% if brochure_item.price %}
-                    {% unless brochure_item.price_excluding_design %}
-                        <span class="text-slate-base fst-italic">Memorial: £{{ brochure_item.price }}</span>
-                    {% endunless %}
-                {% endif %}
-            </p>
-            <p class="card-text">Shown in <span itemprop="material">{{ brochure_item.material }}</span> {{ brochure_item.description }}</p>
-        </div>
-        <a href="/new-memorials/memorials/{{ brochure_item.name | downcase | replace: ' ', '-' | replace: '(', '' | replace: ')', ''}}.html"
-           class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0">
-           Further Details or Submit Enquiry<span class="icon-angle-right float-end"></span>
-        </a>
-        
+<div
+  class="{% if brochure_item.id_prefix == 'K' %}col-12 col-lg-6{% else %}col-12 col-md-10 col-lg-6 col-xl-4{% endif %}mb-5 brochure-item-wrapper"
+>
+  <div
+    class="card brochure-item"
+    id="{{ brochure_item.id_prefix }}_{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}"
+    itemtype="https://schema.org/Product"
+    itemscope
+  >
+    <meta itemprop="name" content="{{ brochure_item.name }}" />
+    <meta
+      itemprop="description"
+      content="Headstone shown in {{ brochure_item.material }} {{ brochure_item.description }}"
+    />
+    <meta itemprop="itemCondition" content="https://schema.org/NewCondition" />
+    <meta itemprop="material" content="{{ brochure_item.material }}"" />
+    <link
+      itemprop="image"
+      href="https://watsonmemorials.co.uk/images/new-memorials/{{ brochure_item.image_path }}"
+    />
+    <img
+      class="card-img-top lazy"
+      src="/images/new-memorials/new-memorial-placeholder.png"
+      data-src="/images/new-memorials/{{ brochure_item.image_path }}"
+      alt="{{ brochure_item.image_alt }}"
+    />
+    <div
+      class="card-body"
+      itemprop="offers"
+      itemtype="https://schema.org/Offer"
+      itemscope
+    >
+      <link
+        itemprop="url"
+        href="https://watsonmemorials.co.uk/new-memorials/{{ brochure_item.mem_type }}.html#{{ brochure_item.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}"
+      />
+      <meta itemprop="priceCurrency" content="GBP" />
+      <meta itemprop="price" content="{{ brochure_item.price }}" />
+      <meta itemprop="availability" content="https://schema.org/InStock" />
+      <h4 class="card-title mb-1">
+        <span>{{ brochure_item.name }}</span>
+        {% if brochure_item.price %} -
+        <small class="text-slate-dark font-family-body"
+          >from £{{ brochure_item.price }}</small
+        >
+        {% endif %}
+      </h4>
+      <p class="memorial-prices mb-2">
+        {% if brochure_item.price_excluding_design and
+        brochure_item.price_carving %}
+        <span class="text-slate-base fst-italic me-1"
+          >Memorial: £{{ brochure_item.price_excluding_design }}</span
+        >
+        <span class="text-slate-base fst-italic"
+          >Carving: £{{ brochure_item.price_carving }}</span
+        >
+        {% endif %} {% if brochure_item.price %} {% unless
+        brochure_item.price_excluding_design %}
+        <span class="text-slate-base fst-italic"
+          >Memorial: £{{ brochure_item.price }}</span
+        >
+        {% endunless %} {% endif %}
+      </p>
+      <p class="card-text">
+        Shown in
+        <span itemprop="material">{{ brochure_item.material }}</span> {{
+        brochure_item.description }}
+      </p>
     </div>
+    <a
+      href="/new-memorials/memorials/{{ brochure_item.name | downcase | replace: ' ', '-' | replace: '(', '' | replace: ')', ''}}.html"
+      class="btn btn-outline-secondary btn-block btn-brochure-item border-bottom-0 border-end-0 border-left-0 rounded-0 text-start p-3 m-0"
+    >
+      Further Details or Submit Enquiry<span
+        class="icon-angle-right float-end"
+      ></span>
+    </a>
+  </div>
 </div>
 <!-- //Close Brochure Item -->
