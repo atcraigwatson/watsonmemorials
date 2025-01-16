@@ -1,0 +1,53 @@
+[
+  {
+    "data_set_name": "Headstones",
+    "data_set": {
+      "name": "Ogee",
+      "material": "Black Granite",
+      "description": "with traditional ogee shaped top.",
+      "item_sizes": {
+        "item_1": {
+          "name": "Headpiece",
+          "size": "2'3\" X 1'9\" X 3\""
+        },
+        "item_2": {
+          "name": "Base",
+          "size": "3\" X 2' X 1'"
+        }
+      },
+      "prices": {
+        "cost_stone_only": "",
+        "cost_design_only": "",
+        "cost_total": ""
+      },
+      "image_alt": "Black Granite traditional headstone with an Ogee shaped top.",
+      "image_path": "lawn-memorials/Ogee.jpg",
+      "id_prefix": "LM",
+      "mem_type" : "lawn-memorials"
+    }
+  },
+  {
+    "name": "Ogee",
+    "material": "Black Granite",
+    "description": "with traditional ogee shaped top.",
+    "item_sizes": {
+      "item_1": {
+        "name": "Headpiece",
+        "size": "2'3\" X 1'9\" X 3\""
+      },
+      "item_2": {
+        "name": "Base",
+        "size": "3\" X 2' X 1'"
+      }
+    },
+    "prices": {
+      "cost_stone_only": "",
+      "cost_design_only": "",
+      "cost_total": ""
+    },
+    "image_alt": "Black Granite traditional headstone with an Ogee shaped top.",
+    "image_path": "lawn-memorials/Ogee.jpg",
+    "id_prefix": "LM",
+    "mem_type" : "lawn-memorials"
+  }
+]

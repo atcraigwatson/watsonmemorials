@@ -1,190 +1,386 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-      <loc>https://watsonmemorials.co.uk/</loc>
-    </url>
-    <url>
-      <loc>https://watsonmemorials.co.uk/about.html</loc>
-    </url>
-    <url>
-      <loc>https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html</loc>
-    </url>
-    <url>
-      <loc>https://watsonmemorials.co.uk/new-memorials/churchyard-memorials.html</loc>
-    </url>
-    <url>
-      <loc>https://watsonmemorials.co.uk/new-memorials/childrens-memorials.html</loc>
-    </url>
-    <url>
-      <loc>https://watsonmemorials.co.uk/new-memorials/kerbs.html</loc>
-    </url>
-    <url>
-      <loc>https://watsonmemorials.co.uk/new-memorials/vases.html</loc>
-    </url>
-    <url>
-      <loc>https://watsonmemorials.co.uk/new-memorials/tablets.html</loc>
-    </url>
-    <url>
-      <loc>https://watsonmemorials.co.uk/services/cleaning-and-restoration.html</loc>
-    </url>
-    <url>
-      <loc>https://watsonmemorials.co.uk/services/re-paint-and-re-gild.html</loc>
-    </url>
-    <url>
-      <loc>https://watsonmemorials.co.uk/services/re-fix-and-straighten.html</loc>
-    </url>
-    <url>
-      <loc>https://watsonmemorials.co.uk/contact.html</loc>
-    </url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ogee.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/camber.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/half-ogee.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ainthorpe.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/aldbrough.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/applegarth.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/appleton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/aysgarth.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bainton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/barley.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/barmston.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/beverley.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bielby.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/birdsall.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bramley.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/broomfleet.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/brotherton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/buxton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/buxton-raised.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/camerton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/carlton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/carnaby.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/cr1.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/cr2.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/cranswick.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/cropton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/danthorpe.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/denby.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/dodworth.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/dunswell.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/eastburn.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/edenfield.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/elgin.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/elmswell.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/eppleworth.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/eston.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/etton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/eyeston.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ferriby.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/flinton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/garrowby.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/goathland.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/gothic.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/grassington.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/grimston.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hasholme.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hatfield.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hazelwood.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/heart.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/heart-ogee.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hepworth.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hessle.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/highgate.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hotham.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/huggate.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ilkley.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/inverness.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/keyingham.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/kinghorn.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/kingston.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/kingswood.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/kinsley.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/kirkham.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/leconfield.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/linthorpe.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/lockington.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/lofthouse.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/melton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/minster.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/molescroft.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/normanby.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/offset-pion.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/patrington.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/pearson.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/pickering.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/pollington.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/queensbury.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ripon.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/rosebury.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/rossington.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/routh.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ryehill.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/seaton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/selby.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/skipsea.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/sowerby.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/staxton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/sutton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/swanland.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/tunstall.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/wheldrake.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/whitedale.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/whickersey.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/wilberforce.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/winterburn.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/witham.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/woodhouse.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/woodmansey.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/wyton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/allerston.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/amplethorpe.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/besingby.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bransdale.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/clifton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/copley.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/easington.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/grindale.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/humbleton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/knaresborough.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/langtoft.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/molescroft.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/oakington.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ottringham.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/sproatley.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/thirtleby.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/westfield.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/appleton.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bentley.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/big-ted.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bubble-and-squeak.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/elvington.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/fairy-inscription.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/fairy-letter.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/fairytale-castle.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/furry-friends.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/little-prince-castle.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/make-a-wish.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ollie-bear.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/shooting-star.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/sweet-dreams.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/tumbling-ted.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/barrel-vase.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/block-vase.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/castleton-vase.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/chamfered-vase.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/heart-vase.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/pepper-pot-vase-large.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/pepper-pot-vase-small.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/rectangle-vase.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/rectangle-vase-with-base.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/tapered-vase.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-carved-book.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-large.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-moulded.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-raised-book.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-rolling.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-rustic.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-scroll.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/wedge.html</loc></url>
-    <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/wedge-rustic.html</loc></url>
-  </urlset>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/</loc>
+
+  </url>
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/about.html</loc>
+
+  </url>
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/new-memorials/lawn-memorials.html</loc>
+
+  </url>
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/new-memorials/churchyard-memorials.html</loc>
+
+  </url>
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/new-memorials/childrens-memorials.html</loc>
+
+  </url>
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/new-memorials/kerbs.html</loc>
+
+  </url>
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/new-memorials/vases.html</loc>
+
+  </url>
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/new-memorials/tablets.html</loc>
+
+  </url>
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/services/cleaning-and-restoration.html</loc>
+
+  </url>
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/services/re-paint-and-re-gild.html</loc>
+
+  </url>
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/services/re-fix-and-straighten.html</loc>
+
+  </url>
+
+  <url>
+
+    <loc>https://watsonmemorials.co.uk/contact.html</loc>
+
+  </url>
+
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ogee.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/camber.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/half-ogee.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ainthorpe.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/aldbrough.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/applegarth.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/appleton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/aysgarth.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bainton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/barley.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/barmston.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/beverley.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bielby.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/birdsall.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bramley.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/broomfleet.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/brotherton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/buxton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/buxton-raised.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/camerton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/carlton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/carnaby.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/cr1.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/cr2.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/cranswick.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/cropton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/danthorpe.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/denby.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/dodworth.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/dunswell.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/eastburn.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/edenfield.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/elgin.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/elmswell.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/eppleworth.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/eston.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/etton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/eyeston.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ferriby.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/flinton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/garrowby.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/goathland.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/gothic.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/grassington.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/grimston.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hasholme.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hatfield.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hazelwood.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/heart.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/heart-ogee.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hepworth.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hessle.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/highgate.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/hotham.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/huggate.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ilkley.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/inverness.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/keyingham.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/kinghorn.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/kingston.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/kingswood.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/kinsley.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/kirkham.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/leconfield.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/linthorpe.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/lockington.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/lofthouse.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/melton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/minster.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/molescroft.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/normanby.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/offset-pion.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/patrington.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/pearson.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/pickering.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/pollington.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/queensbury.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ripon.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/rosebury.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/rossington.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/routh.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ryehill.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/seaton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/selby.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/skipsea.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/sowerby.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/staxton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/sutton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/swanland.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/tunstall.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/wheldrake.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/whitedale.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/whickersey.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/wilberforce.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/winterburn.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/witham.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/woodhouse.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/woodmansey.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/wyton.html</loc></url>
+  
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/allerston.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/amplethorpe.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/besingby.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bransdale.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/clifton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/copley.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/easington.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/grindale.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/humbleton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/knaresborough.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/langtoft.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/molescroft.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/oakington.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ottringham.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/sproatley.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/thirtleby.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/westfield.html</loc></url>
+  
+       
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/appleton.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bentley.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/big-ted.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/bubble-and-squeak.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/elvington.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/fairy-inscription.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/fairy-letter.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/fairytale-castle.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/furry-friends.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/little-prince-castle.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/make-a-wish.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/ollie-bear.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/shooting-star.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/sweet-dreams.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/tumbling-ted.html</loc></url>
+  
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/barrel-vase.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/block-vase.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/castleton-vase.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/chamfered-vase.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/heart-vase.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/pepper-pot-vase-large.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/pepper-pot-vase-small.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/rectangle-vase.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/rectangle-vase-with-base.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/tapered-vase.html</loc></url>
+  
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-carved-book.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-large.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-moulded.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-raised-book.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-rolling.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-rustic.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/desk-scroll.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/wedge.html</loc></url>
+     
+  <url><loc>https://watsonmemorials.co.uk/new-memorials/memorials/wedge-rustic.html</loc></url>
+  
+  
+
+</urlset>

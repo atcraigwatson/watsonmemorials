@@ -82,6 +82,7 @@ gems:
   - jekyll-tidy
 
 url: "https://watsonmemorials.co.uk"
+
 plugins_dir:
   - jekyll-sitemap
 

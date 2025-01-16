@@ -9325,8 +9325,8 @@ body {
     width: 50% !important; } }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  font-family: "Playfair Display", TimesNewRoman, "Times New Roman", Times, serif;
-  font-weight: bold !important;
+  font-family: TimesNewRoman, "Times New Roman", Times, serif;
+  font-weight: bold;
   color: #374355; }
 
 .bg-slate-lightest .card-block a {
@@ -9335,7 +9335,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   border-bottom: 1px solid #8393A7; }
 
 .font-times {
-  font-family: "Playfair Display", TimesNewRoman, "Times New Roman", Times, serif !important; }
+  font-family: TimesNewRoman, "Times New Roman", Times, serif !important; }
 
 .display-5 {
   font-size: 2rem; }
@@ -9458,7 +9458,7 @@ button:hover {
   padding-bottom: 5rem; }
 
 .font-family-body {
-  font-family: "Roboto", "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 .box-shadow {
   box-shadow: 0 0 20px rgba(55, 67, 85, 0.2); }
@@ -9547,10 +9547,6 @@ button:hover {
     .page-jumbotron,
     .new-memorials-jumbotron {
       padding: 7.5rem 0; } }
-  @media (min-width: 992px) {
-    .page-jumbotron,
-    .new-memorials-jumbotron {
-      padding: 10rem 0; } }
   .page-jumbotron h1, .page-jumbotron .h1,
   .new-memorials-jumbotron h1,
   .new-memorials-jumbotron .h1 {
@@ -9753,7 +9749,7 @@ footer .nav-item .nav-link {
 
 .testimonial-callout h3, .testimonial-callout .h3 {
   font-size: 24px;
-  font-family: "Roboto", "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300 !important; }
   @media (min-width: 768px) {
     .testimonial-callout h3, .testimonial-callout .h3 {
@@ -9767,8 +9763,8 @@ footer .nav-item .nav-link {
 
 .testimonial-callout p {
   font-size: 38px;
-  font-family: "Playfair Display", TimesNewRoman, "Times New Roman", Times, serif;
-  font-weight: 700;
+  font-family: TimesNewRoman, "Times New Roman", Times, serif;
+  font-weight: bold;
   color: #374355;
   font-style: italic;
   line-height: 1; }
@@ -9875,5 +9871,44 @@ footer .nav-item .nav-link {
   content: '\f107'; }
 
 /* '' */
+body {
+  overflow-x: hidden; }
+
+.row-page-content {
+  position: relative;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important; }
+
+.row-page-content-img-right {
+  flex-wrap: wrap-reverse !important; }
+
+.row-page-content-img-left .col-page-content-text-wrap::before,
+.row-page-content-img-right .col-page-content-text-wrap::before {
+  content: '';
+  position: absolute !important;
+  top: -4rem !important;
+  left: -1rem !important;
+  height: calc(100% + 4rem) !important;
+  min-width: calc(100% + 2rem) !important;
+  background-color: #EBEFF3 !important;
+  z-index: -1 !important; }
+
+@media (min-width: 992px) {
+  .row-page-content-img-left::before,
+  .row-page-content-img-right::before {
+    content: '';
+    position: absolute !important;
+    top: 0 !important;
+    height: 100% !important;
+    min-width: 100%;
+    background-color: #EBEFF3 !important;
+    z-index: -1 !important; }
+  .row-page-content-img-left::before {
+    right: -40% !important; }
+  .row-page-content-img-right::before {
+    left: -40% !important; }
+  .row-page-content-img-left .col-page-content-text-wrap::before,
+  .row-page-content-img-right .col-page-content-text-wrap::before {
+    content: none; } }
 
 /*# sourceMappingURL=styles.min.css.map */

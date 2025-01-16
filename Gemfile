@@ -19,7 +19,7 @@ gem "jekyll", "4.3.3"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem 'jekyll-datapage-generator'
-   gem "jekyll-tidy"
+  #  gem "jekyll-tidy"
    gem "jekyll-sitemap"
 end
 
