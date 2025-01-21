@@ -1,81 +1,88 @@
 <div class="container py-5">
+  <div class="row">
+    <div class="col-12">{% include page-breadcrumb.html %}</div>
+  </div>
 
-    <div class="row">
-        <div class="col-12">
-            {% include page-breadcrumb.html %}
-        </div>
+  <div class="row justify-content-center" itemtype="https://schema.org/Product" itemscope>
+    <meta itemprop="name" content="{{ page.title }} - Headstone" />
+    <meta
+      itemprop="description"
+      content="Headstone shown in {{ page.material }} {{ page.description }}"
+    />
+    <meta itemprop="itemCondition" content="https://schema.org/NewCondition" />
+    <meta itemprop="material" contect="{{ page.material }}" />
+    <link
+      itemprop="image"
+      href="https://watsonmemorials.co.uk/images/new-memorials/{{ page.image_path }}"
+    />
+
+    <div class="col-12 col-md-6 col-lg-5">
+      <img
+        src="/images/new-memorials/{{ page.image_path }}"
+        alt="{{ page.image_alt }}"
+        class="img-fluid w-100 box-shadow"
+      />
     </div>
 
-    <div class="row justify-content-center" itemtype="https://schema.org/Product" itemscope>
+    <div class="col-12 col-md-6 col-lg-7">
+      <h1 class="mt-5 mt-md-0">{{ page.title }}</h1>
+      <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>
+        <meta itemprop="name" content="Watson Memorials" />
+      </div>
+      <p class="lead">
+        Shown in <span itemprop="material">{{ page.material }}</span> {{ page.description }}
+      </p>
 
-        <meta itemprop="name" content="{{ page.title }} - Headstone" />
-        <meta itemprop="description" content="Headstone shown in {{ page.material }} {{ page.description }}" />
-        <meta itemprop="itemCondition" content="https://schema.org/NewCondition" />
-        <meta itemprop="material" contect="{{ page.material }}" />
-        <link itemprop="image" href="https://watsonmemorials.co.uk/images/new-memorials/{{ page.image_path }}" />
+      <div class="mb-3" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
+        <link
+          itemprop="url"
+          href="https://watsonmemorials.co.uk/new-memorials/{{ page.mem_type }}.html#{{ page.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}"
+        />
+        <meta itemprop="priceCurrency" content="GBP" />
+        <meta itemprop="price" content="{{ page.price }}" />
+        <meta itemprop="availability" content="https://schema.org/InStock" />
+        <h4 class="mb-1">
+          <span>Guide Price</span>
+          {% if page.price %} -
+          <small class="text-slate-dark font-family-body">£{{ page.price }}</small>
+          {% endif %}
+        </h4>
+        <p class="memorial-prices mb-2">
+          {% if page.price_excluding_design and page.price_carving %}
+          <span class="text-slate-base fst-italic mr-1"
+            >Memorial: £{{ page.price_excluding_design }}</span
+          >
+          <span class="text-slate-base fst-italic">Carving: £{{ page.price_carving }}</span>
+          {% endif %} {% if page.price %} {% unless page.price_excluding_design %}
+          <span class="text-slate-base fst-italic">Memorial: £{{ page.price }}</span>
+          {% endunless %} {% endif %}
+        </p>
+      </div>
 
-        <div class="col-12 col-md-6 col-lg-5">
-            <img src="/images/new-memorials/{{ page.image_path }}" alt="{{ page.image_alt }}" class="img-fluid w-100 box-shadow">
-        </div>
+      {% if page.price and page.id_prefix != 'K' %}
+      <h4 class="mb-1">Size(s)</h4>
+      {% include page-size-table.html %} {% endif %}
 
-        <div class="col-12 col-md-6 col-lg-7">
-            <h1 class="mt-5 mt-md-0">{{ page.title }}</h1>
-            <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>
-                <meta itemprop="name" content="Watson Memorials" />
-            </div>
-            <p class="lead">Shown in <span itemprop="material">{{ page.material }}</span> {{ page.description }}</p>
-            <div class="alert alert-warning" role="alert">
-                Please be aware we are currently updating all our prices - your quote may differ from the price shown below.
-            </div>
-
-            <div class="mb-3" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
-                <link itemprop="url"
-                    href="https://watsonmemorials.co.uk/new-memorials/{{ page.mem_type }}.html#{{ page.name | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}" />
-                <meta itemprop="priceCurrency" content="GBP" />
-                <meta itemprop="price" content="{{ page.price }}" />
-                <meta itemprop="availability" content="https://schema.org/InStock" />
-                <h4 class="mb-1">
-                    <span>Price</span>
-                    {% if page.price %}
-                    - <small class="text-slate-dark font-family-body">£{{ page.price }}</small>
-                    {% endif %}
-                </h4>
-                <p class="memorial-prices mb-2">
-                    {% if page.price_excluding_design and page.price_carving %}
-                    <span class="text-slate-base fst-italic mr-1">Memorial: £{{ page.price_excluding_design }}</span>
-                    <span class="text-slate-base fst-italic">Carving: £{{ page.price_carving }}</span>
-                    {% endif %}
-                    {% if page.price %}
-                    {% unless page.price_excluding_design %}
-                    <span class="text-slate-base fst-italic">Memorial: £{{ page.price }}</span>
-                    {% endunless %}
-                    {% endif %}
-                </p>
-            </div>
-
-
-            {% if page.price and page.id_prefix != 'K' %}
-            <h4 class="mb-1">Size(s)</h4>
-                {% include page-size-table.html %}
-            {% endif %}
-
-            <div>
-                <p>Price includes <strong>full fitting</strong> of the memorial and <strong>flower vases</strong> as appropriate.</p>
-                <p>Lettering costs: <strong>Silver, Black or Gold Paint: </strong>£2.75 per letter. <strong>Gold Leaf: </strong>£3.45 per letter.</p>
-                <p>For other colors or sizes please <a href="../../contact.html">contact us.</a></p>
-            </div>
-
-        </div>
-
+      <div>
+        <p>
+          Price includes <strong>full fitting</strong> of the memorial and
+          <strong>flower vases</strong> as appropriate.
+        </p>
+        <p>
+          Lettering costs: <strong>Silver, Black or Gold Paint: </strong>£2.75 per letter.
+          <strong>Gold Leaf: </strong>£3.45 per letter.
+        </p>
+        <p>For other colors or sizes please <a href="../../contact.html">contact us.</a></p>
+      </div>
     </div>
+  </div>
 
-    <div class="row mt-5">
-        <div class="col-12">
-            <div class="box-shadow p-5">
-                <h4>Send Enquiry</h4>
-                {% include memorial-enquiry-form.html %}
-            </div>
-        </div>
+  <div class="row mt-5">
+    <div class="col-12">
+      <div class="box-shadow p-5">
+        <h4>Send Enquiry</h4>
+        {% include memorial-enquiry-form.html %}
+      </div>
     </div>
-
+  </div>
 </div>

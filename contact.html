@@ -1,100 +1,121 @@
 ---
-layout:            default
-title:             "Contact Watson Memorials"
-description:       "Contact Watson Memorials about the services they provide for Headstones, Memorials and Gravestones"
-keywords:          "Contact, Watson Memorials, Headstones, Memorials, Gravestones"
-heading:           "Contact Watson Memorials"
-lead:              "Contacting Watson Memorials is simple and fast, please feel free to call or complete the online contact form, we will be happy to help in any way that we can."
-twitter_image:     "social-meta-contact-page.png"
+layout: default
+title: "Contact Watson Memorials"
+description: "Contact Watson Memorials about the services they provide for Headstones, Memorials and Gravestones"
+keywords: "Contact, Watson Memorials, Headstones, Memorials, Gravestones"
+heading: "Contact Watson Memorials"
+lead: "Contacting Watson Memorials is simple and fast, please feel free to call or complete the online contact form, we will be happy to help in any way that we can."
+twitter_image: "social-meta-contact-page.png"
 twitter_image_alt: "Graphic to show the multiple ways you can contact watson memorials."
-twitter_excerpt:   "Please feel free to contact Watson Memorials with any questions."
-facebook_image:    "social-meta-contact-page.png"
-facebook_excerpt:  "Please feel free to contact Watson Memorials with any questions."
+twitter_excerpt: "Please feel free to contact Watson Memorials with any questions."
+facebook_image: "social-meta-contact-page.png"
+facebook_excerpt: "Please feel free to contact Watson Memorials with any questions."
 ---
 
 <div class="container-fluid">
+  <article class="row">
+    <section
+      class="col-12 col-xl-6 d-flex flex-column justify-content-center bg-slate-lightest py-5 p-lg-5"
+    >
+      <h2 class="text-center display-5 font-weight-bold">Call Watson Memorials</h2>
+      <p class="text-center font-times display-5 text-slate-darkest">
+        Tel: <a class="text-slate-darkest" href="tel:01325802565">01325 802565</a>
+      </p>
+    </section>
 
-    <article class="row">
+    <section class="col-12 col-xl-6 d-flex flex-column justify-content-center py-5 p-lg-5">
+      <h2 class="fs-1 fw-bold">Email Watson Memorials</h2>
 
-        <section class="col-12 col-xl-6  d-flex flex-column justify-content-center bg-slate-lightest py-5 p-lg-5">
+      <!-- Contact Form -->
+      <form action="https://formspree.io/f/mqkankdj" method="POST">
+        <fieldset>
+          <legend>Please provide your details below</legend>
 
-            <h2 class="text-center display-5 font-weight-bold">Call Watson Memorials</h2>
-            <p class="text-center font-times display-5 text-slate-darkest">Tel: <a class="text-slate-darkest" href="tel:01325802565">01325 802565</a></p>
+          <div class="form-group mb-3">
+            <label for="name" accesskey="U" class="control-label">
+              <span class="required">Your Name</span>
+            </label>
+            <input class="form-control" type="text" name="name" id="name" size="30" required />
+          </div>
 
-        </section>
+          <div class="form-group mb-3">
+            <label for="email" accesskey="E" class="control-label">
+              <span class="required">Email</span>
+            </label>
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              id="email"
+              size="30"
+              placeholder="you@youremail.com"
+              required
+            />
+          </div>
 
-        <section class="col-12 col-xl-6 d-flex flex-column justify-content-center py-5 p-lg-5">
+          <div class="form-group mb-3">
+            <label for="phone" accesskey="P" class="control-label">
+              <span class="required">Phone</span>
+            </label>
+            <input class="form-control" type="tel" name="phone" id="phone" size="30" required />
+          </div>
 
-            <h2 class="fs-1 fw-bold">Email Watson Memorials</h2>
+          <div class="form-group mb-3">
+            <label for="subject" accesskey="S" class="control-label">
+              <span class="required">Subject</span>
+            </label>
+            <select class="form-control" name="subject" id="subject" required>
+              <option value="">Select one</option>
+              <option value="new-memorial">New Memorial</option>
+              <option value="cleaning-restoration">Cleaning and Restoration</option>
+              <option value="additional-inscription">Additional Inscription</option>
+            </select>
+          </div>
 
-            <!-- Contact Form -->
-            <form action="https://formspree.io/f/mqkankdj" method="POST">
+          <div class="form-group mb-3">
+            <label for="cem-chyd" accesskey="U" class="control-label">
+              <span class="required">Related Cemetery or Churchyard</span>
+            </label>
+            <input
+              class="form-control"
+              type="text"
+              name="cem-chyd"
+              id="cem-chyd"
+              size="30"
+              required
+            />
+          </div>
 
-                <fieldset>
+          <div class="form-group mb-3">
+            <label for="message" accesskey="M" class="control-label">
+              <span class="required">Message</span>
+            </label>
+            <textarea
+              class="form-control"
+              name="message"
+              id="message"
+              cols="40"
+              rows="3"
+              required
+            ></textarea>
+          </div>
 
-                    <legend>Please provide your details below</legend>
+          <div class="alert alert-warning">
+            <strong
+              >Please be aware - our services cover the North East and North Yorkshire only.</strong
+            >
+            <p class="mb-0">Unfortunately we cannot cover other regions of the UK.</p>
+          </div>
 
-                    <div class="form-group mb-3">
-                        <label for="name" accesskey="U" class="control-label">
-                            <span class="required">Your Name</span>
-                        </label>
-                        <input class="form-control" type="text" name="name" id="name" size="30" required>
-                    </div>
+          <!-- Thank you page -->
+          <input type="hidden" name="_next" value="/thank-you.html" />
 
-                    <div class="form-group mb-3">
-                        <label for="email" accesskey="E" class="control-label">
-                            <span class="required">Email</span>
-                        </label>
-                        <input class="form-control" type="email" name="email" id="email" size="30" placeholder="you@youremail.com" required>
-                    </div>
-
-                    <div class="form-group mb-3">
-                        <label for="phone" accesskey="P" class="control-label">
-                            <span class="required">Phone</span>
-                        </label>
-                        <input class="form-control" type="tel" name="phone" id="phone" size="30" required>
-                    </div>
-
-                    <div class="form-group mb-3">
-                        <label for="subject" accesskey="S" class="control-label">
-                            <span class="required">Subject</span>
-                        </label>
-                        <select class="form-control" name="subject" id="subject" required>
-                            <option value="">Select one</option>
-                            <option value="new-memorial">New Memorial</option>
-                            <option value="cleaning-restoration">Cleaning and Restoration</option>
-                            <option value="additional-inscription">Additional Inscription</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group mb-3">
-                        <label for="cem-chyd" accesskey="U" class="control-label">
-                            <span class="required">Related Cemetery or Churchyard</span>
-                        </label>
-                        <input class="form-control" type="text" name="cem-chyd" id="cem-chyd" size="30" required>
-                    </div>
-
-                    <div class="form-group mb-3">
-                        <label for="message" accesskey="M" class="control-label">
-                            <span class="required">Message</span>
-                        </label>
-                        <textarea class="form-control" name="message" id="message" cols="40" rows="3" required></textarea>
-                    </div>
-
-                    <!-- Thank you page -->
-                    <input type="hidden" name="_next" value="/thank-you.html" />
-
-                    <div class="form-group mb-3">
-                        <div class="progress-container"></div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-
-                </fieldset>
-
-            </form>
-
-        </section>
-
-    </article>
-
+          <div class="form-group mb-3">
+            <div class="progress-container"></div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </article>
 </div>
